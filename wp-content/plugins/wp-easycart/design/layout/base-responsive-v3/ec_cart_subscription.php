@@ -333,7 +333,7 @@ function ec_admin_save_cart_options( ){
         
 		<?php if( $GLOBALS['ec_cart_data']->cart_data->user_id == "" ){ ?>
         
-        <div class="ec_cart_header ec_top test">
+        <div class="ec_cart_header ec_top">
             <input type="checkbox" name="ec_login_selector" id="ec_login_selector" value="login" onchange="ec_cart_toggle_login( );" /> <?php echo $GLOBALS['language']->get_text( 'cart_login', 'cart_login_title' ); ?>
         </div>
         
