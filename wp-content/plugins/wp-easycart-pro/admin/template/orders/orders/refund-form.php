@@ -1,0 +1,5 @@
+<div class="ec_admin_refund_row ec_admin_initial_hide" id="ec_admin_edit_order_refund">
+	<span><?php _e( 'Refund Amount', 'wp-easycart-pro' ); ?>: </span>
+    <input type="number" name="refund_amount" id="refund_amount" step="0.01" min=".01" max="<?php echo $GLOBALS['currency']->get_number_only( wp_easycart_admin_orders( )->order_details->order->grand_total - wp_easycart_admin_orders( )->order_details->order->refund_total ); ?>" value="<?php echo $GLOBALS['currency']->get_number_only( wp_easycart_admin_orders( )->order_details->order->grand_total - wp_easycart_admin_orders( )->order_details->order->refund_total ); ?>">
+    <input type="submit" value="<?php _e( 'Process Refund', 'wp-easycart-pro' ); ?>" onclick="ec_admin_process_refund( ); return false;" class="ec_admin_order_totals_edit_button">
+</div>

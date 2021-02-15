@@ -1,0 +1,3 @@
+[submodule "includes/libs/better-framework"]
+	path = includes/libs/better-framework
+	url = https://betterstudio@bitbucket.org/better-studio/better-framework.git

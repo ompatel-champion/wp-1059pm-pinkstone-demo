@@ -1,0 +1,22 @@
+{
+	"name"       : "maxchirkov/atw-pro-plugin-for-wordpress",
+	"description": "Advanced Text Widget PRO - pluginfor WordPress.",	
+	"type"       : "wordpress-plugin",
+	"source"	 : {
+        "type": "git",
+        "url": "git@bitbucket.org:maxchirkov/atw-pro-plugin-for-wordpress.git",
+        "reference": "master"
+    },
+	"license"    : "GPL-2.0+",
+	"authors"    : [
+		{
+			"name"    : "Max Chirkov"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": ">=3.7"
+	}
+}

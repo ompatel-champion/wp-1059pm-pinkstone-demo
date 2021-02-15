@@ -1,0 +1,4131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP EasyCart PRO\n"
+"POT-Creation-Date: 2021-02-01 18:23-0800\n"
+"PO-Revision-Date: 2021-02-01 18:23-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-easycart-admin-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/inc/wp_easycart_admin_coupons_pro.php:63
+msgid "Coupon successfully created"
+msgstr "Gutschein erfolgreich erstellt"
+
+#: admin/inc/wp_easycart_admin_coupons_pro.php:65
+msgid "Coupon successfully updated"
+msgstr "Gutschein erfolgreich aktualisiert"
+
+#: admin/inc/wp_easycart_admin_coupons_pro.php:67
+msgid "Coupon successfully deleted"
+msgstr "Gutschein erfolgreich gelöscht"
+
+#: admin/inc/wp_easycart_admin_coupons_pro.php:72
+msgid "Coupon failed to create"
+msgstr "Coupon konnte nicht erstellt werden"
+
+#: admin/inc/wp_easycart_admin_coupons_pro.php:74
+msgid "Coupon failed to update"
+msgstr "Coupon konnte nicht aktualisiert werden"
+
+#: admin/inc/wp_easycart_admin_coupons_pro.php:76
+msgid "Coupon failed to delete"
+msgstr "Coupon konnte nicht gelöscht werden"
+
+#: admin/inc/wp_easycart_admin_coupons_pro.php:78
+msgid "Coupon failed to create due to duplicate"
+msgstr "Der Gutschein konnte aufgrund eines Duplikats nicht erstellt werden"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:80
+#: admin/template/marketing/coupons/coupon-list.php:13
+#: admin/template/marketing/coupons/coupon-list.php:76
+msgid "Coupon Code"
+msgstr "Gutscheincode"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:82
+msgid "Please enter a unique Coupon code"
+msgstr "Bitte einen Gutscheincode eingeben"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:90
+msgid "Customer Message"
+msgstr "Kundenmitteilung"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:92
+msgid "Please enter a unique message to show user upon entering coupon code"
+msgstr ""
+"Bitte geben Sie eine eindeutige Nachricht ein, um den Benutzer bei der "
+"Eingabe des Gutscheincodes anzuzeigen"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:100
+msgid "Maximum Redemptions"
+msgstr "Maximale Rücknahmen"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:104
+msgid ""
+"Please enter the maximum times this coupon may be used.  999 is unlimited"
+msgstr ""
+"Bitte geben Sie die maximale Verwendungsdauer dieses Gutscheins ein. 999 ist "
+"unbegrenzt"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:112
+msgid "Times Redeemed"
+msgstr "Gelöste Zeiten"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:124
+msgid "Expiration Date"
+msgstr "Ablaufdatum"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:127
+msgid "Expiration date required, max 5 years in the future"
+msgstr "Ablaufdatum erforderlich, maximal 5 Jahre in der Zukunft"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:138
+msgid "Forever (Applies to all recurring payments)"
+msgstr "Für immer (gilt für alle wiederkehrenden Zahlungen)"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:142
+msgid "Once (Applies only to first payment)"
+msgstr "Einmalig (Gilt nur für die erste Zahlung)"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:146
+msgid "Apply to Some Limited Number of Months"
+msgstr "Auf eine begrenzte Anzahl von Monaten anwenden"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:149
+msgid "Please Select a Duration"
+msgstr "Bitte wählen Sie eine Dauer"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:150
+msgid "Duration (Applies to Subscriptions Only)"
+msgstr "Dauer (gilt nur für Abonnements)"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:152
+msgid "Choose a coupon duration even if this does not apply to a subscription"
+msgstr ""
+"Wählen Sie eine Coupon-Dauer, auch wenn dies nicht für ein Abonnement gilt"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:164
+msgid "Duration in Months"
+msgstr "Laufzeit in Monaten"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:186
+msgid "Dollar Based Coupon?"
+msgstr "Dollar-basierter Coupon?"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:201
+#: admin/inc/wp_easycart_admin_details_coupons.php:305
+msgid "Dollar Amount"
+msgstr "Dollar-Betrag"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:203
+#: admin/inc/wp_easycart_admin_details_coupons.php:307
+msgid "Please enter a dollar amount this discount will apply"
+msgstr "Bitte geben Sie einen Dollarbetrag ein, für den dieser Rabatt gilt"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:215
+msgid "Percentage Based Coupon?"
+msgstr "Prozentbasierter Coupon?"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:230
+#: admin/inc/wp_easycart_admin_details_coupons.php:319
+#: admin/inc/wp_easycart_admin_details_promotions.php:294
+msgid "Percentage Discount"
+msgstr "Prozentualer Rabatt"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:232
+#: admin/inc/wp_easycart_admin_details_coupons.php:321
+msgid "Please enter a percentage this discount will apply"
+msgstr "Bitte geben Sie einen Prozentsatz ein, für den dieser Rabatt gilt"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:246
+msgid "Shipping Based Coupon?"
+msgstr "Versandbasierter Gutschein?"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:261
+msgid "Shipping Discount"
+msgstr "Versandrabatt"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:263
+msgid "Please enter a dollar amount this discount will apply toward shipping"
+msgstr "Bitte geben Sie einen Dollarbetrag ein, der für den Versand gilt"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:275
+msgid "Free Item Based Coupon?"
+msgstr "Kostenloser Artikel-basierter Gutschein?"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:290
+msgid "Bogo Based Coupon?"
+msgstr "Bogo-basierter Gutschein?"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:391
+msgid "Apply to All Products?"
+msgstr "Auf alle Produkte anwenden?"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:402
+msgid "Apply to only one product?"
+msgstr "Nur auf ein Produkt anwenden?"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:418
+#: admin/template/orders/orders/add-new-line-item.php:12
+msgid "Select a Product"
+msgstr "Produkt auswählen"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:419
+#: admin/inc/wp_easycart_admin_details_promotions.php:223
+msgid "Select Product"
+msgstr "Produkt auswählen"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:421
+#: admin/inc/wp_easycart_admin_details_promotions.php:225
+msgid "Please select a product"
+msgstr "Bitte wählen Sie ein Produkt"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:434
+msgid "Apply to a specific manufacturer?"
+msgstr "Bei einem bestimmten Hersteller bewerben?"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:450
+msgid "Please Select a Manufacturer"
+msgstr "Bitte wählen Sie einen Hersteller"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:451
+#: admin/inc/wp_easycart_admin_details_promotions.php:241
+msgid "Select Manufacturer"
+msgstr "Hersteller auswählen"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:453
+#: admin/inc/wp_easycart_admin_details_promotions.php:243
+msgid "Please select a manufacturer"
+msgstr "Bitte wählen Sie einen Hersteller"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:465
+msgid "Apply to a specific Category?"
+msgstr "Auf eine bestimmte Kategorie anwenden?"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:481
+msgid "Please select a Category"
+msgstr "Bitte wählen Sie die Kategorie"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:482
+#: admin/inc/wp_easycart_admin_details_promotions.php:258
+msgid "Select Category"
+msgstr "Kategorie wählen"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:484
+#: admin/inc/wp_easycart_admin_details_promotions.php:260
+msgid "Please select a category"
+msgstr "Bitte wählen Sie die Kategorie"
+
+#: admin/inc/wp_easycart_admin_details_coupons.php:509
+msgid "Minimum Products Required for Coupon to Apply"
+msgstr "Erforderliche Mindestprodukte für den Gutschein"
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:90
+msgid "Unique Download ID"
+msgstr "Eindeutige Download-ID"
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:93
+msgid "Please enter a unique download id."
+msgstr "Bitte geben Sie eine eindeutige Download-ID ein."
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:100
+#: admin/inc/wp_easycart_admin_details_giftcard.php:48
+#: admin/template/orders/downloads/downloads-list.php:13
+#: admin/template/orders/subscriptions/subscriptions-details.php:50
+msgid "Order ID"
+msgstr "Bestellnummer"
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:102
+#: admin/inc/wp_easycart_admin_details_giftcard.php:51
+msgid "Please enter an order id."
+msgstr "Bitte Bestell-ID eingeben."
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:109
+msgid "Date Created"
+msgstr "Erstellungsdatum"
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:111
+msgid "Please enter a starting date."
+msgstr "Bitte geben Sie ein Startdatum ein."
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:118
+msgid "Download Count"
+msgstr "Download Zähler"
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:120
+msgid "Please enter how many downloads have been made."
+msgstr "Bitte geben Sie an, wie viele Downloads durchgeführt wurden."
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:129
+msgid "Attached Product"
+msgstr "Angehängtes Produkt bearbeiten"
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:130
+msgid "Choose a downloadable product"
+msgstr "Wählen Sie ein herunterladbares Produkt"
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:132
+msgid "Please select a product this download is attached to."
+msgstr ""
+"Bitte wählen Sie ein Produkt aus, an das dieser Download angehängt ist."
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:140
+msgid "Is an Amazon Download"
+msgstr "Ist ein Amazon Download"
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:142
+msgid "Please select if is an Amazon Download."
+msgstr "Bitte wählen Sie aus, ob es sich um einen Amazon-Download handelt."
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:151
+msgid "Download File Name"
+msgstr "Datei herunterladen"
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:152
+#: admin/inc/wp_easycart_admin_details_downloads.php:165
+msgid "Choose a download file"
+msgstr "Download auswählen"
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:154
+msgid "Please select a file for this download"
+msgstr "Bitte wählen Sie eine Datei für diesen Download"
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:156
+msgid "Upload File"
+msgstr "Datei hochladen"
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:164
+msgid "Amazon S3 File Name"
+msgstr "Amazon S3-Dateiname"
+
+#: admin/inc/wp_easycart_admin_details_downloads.php:167
+msgid "Please select an Amazon S3 file name."
+msgstr "Bitte wählen Sie einen Amazon S3-Dateinamen."
+
+#: admin/inc/wp_easycart_admin_details_giftcard.php:58
+#: admin/template/marketing/giftcards/giftcard-list.php:12
+msgid "Gift Card ID"
+msgstr "Geschenkkarten-ID"
+
+#: admin/inc/wp_easycart_admin_details_giftcard.php:60
+msgid "Please enter a 12 digit/character Gift Card ID"
+msgstr "Bitte geben Sie eine 12-stellige / Zeichen-Geschenkkarten-ID ein"
+
+#: admin/inc/wp_easycart_admin_details_giftcard.php:67
+msgid "Amount on Gift Card"
+msgstr "Betrag auf Geschenkkarte"
+
+#: admin/inc/wp_easycart_admin_details_giftcard.php:69
+msgid "Please enter a Gift Card amount"
+msgstr "Bitte geben Sie einen Geschenkkartenbetrag ein"
+
+#: admin/inc/wp_easycart_admin_details_giftcard.php:76
+msgid "Custom Message from User"
+msgstr "Benutzerdefinierte Nachricht vom Benutzer"
+
+#: admin/inc/wp_easycart_admin_details_giftcard.php:78
+msgid "Please enter a message for the customer"
+msgstr "Bitte geben Sie eine Nachricht für den Kunden ein"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:77
+#: admin/template/marketing/promotions/promotion-list.php:12
+msgid "Promotion Name"
+msgstr "Name der Aktion"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:79
+msgid "Please enter a unique name for this promotion."
+msgstr "Bitte geben Sie einen eindeutigen Namen für diese Aktion ein."
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:87
+msgid "Promotion Start Date"
+msgstr "Startdatum der Aktion"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:89
+msgid "Please enter a date this promotion will begin."
+msgstr "Bitte geben Sie ein Datum ein, an dem diese Aktion beginnt."
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:97
+msgid "Promotion End Date"
+msgstr "Enddatum der Aktion"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:99
+msgid "Please enter a date this promotion will end."
+msgstr "Bitte geben Sie ein Datum ein, an dem diese Aktion endet."
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:112
+msgid "Price/Percentage off a product or group of products"
+msgstr "Preis / Prozentsatz eines Produkts oder einer Produktgruppe"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:116
+msgid "Price/Percentage off when certain dollar value reached"
+msgstr "Preis / Prozentsatz ab, wenn ein bestimmter Dollarwert erreicht ist"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:120
+msgid "Price/Percentage off when certain number items in cart"
+msgstr "Preis / Prozentsatz ab, wenn bestimmte Anzahl Artikel im Warenkorb"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:124
+msgid "BOGO Promotion (Buy 1 Get 1 Price/Percentage Off)"
+msgstr ""
+"BOGO Promotion (Kaufen Sie 1 und erhalten Sie 1 Preis / Prozentsatz Rabatt)"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:128
+msgid "Shipping discount when certain dollar value reached"
+msgstr "Versandrabatt bei Erreichen eines bestimmten Dollarwertes"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:132
+msgid "Free Shipping on Selected Products"
+msgstr "Kostenloser Versand für ausgewählte Produkte"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:144
+msgid "Choose a Promotion Type"
+msgstr "Wählen Sie einen Promotion-Typ"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:145
+msgid "Promotion Type"
+msgstr "Aufstiegsmodus Typ"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:147
+msgid "Please select a promotion type"
+msgstr "Bitte wählen Sie einen Promotion-Typ"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:158
+msgid "Max Redeemable per Order"
+msgstr "Maximal einlösbar pro Bestellung"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:160
+msgid "Please enter the maximimum times this BOGO can apply."
+msgstr ""
+"Bitte geben Sie die maximalen Zeiten ein, zu denen sich dieses BOGO bewerben "
+"kann."
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:189
+msgid "Quantity Required"
+msgstr "Benötigte Stückzahl"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:191
+msgid "Please enter how many products are needed to receive discount."
+msgstr ""
+"Bitte geben Sie an, wie viele Produkte benötigt werden, um einen Rabatt zu "
+"erhalten."
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:205
+msgid "Price Threshold"
+msgstr "Preisschwelle"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:207
+msgid "Please enter a price that will trigger this promotion."
+msgstr "Bitte geben Sie einen Preis ein, der diese Aktion auslöst."
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:222
+msgid "No Product Selected"
+msgstr "Kein Produkt ausgewählt"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:240
+msgid "No Manufacturer Selected"
+msgstr "Kein Hersteller ausgewählt"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:257
+msgid "No Category Selected"
+msgstr "Keine Kategorie ausgewählt"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:282
+msgid "Price Discount"
+msgstr "Preisnachlass"
+
+#: admin/inc/wp_easycart_admin_details_promotions.php:284
+#: admin/inc/wp_easycart_admin_details_promotions.php:296
+msgid "Please enter how much customers will receive off."
+msgstr "Bitte geben Sie ein, wie viel Kunden erhalten."
+
+#: admin/inc/wp_easycart_admin_details_subscription_plans.php:58
+msgid "Subscription Plan Title"
+msgstr "Titel des Abonnementplans"
+
+#: admin/inc/wp_easycart_admin_details_subscription_plans.php:60
+msgid "Please enter a title for this subscription plan."
+msgstr "Bitte geben Sie einen Titel für dieses Abonnement ein."
+
+#: admin/inc/wp_easycart_admin_details_subscription_plans.php:67
+msgid "Can Upgrade/Downgrade Plan"
+msgstr "Kann Plan aktualisieren / downgraden"
+
+#: admin/inc/wp_easycart_admin_details_subscription_plans.php:69
+msgid "Please select whether user can upgrade/downgrade within this plan."
+msgstr ""
+"Bitte wählen Sie aus, ob der Benutzer innerhalb dieses Plans ein Upgrade / "
+"Downgrade durchführen kann."
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:87
+msgid "Unique subscription ID"
+msgstr "Eindeutige Abonnement-ID"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:89
+msgid "Please enter a unique subscription id."
+msgstr "Bitte geben Sie eine eindeutige Abonnement-ID ein."
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:97
+msgid "Subscription Type"
+msgstr "Abrechnungsmodell"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:106
+msgid "Subscription Status"
+msgstr "Abonnement Status"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:115
+msgid "Payments Completed"
+msgstr "Zahlungen abgeschlossen"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:124
+msgid "Failed Payments"
+msgstr "Fehlgeschlagenen Zahlung"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:154
+msgid "Payment Interval"
+msgstr "Zahlungsinterval"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:163
+msgid "Payment Period"
+msgstr "Zahlungsperiode"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:172
+#: admin/template/marketing/promotions/promotion-list.php:26
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:181
+msgid "Last Payment"
+msgstr "Letzte Zahlung"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:190
+msgid "Next Payment"
+msgstr "Nächste Zahlung"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:207
+#: admin/template/orders/downloads/downloads-list.php:19
+#: admin/template/orders/orders/order-item.php:5
+msgid "Product Title"
+msgstr "Produkt Titel"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:216
+#: admin/template/settings/payments/chronopay.php:8
+msgid "Product ID"
+msgstr "Produkt-ID"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:225
+msgid "Purchase Price"
+msgstr "Einkaufspreis"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:242
+#: admin/template/settings/payments/sagepayus.php:4
+#: admin/template/settings/payments/virtualmerchant.php:8
+msgid "User ID"
+msgstr "Benutzer ID"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:251
+msgid "Email Address"
+msgstr "E-Mail Adresse"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:260
+#: admin/template/orders/orders/billing-details-form.php:5
+#: admin/template/orders/orders/shipping-details-form.php:5
+#: admin/template/orders/subscriptions/subscriptions-list.php:23
+msgid "First Name"
+msgstr "Vorname"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:269
+#: admin/template/orders/orders/billing-details-form.php:8
+#: admin/template/orders/orders/shipping-details-form.php:8
+#: admin/template/orders/subscriptions/subscriptions-list.php:28
+msgid "Last Name"
+msgstr "Nachname"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:278
+msgid "Country"
+msgstr "Land"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:296
+msgid "Subscription ID"
+msgstr "Abonnements-ID"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:305
+#: admin/template/settings/payments/eway.php:12
+msgid "Customer ID"
+msgstr "Kundennummer"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:314
+msgid "Payment Duration"
+msgstr "Zahlungsdauer"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:323
+#: admin/template/marketing/abandon-cart/abandon-cart-stats.php:23
+msgid "Quantity"
+msgstr "Menge"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:340
+msgid "PayPal Txn ID"
+msgstr "PayPal Txn ID"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:349
+msgid "PayPal Txn Type"
+msgstr "PayPal Txn Typ"
+
+#: admin/inc/wp_easycart_admin_details_subscriptions.php:358
+msgid "Subscriber ID"
+msgstr "Subscriber ID"
+
+#: admin/inc/wp_easycart_admin_downloads_pro.php:73
+msgid "Download successfully created"
+msgstr "Download erfolgreich erstellt"
+
+#: admin/inc/wp_easycart_admin_downloads_pro.php:75
+msgid "Download successfully updated"
+msgstr "Download erfolgreich aktualisiert"
+
+#: admin/inc/wp_easycart_admin_downloads_pro.php:77
+msgid "Download successfully deleted"
+msgstr "Download erfolgreich gelöscht"
+
+#: admin/inc/wp_easycart_admin_giftcards_pro.php:70
+msgid "Gift Card(s) successfully created"
+msgstr "Geschenkkarte (n) erfolgreich erstellt"
+
+#: admin/inc/wp_easycart_admin_giftcards_pro.php:72
+msgid "Gift Card(s) successfully updated"
+msgstr "Geschenkkarte (n) erfolgreich aktualisiert"
+
+#: admin/inc/wp_easycart_admin_giftcards_pro.php:74
+msgid "Gift Card(s) successfully deleted"
+msgstr "Geschenkkarte (n) erfolgreich gelöscht"
+
+#: admin/inc/wp_easycart_admin_giftcards_pro.php:79
+msgid "Gift Card(s) failed to create"
+msgstr "Geschenkkarte (n) konnten nicht erstellt werden"
+
+#: admin/inc/wp_easycart_admin_giftcards_pro.php:81
+msgid "Gift Card(s) failed to update"
+msgstr "Geschenkkarte (n) konnten nicht aktualisiert werden"
+
+#: admin/inc/wp_easycart_admin_giftcards_pro.php:83
+msgid "Gift Card(s) failed to delete"
+msgstr "Geschenkkarte (n) konnten nicht gelöscht werden"
+
+#: admin/inc/wp_easycart_admin_giftcards_pro.php:85
+msgid "Gift Card(s) failed to create due to duplicate"
+msgstr ""
+"Geschenkkarte (n) konnten aufgrund von Duplikaten nicht erstellt werden"
+
+#: admin/inc/wp_easycart_admin_live_shipping_rates_pro.php:311
+msgid "Live Shipping Rates"
+msgstr "Versandkosten"
+
+#: admin/inc/wp_easycart_admin_orders_pro.php:308
+#: admin/inc/wp_easycart_admin_orders_pro.php:310
+#, php-format
+msgid "Refund of %s made on %s"
+msgstr "Rückerstattung von %s auf %s"
+
+#: admin/inc/wp_easycart_admin_payments_pro.php:310
+msgid ""
+"OAuth is not available for PHP on your server, which is a requirement for "
+"using Intuit. Please contact your hosting provider and ask them to install "
+"the PHP extension 'OAuth'."
+msgstr ""
+"OAuth ist für PHP auf Ihrem Server nicht verfügbar, was für die Verwendung "
+"von Intuit erforderlich ist. Bitte wenden Sie sich an Ihren Hosting-Anbieter "
+"und bitten Sie ihn, die PHP-Erweiterung 'OAuth' zu installieren."
+
+#: admin/inc/wp_easycart_admin_payments_pro.php:351
+msgid "Got auth exception"
+msgstr "Ich habe eine Auth-Ausnahme"
+
+#: admin/inc/wp_easycart_admin_payments_pro.php:413
+msgid "Intuit Connection Error"
+msgstr "Intuit-Verbindungsfehler"
+
+#: admin/inc/wp_easycart_admin_payments_pro.php:416
+msgid "Intuit Connection Response"
+msgstr "Intuit Connection Response"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:103
+msgid "Enable Conditional Logic"
+msgstr "Abhängigkeitsregel aktivieren"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:107
+msgid "Show"
+msgstr "Anzeigen"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:108
+msgid "Hide"
+msgstr "Verstecken"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:110
+msgid "this field if"
+msgstr "dieses Feld wenn"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:112
+msgid "All"
+msgstr "Alle"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:113
+msgid "Any"
+msgstr "Beliebig"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:115
+msgid "of the following match"
+msgstr "des folgenden zutrifft"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:131
+msgid "is"
+msgstr "ist"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:132
+msgid "is not"
+msgstr "ist nicht"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:284
+msgid "Stock Notifications: Customers"
+msgstr "Bestandsbenachrichtigungen: Kunden"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:284
+msgid ""
+"Enabling this allows your customers to subscribe to low stock notifications."
+msgstr ""
+"Wenn Sie dies aktivieren, können Ihre Kunden Benachrichtigungen über geringe "
+"Lagerbestände abonnieren."
+
+#: admin/inc/wp_easycart_admin_products_pro.php:286
+msgid ""
+"Pro feature missing. Please update your WP EasyCart Plugin to fix this issue"
+msgstr ""
+"Pro-Funktion fehlt. Bitte aktualisieren Sie Ihr WP EasyCart Plugin, um "
+"dieses Problem zu beheben"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:295
+msgid "Instock Subscribers"
+msgstr "Instock-Abonnenten"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:295
+msgid "Notify All"
+msgstr "Alle benachrichtigen"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:296
+msgid "Add Email"
+msgstr "E-Mail hinzufügen"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:296
+#: admin/template/settings/shipping/live-rates.php:116
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:297
+msgid "Customer(s) have been notified that this product is in stock."
+msgstr "Kunden wurden darüber informiert, dass dieses Produkt auf Lager ist."
+
+#: admin/inc/wp_easycart_admin_products_pro.php:310
+#: admin/template/marketing/abandon-cart/abandon-cart.php:60
+#: admin/template/orders/orders/order-info-form.php:10
+#: admin/template/settings/payments/skrill.php:12
+msgid "Email"
+msgstr "E-Mail"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:311
+#: admin/template/orders/subscriptions/subscriptions-list.php:18
+msgid "Status"
+msgstr "Status"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:312
+msgid "Last Notified"
+msgstr "Zuletzt benachrichtigt"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:322
+msgid "Never"
+msgstr "Niemals"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:324
+msgid "Unsubscribe"
+msgstr "Abmelden"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:324
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:325
+#: admin/template/marketing/coupons/coupon-list.php:19
+#: admin/template/marketing/coupons/coupon-list.php:54
+#: admin/template/marketing/coupons/coupon-list.php:67
+#: admin/template/marketing/giftcards/giftcard-list.php:18
+#: admin/template/marketing/giftcards/giftcard-list.php:38
+#: admin/template/marketing/giftcards/giftcard-list.php:51
+#: admin/template/marketing/promotions/promotion-list.php:18
+#: admin/template/marketing/promotions/promotion-list.php:43
+#: admin/template/marketing/promotions/promotion-list.php:56
+#: admin/template/orders/downloads/downloads-list.php:42
+#: admin/template/orders/downloads/downloads-list.php:55
+#: admin/template/orders/subscriptions/subscriptions-list.php:45
+#: admin/template/orders/subscriptions/subscriptions-list.php:58
+#: admin/template/products/subscriptions/subscription-plans-list.php:28
+#: admin/template/products/subscriptions/subscription-plans-list.php:42
+msgid "Delete"
+msgstr "Löschen"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:326
+msgid "Notify"
+msgstr "Benachrichtigen"
+
+#: admin/inc/wp_easycart_admin_products_pro.php:331
+msgid "No Subscribers Available"
+msgstr "Abonnenten sind nicht verfügbar"
+
+#: admin/inc/wp_easycart_admin_promotions_pro.php:71
+msgid "Promotion successfully created"
+msgstr "Promotion erfolgreich erstellt"
+
+#: admin/inc/wp_easycart_admin_promotions_pro.php:73
+msgid "Promotion successfully updated"
+msgstr "Promotion erfolgreich aktualisiert"
+
+#: admin/inc/wp_easycart_admin_promotions_pro.php:75
+msgid "Promotion successfully deleted"
+msgstr "Promotion erfolgreich gelöscht"
+
+#: admin/inc/wp_easycart_admin_promotions_pro.php:80
+msgid "Promotion failed to create"
+msgstr "Promotion konnte nicht erstellt werden"
+
+#: admin/inc/wp_easycart_admin_promotions_pro.php:82
+msgid "Promotion failed to update"
+msgstr "Die Promotion konnte nicht aktualisiert werden"
+
+#: admin/inc/wp_easycart_admin_promotions_pro.php:84
+msgid "Promotion failed to delete"
+msgstr "Promotion konnte nicht gelöscht werden"
+
+#: admin/inc/wp_easycart_admin_promotions_pro.php:86
+msgid "Promotion failed to create due to duplicate"
+msgstr "Die Promotion konnte aufgrund von Duplikaten nicht erstellt werden"
+
+#: admin/inc/wp_easycart_admin_subscription_plans_pro.php:60
+msgid "Subscription Plan successfully created"
+msgstr "Abonnement erfolgreich erstellt"
+
+#: admin/inc/wp_easycart_admin_subscription_plans_pro.php:62
+msgid "Subscription Plan successfully updated"
+msgstr "Abonnementplan erfolgreich aktualisiert"
+
+#: admin/inc/wp_easycart_admin_subscription_plans_pro.php:64
+msgid "Subscription Plan successfully deleted"
+msgstr "Abonnement erfolgreich gelöscht"
+
+#: admin/inc/wp_easycart_admin_subscription_plans_pro.php:71
+msgid "Subscription Plan failed to create"
+msgstr "Abonnementplan konnte nicht erstellt werden"
+
+#: admin/inc/wp_easycart_admin_subscription_plans_pro.php:73
+msgid "Subscription Plan failed to update"
+msgstr "Abonnementplan konnte nicht aktualisiert werden"
+
+#: admin/inc/wp_easycart_admin_subscription_plans_pro.php:75
+msgid "Subscription Plan failed to delete"
+msgstr "Abonnementplan konnte nicht gelöscht werden"
+
+#: admin/inc/wp_easycart_admin_subscription_plans_pro.php:77
+msgid "Subscription Plan failed to create due to duplicate"
+msgstr ""
+"Der Abonnementplan konnte aufgrund von Duplikaten nicht erstellt werden"
+
+#: admin/inc/wp_easycart_admin_subscriptions_pro.php:54
+msgid "Subscription successfully cancelled"
+msgstr "Abonnement erfolgreich gekündigt"
+
+#: admin/inc/wp_easycart_admin_subscriptions_pro.php:56
+msgid "Subscription successfully deleted"
+msgstr "Abonnement erfolgreich gelöscht"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:47
+msgid "Allow Remote Admin Access"
+msgstr "Remote-Administratorzugriff zulassen"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:49
+msgid "Please select whether to allow remote admin access or not."
+msgstr ""
+"Bitte wählen Sie aus, ob der Remote-Administratorzugriff zugelassen werden "
+"soll oder nicht."
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:57
+msgid "Allow Remote Access to Store Orders"
+msgstr "Remotezugriff zum Speichern von Bestellungen zulassen"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:70
+msgid "Allow Remote Access to Downloads"
+msgstr "Fernzugriff auf Downloads zulassen"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:83
+msgid "Allow Remote Access to Subscriptions"
+msgstr "Remotezugriff auf Abonnements zulassen"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:97
+msgid "Allow Remote Access to Products"
+msgstr "Fernzugriff auf Produkte zulassen"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:111
+msgid "Allow Remote Access to Options"
+msgstr "Fernzugriff auf Optionen zulassen"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:125
+msgid "Allow Remote Access to Menus"
+msgstr "Fernzugriff auf Menüs zulassen"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:139
+msgid "Allow Remote Access to Manufacturers"
+msgstr "Ermöglichen Sie den Herstellern den Fernzugriff"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:153
+msgid "Allow Remote Access to Categories"
+msgstr "Fernzugriff auf Kategorien zulassen"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:167
+msgid "Allow Remote Access to Reviews"
+msgstr "Ermöglichen Sie den Remotezugriff auf Überprüfungen"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:181
+msgid "Allow Remote Access to Subscription Plans"
+msgstr "Remotezugriff auf Abonnementpläne zulassen"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:195
+msgid "Allow Remote Access to Users"
+msgstr "Erlauben Sie Benutzern den Fernzugriff"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:209
+msgid "Allow Remote Access to Gift Cards"
+msgstr "Ermöglichen Sie den Fernzugriff auf Geschenkkarten"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:223
+msgid "Allow Remote Access to Newsletter Subscribers"
+msgstr "Ermöglichen Sie den Remotezugriff auf Newsletter-Abonnenten"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:237
+msgid "Allow Remote Access to Send a Newsletter"
+msgstr "Ermöglichen Sie dem Fernzugriff das Senden eines Newsletters"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:251
+msgid "Allow Remote Access to Coupons"
+msgstr "Fernzugriff auf Gutscheine zulassen"
+
+#: admin/inc/wp_easycart_admin_user_role_pro.php:265
+msgid "Allow Remote Access to Promotions"
+msgstr "Remotezugriff auf Werbeaktionen zulassen"
+
+#: admin/template/marketing/abandon-cart/abandon-cart-stats.php:7
+msgid "Abandoned Product Stats (Last 7 Days)"
+msgstr "Abgebrochene Produktstatistik (letzte 7 Tage)"
+
+#: admin/template/marketing/abandon-cart/abandon-cart-stats.php:9
+#: admin/template/marketing/abandon-cart/abandon-cart.php:9
+#: admin/template/marketing/coupons/coupon-details.php:15
+#: admin/template/marketing/giftcards/giftcard-details.php:16
+#: admin/template/marketing/promotions/promotion-details.php:14
+#: admin/template/orders/downloads/downloads-details.php:15
+#: admin/template/orders/subscriptions/subscriptions-details.php:29
+#: admin/template/products/subscriptions/subscription-plans-details.php:15
+#: admin/template/settings/shipping/australia-post-options.php:7
+#: admin/template/settings/shipping/canada-post-options.php:7
+#: admin/template/settings/shipping/dhl-options.php:32
+#: admin/template/settings/shipping/fedex-options.php:28
+#: admin/template/settings/shipping/ups-options.php:32
+#: admin/template/settings/shipping/usps-options.php:7
+#: admin/template/settings/taxes/tax-cloud-setup.php:16
+#: admin/template/settings/third-party/facebook.php:7
+msgid "Help"
+msgstr "Hilfe"
+
+#: admin/template/marketing/abandon-cart/abandon-cart-stats.php:22
+#: admin/template/marketing/abandon-cart/abandon-cart.php:57
+msgid "Product"
+msgstr "Produkt"
+
+#: admin/template/marketing/abandon-cart/abandon-cart-stats.php:43
+msgid "No Abandoned Products Found"
+msgstr "Keine verlassenen Produkte gefunden"
+
+#: admin/template/marketing/abandon-cart/abandon-cart.php:7
+msgid "Abandoned Carts"
+msgstr "Aufgegebene Warenkörbe"
+
+#: admin/template/marketing/abandon-cart/abandon-cart.php:43
+msgid "Abandoned Email Sent to User."
+msgstr "Verlassene E-Mail an Benutzer gesendet."
+
+#: admin/template/marketing/abandon-cart/abandon-cart.php:45
+msgid ""
+"Automatic abandoned cart emails will be sent after 3 days of inactivity."
+msgstr ""
+"Automatische E-Mails mit verlassenen Warenkörben werden nach 3 Tagen "
+"Inaktivität gesendet."
+
+#: admin/template/marketing/abandon-cart/abandon-cart.php:47
+msgid "Automatic abandoned cart emails are now OFF."
+msgstr "Automatisch verlassene Warenkorb-E-Mails sind jetzt deaktiviert."
+
+#: admin/template/marketing/abandon-cart/abandon-cart.php:50
+msgid "Turn off Automatic Abandoned Cart Emails"
+msgstr "Deaktivieren Sie automatisch verlassene Warenkorb-E-Mails"
+
+#: admin/template/marketing/abandon-cart/abandon-cart.php:52
+msgid "Turn on Automatic Abandoned Cart Emails"
+msgstr "Aktivieren Sie die E-Mails für automatisch verlassene Warenkörbe"
+
+#: admin/template/marketing/abandon-cart/abandon-cart.php:58
+msgid "Qty"
+msgstr "Menge"
+
+#: admin/template/marketing/abandon-cart/abandon-cart.php:59
+msgid "Customer"
+msgstr "Kunde"
+
+#: admin/template/marketing/abandon-cart/abandon-cart.php:61
+msgid "Date"
+msgstr "Datum"
+
+#: admin/template/marketing/abandon-cart/abandon-cart.php:62
+msgid "Times Sent"
+msgstr "Anzahl Gesendet"
+
+#: admin/template/marketing/abandon-cart/abandon-cart.php:89
+msgid "Email Reminder"
+msgstr "Email-Erinnerung"
+
+#: admin/template/marketing/abandon-cart/abandon-cart.php:89
+msgid "Remove from List"
+msgstr "Von Wunschliste entfernen"
+
+#: admin/template/marketing/abandon-cart/abandon-cart.php:96
+msgid "No Abandoned Cart(s) Found"
+msgstr "Keine verlassenen Wagen gefunden"
+
+#: admin/template/marketing/coupons/coupon-details.php:12
+msgid "ADD NEW COUPON"
+msgstr "Neuen Gutschein erstellen"
+
+#: admin/template/marketing/coupons/coupon-details.php:12
+msgid "EDIT COUPON"
+msgstr "Gutschein bearbeiten"
+
+#: admin/template/marketing/coupons/coupon-details.php:18
+#: admin/template/marketing/coupons/coupon-details.php:52
+#: admin/template/marketing/giftcards/giftcard-details.php:19
+#: admin/template/marketing/giftcards/giftcard-details.php:33
+#: admin/template/marketing/promotions/promotion-details.php:17
+#: admin/template/marketing/promotions/promotion-details.php:42
+#: admin/template/orders/downloads/downloads-details.php:18
+#: admin/template/orders/downloads/downloads-details.php:30
+#: admin/template/products/subscriptions/subscription-plans-details.php:18
+#: admin/template/products/subscriptions/subscription-plans-details.php:32
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: admin/template/marketing/coupons/coupon-details.php:19
+#: admin/template/marketing/coupons/coupon-details.php:53
+#: admin/template/marketing/giftcards/giftcard-details.php:20
+#: admin/template/marketing/giftcards/giftcard-details.php:34
+#: admin/template/marketing/promotions/promotion-details.php:18
+#: admin/template/marketing/promotions/promotion-details.php:43
+#: admin/template/orders/downloads/downloads-details.php:19
+#: admin/template/orders/downloads/downloads-details.php:31
+#: admin/template/orders/subscriptions/subscriptions-details.php:33
+#: admin/template/orders/subscriptions/subscriptions-details.php:175
+#: admin/template/products/subscriptions/subscription-plans-details.php:19
+#: admin/template/products/subscriptions/subscription-plans-details.php:33
+msgid "Save"
+msgstr "Speichern"
+
+#: admin/template/marketing/coupons/coupon-details.php:29
+msgid ""
+"You must upgrade the WP EasyCart main plugin to be able to add or update "
+"coupons."
+msgstr ""
+"Sie müssen das WP EasyCart-Haupt-Plugin aktualisieren, um Gutscheine "
+"hinzufügen oder aktualisieren zu können."
+
+#: admin/template/marketing/coupons/coupon-details.php:35
+#: admin/template/marketing/promotions/promotion-details.php:23
+msgid "STEP ONE"
+msgstr "ERSTER SCHRITT"
+
+#: admin/template/marketing/coupons/coupon-details.php:36
+msgid ""
+"A coupon is redeemed when the unique coupon code is entered by the customer "
+"during checkout.  They are not applied automatically.  You may attach a "
+"coupon to all products, or selected products as well as have the coupon do "
+"various activities such as adjusting price or percentage of the shopping "
+"cart.  You may view how many times the coupon is redeemed within this "
+"section."
+msgstr ""
+"Ein Gutschein wird eingelöst, wenn der Kunde beim Auschecken den eindeutigen "
+"Gutscheincode eingibt. Sie werden nicht automatisch angewendet. Sie können "
+"allen Produkten oder ausgewählten Produkten einen Gutschein beifügen und den "
+"Gutschein verschiedene Aktivitäten ausführen lassen, z. B. das Anpassen des "
+"Preises oder des Prozentsatzes des Warenkorbs. In diesem Abschnitt können "
+"Sie sehen, wie oft der Gutschein eingelöst wird."
+
+#: admin/template/marketing/coupons/coupon-details.php:38
+#: admin/template/marketing/promotions/promotion-details.php:26
+msgid "STEP TWO"
+msgstr "ZWEITER SCHRITT"
+
+#: admin/template/marketing/coupons/coupon-details.php:39
+msgid ""
+"Select which type of coupon you would like to create.  Dollar, Percentage or "
+"Shipping based coupons will discount the shopping cart based on your "
+"selection.  To offer free shipping, leave it at 0.00.  Free Item coupons "
+"will tag the order with the coupon code so you can decide how to handle "
+"anyone using that code, but does not adjust any pricing."
+msgstr ""
+"Wählen Sie die Art des Gutscheins aus, den Sie erstellen möchten. Coupons "
+"auf Dollar-, Prozent- oder Versandbasis reduzieren den Warenkorb basierend "
+"auf Ihrer Auswahl. Um kostenlosen Versand anzubieten, belassen Sie diesen "
+"bei 0,00. Gutscheine für kostenlose Artikel kennzeichnen die Bestellung mit "
+"dem Gutscheincode, sodass Sie entscheiden können, wie mit Personen "
+"umgegangen werden soll, die diesen Code verwenden, jedoch keine Preise "
+"anpassen."
+
+#: admin/template/marketing/coupons/coupon-details.php:41
+#: admin/template/marketing/promotions/promotion-details.php:29
+msgid "STEP THREE"
+msgstr "DRITTER SCHRITT"
+
+#: admin/template/marketing/coupons/coupon-details.php:42
+msgid ""
+"Select which items to apply this coupon code to.  If there is a match in the "
+"shopping cart, then the coupon discount will be applied.  You may choose to "
+"create a custom category of products OR you can select by manufacturer or "
+"single products."
+msgstr ""
+"Wählen Sie aus, auf welche Artikel dieser Gutscheincode angewendet werden "
+"soll. Wenn im Warenkorb eine Übereinstimmung vorliegt, wird der "
+"Gutscheinrabatt angewendet. Sie können eine benutzerdefinierte "
+"Produktkategorie erstellen ODER nach Hersteller oder einzelnen Produkten "
+"auswählen."
+
+#: admin/template/marketing/coupons/coupon-details.php:44
+#: admin/template/marketing/promotions/promotion-details.php:33
+msgid "STEP FOUR"
+msgstr "VIERTER SCHRITT"
+
+#: admin/template/marketing/coupons/coupon-details.php:45
+msgid ""
+"Choose optional restrictions for the coupon, including minimum purchased to "
+"trigger the discount."
+msgstr ""
+"Wählen Sie optionale Einschränkungen für den Gutschein, einschließlich des "
+"Mindestkaufbetrags, um den Rabatt auszulösen."
+
+#: admin/template/marketing/coupons/coupon-list.php:6
+msgid "Manage Coupons"
+msgstr "Gutscheine verwalten"
+
+#: admin/template/marketing/coupons/coupon-list.php:27
+msgid "Dollar"
+msgstr "Dollar"
+
+#: admin/template/marketing/coupons/coupon-list.php:32
+msgid "Percentage"
+msgstr "Prozentsatz"
+
+#: admin/template/marketing/coupons/coupon-list.php:37
+msgid "Shipping"
+msgstr "Versand"
+
+#: admin/template/marketing/coupons/coupon-list.php:42
+msgid "Free Item"
+msgstr "Gratis Geschenkartikel"
+
+#: admin/template/marketing/coupons/coupon-list.php:62
+#: admin/template/marketing/giftcards/giftcard-list.php:46
+#: admin/template/marketing/promotions/promotion-list.php:51
+#: admin/template/orders/downloads/downloads-list.php:50
+#: admin/template/orders/subscriptions/subscriptions-list.php:53
+#: admin/template/products/subscriptions/subscription-plans-list.php:37
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: admin/template/marketing/coupons/coupon-list.php:76
+msgid "Coupon Codes"
+msgstr "Gutscheincode"
+
+#: admin/template/marketing/giftcards/giftcard-details.php:13
+msgid "ADD NEW GIFT CARD"
+msgstr "Neuen Geschenkgutschein hinzufügen"
+
+#: admin/template/marketing/giftcards/giftcard-details.php:13
+msgid "EDIT GIFT CARD"
+msgstr "Gutschein bearbeiten"
+
+#: admin/template/marketing/giftcards/giftcard-details.php:25
+msgid "Gift Card Setup"
+msgstr "Geschenkkarten-Setup"
+
+#: admin/template/marketing/giftcards/giftcard-details.php:26
+msgid ""
+"A Gift Card is a unique 12 digit code that your customer may use at checkout "
+"and redeem. They are essentially a cash card, and you may send this Gift "
+"Card ID to the customer either by mail or by email."
+msgstr ""
+"Eine Geschenkkarte ist ein eindeutiger 12-stelliger Code, den Ihr Kunde beim "
+"Auschecken und Einlösen verwenden kann. Es handelt sich im Wesentlichen um "
+"eine Geldkarte, und Sie können diese Geschenkkarten-ID entweder per Post "
+"oder per E-Mail an den Kunden senden."
+
+#: admin/template/marketing/giftcards/giftcard-list.php:5
+msgid "Manage Gift Cards"
+msgstr "Geschenkkarten verwalten"
+
+#: admin/template/marketing/giftcards/giftcard-list.php:26
+msgid "Amount Remaining"
+msgstr "Restsumme"
+
+#: admin/template/marketing/giftcards/giftcard-list.php:60
+msgid "Gift Card"
+msgstr "Geschenkgutschein"
+
+#: admin/template/marketing/giftcards/giftcard-list.php:60
+msgid "Gift Cards"
+msgstr "Geschenkgutscheine"
+
+#: admin/template/marketing/promotions/promotion-details.php:11
+msgid "ADD NEW PROMOTION"
+msgstr "Neue Promotion hinzufügen"
+
+#: admin/template/marketing/promotions/promotion-details.php:11
+msgid "EDIT PROMOTION"
+msgstr "Aktion bearbeiten"
+
+#: admin/template/marketing/promotions/promotion-details.php:24
+msgid ""
+"A promotion is a discount that applies across products or categories of "
+"products and automatically applies without any user coupon or interaction "
+"needed.  All customers will receive this promotion while it is active and "
+"running on your website.  Simply give this promotion a descriptive name and "
+"starting/ending dates.  Customers will see the promotion headline above each "
+"product details when shopping.  You may also design and create your own "
+"banners or other advertising material to promote the event."
+msgstr ""
+"Eine Aktion ist ein Rabatt, der für alle Produkte oder Produktkategorien "
+"gilt und automatisch gilt, ohne dass ein Benutzercoupon oder eine "
+"Interaktion erforderlich ist. Alle Kunden erhalten diese Aktion, solange sie "
+"aktiv ist und auf Ihrer Website ausgeführt wird. Geben Sie dieser Aktion "
+"einfach einen aussagekräftigen Namen und Start- / Enddaten. Kunden sehen "
+"beim Einkauf die Werbeüberschrift über den einzelnen Produktdetails. Sie "
+"können auch eigene Banner oder anderes Werbematerial entwerfen und "
+"erstellen, um für die Veranstaltung zu werben."
+
+#: admin/template/marketing/promotions/promotion-details.php:27
+msgid ""
+"Select a promotion type, such as a price or percentage off a group of "
+"products OR when a dollar value is reached.  You can also offer a shipping "
+"discount when a certain dollar value is reached."
+msgstr ""
+"Wählen Sie einen Werbetyp aus, z. B. einen Preis oder einen Prozentsatz für "
+"eine Produktgruppe ODER wenn ein Dollarwert erreicht ist. Sie können auch "
+"einen Versandrabatt anbieten, wenn ein bestimmter Dollarwert erreicht ist."
+
+#: admin/template/marketing/promotions/promotion-details.php:30
+msgid ""
+"Depending on your selection on step two, you can choose which group of "
+"products to apply the discount to, or the set price threshold when the "
+"promotion will become active."
+msgstr ""
+"Abhängig von Ihrer Auswahl in Schritt 2 können Sie auswählen, auf welche "
+"Produktgruppe der Rabatt angewendet werden soll, oder den festgelegten "
+"Preisschwellenwert, wenn die Aktion aktiv wird."
+
+#: admin/template/marketing/promotions/promotion-details.php:34
+msgid ""
+"The final step is to create a price discount or percentage discount that the "
+"customer will receive.  These promotion discounts are on top of any listed "
+"price cuts you have at the product level. For example, if you display a $100 "
+"dollar product that is regularly $120, then run a 20&percnt; discount, it "
+"will show a slashed out price of $120 with a promotion price of $80. The "
+"discount will come off the actual listed price of the item, even if you have "
+"a previous price discount at the product level."
+msgstr ""
+"Der letzte Schritt besteht darin, einen Preisnachlass oder einen "
+"prozentualen Rabatt zu erstellen, den der Kunde erhält. Diese Aktionsrabatte "
+"gelten zusätzlich zu den auf Produktebene aufgeführten Preissenkungen. Wenn "
+"Sie beispielsweise ein 100-Dollar-Produkt anzeigen, das regelmäßig 120 US-"
+"Dollar kostet, führen Sie ein 20 & percnt; Rabatt, es wird ein reduzierter "
+"Preis von 120 $ mit einem Aktionspreis von 80 $ angezeigt. Der Rabatt wird "
+"vom tatsächlichen Listenpreis des Artikels abgezogen, auch wenn Sie zuvor "
+"einen Preisnachlass auf Produktebene haben."
+
+#: admin/template/marketing/promotions/promotion-list.php:5
+msgid "Manage Promotions"
+msgstr "Aktionen verwalten"
+
+#: admin/template/marketing/promotions/promotion-list.php:31
+msgid "End Date"
+msgstr "Enddatum"
+
+#: admin/template/marketing/promotions/promotion-list.php:65
+msgid "Promotion"
+msgstr "Promotion"
+
+#: admin/template/marketing/promotions/promotion-list.php:65
+msgid "Promotions"
+msgstr "Werbeaktionen"
+
+#: admin/template/orders/downloads/downloads-details.php:12
+msgid "ADD NEW DOWNLOAD"
+msgstr "Neuen Download hinzufügen"
+
+#: admin/template/orders/downloads/downloads-details.php:12
+msgid "EDIT DOWNLOAD"
+msgstr "Download bearbeiten"
+
+#: admin/template/orders/downloads/downloads-list.php:24
+msgid "Times Downloaded"
+msgstr "Downloadanzahl"
+
+#: admin/template/orders/downloads/downloads-list.php:30
+msgid "Amazon S3 File?"
+msgstr "Amazon S3-Datei?"
+
+#: admin/template/orders/downloads/downloads-list.php:63
+msgid "Download"
+msgstr "Download"
+
+#: admin/template/orders/downloads/downloads-list.php:63
+msgid "Downloads"
+msgstr "Downloads"
+
+#: admin/template/orders/orders/add-new-line-item.php:18
+msgid "QTY"
+msgstr "Menge"
+
+#: admin/template/orders/orders/billing-details-form.php:13
+#: admin/template/orders/orders/shipping-details-form.php:13
+#: admin/template/settings/payments/skrill.php:8
+msgid "Company Name"
+msgstr "Firmenname"
+
+#: admin/template/orders/orders/billing-details-form.php:18
+#: admin/template/orders/orders/shipping-details-form.php:18
+msgid "Address"
+msgstr "Adresse"
+
+#: admin/template/orders/orders/billing-details-form.php:23
+#: admin/template/orders/orders/shipping-details-form.php:23
+msgid "Suite/Apartment #"
+msgstr "Suite Appartement"
+
+#: admin/template/orders/orders/billing-details-form.php:28
+#: admin/template/orders/orders/shipping-details-form.php:28
+msgid "City"
+msgstr "Stadt"
+
+#: admin/template/orders/orders/billing-details-form.php:33
+#: admin/template/orders/orders/shipping-details-form.php:33
+msgid "State"
+msgstr "Bundesland"
+
+#: admin/template/orders/orders/billing-details-form.php:36
+#: admin/template/orders/orders/shipping-details-form.php:36
+msgid "Zip/Postal"
+msgstr "Postleitzahl"
+
+#: admin/template/orders/orders/billing-details-form.php:42
+#: admin/template/orders/orders/shipping-details-form.php:42
+msgid "Select a Country"
+msgstr "Wählen Sie ein Land"
+
+#: admin/template/orders/orders/billing-details-form.php:55
+#: admin/template/orders/orders/shipping-details-form.php:55
+msgid "Phone"
+msgstr "Telefon"
+
+#: admin/template/orders/orders/order-date-form.php:2
+msgid "Order Date"
+msgstr "Bestelldatum"
+
+#: admin/template/orders/orders/order-info-bottom-form.php:5
+msgid "IP Address"
+msgstr "IP-Adresse"
+
+#: admin/template/orders/orders/order-info-bottom-form.php:11
+msgid "AGREED to Terms"
+msgstr "Vereinbarte Bedingungen"
+
+#: admin/template/orders/orders/order-info-bottom-form.php:12
+msgid "Did NOT Agree to Terms"
+msgstr "Ich habe den Bedingungen NICHT zugestimmt"
+
+#: admin/template/orders/orders/order-info-form.php:5
+msgid "Cardholder Name"
+msgstr "Name des Karteninhabers"
+
+#: admin/template/orders/orders/order-info-form.php:15
+msgid "CC Digits"
+msgstr "CC-Ziffern"
+
+#: admin/template/orders/orders/order-info-form.php:20
+msgid "Exp Month"
+msgstr "Ablaufmonat"
+
+#: admin/template/orders/orders/order-info-form.php:23
+msgid "Exp Year"
+msgstr "Ablaufjahr"
+
+#: admin/template/orders/orders/order-item.php:17
+msgid "Option 1"
+msgstr "Option 1"
+
+#: admin/template/orders/orders/order-item.php:30
+msgid "Option 2"
+msgstr "Option 2"
+
+#: admin/template/orders/orders/order-item.php:43
+msgid "Option 3"
+msgstr "Option 3"
+
+#: admin/template/orders/orders/order-item.php:56
+msgid "Option 4"
+msgstr "Option 4"
+
+#: admin/template/orders/orders/order-item.php:69
+msgid "Option 5"
+msgstr "Option 5"
+
+#: admin/template/orders/orders/order-item.php:103
+msgid "SKU"
+msgstr "SKU"
+
+#: admin/template/orders/orders/order-item.php:113
+msgid "Quantity Purchased"
+msgstr "Gekaufte Menge"
+
+#: admin/template/orders/orders/order-item.php:122
+msgid "Unit Price"
+msgstr "Stückpreis"
+
+#: admin/template/orders/orders/order-item.php:133
+msgid "Total Price"
+msgstr "Gesamtpreis"
+
+#: admin/template/orders/orders/order-item.php:139
+msgid "SAVE CHANGES"
+msgstr "ÄNDERUNGEN SPEICHERN"
+
+#: admin/template/orders/orders/order-totals-form.php:15
+msgid "Sub Total"
+msgstr "Zwischensumme"
+
+#: admin/template/orders/orders/order-totals-form.php:24
+msgid "VAT Total"
+msgstr "Gesamt MwSt"
+
+#: admin/template/orders/orders/order-totals-form.php:28
+msgid "VAT Rate"
+msgstr "MwSt. Satz"
+
+#: admin/template/orders/orders/order-totals-form.php:32
+msgid "VAT Registration #"
+msgstr "Registrierungspflicht"
+
+#: admin/template/orders/orders/order-totals-form.php:42
+msgid "GST Total"
+msgstr "Gesamtsumme"
+
+#: admin/template/orders/orders/order-totals-form.php:46
+msgid "GST Rate"
+msgstr "GST-Rate"
+
+#: admin/template/orders/orders/order-totals-form.php:50
+msgid "HST Total"
+msgstr "Gesamtsumme"
+
+#: admin/template/orders/orders/order-totals-form.php:54
+msgid "HST Rate"
+msgstr "HST-Rate"
+
+#: admin/template/orders/orders/order-totals-form.php:58
+msgid "PST Total"
+msgstr "Gesamtsumme"
+
+#: admin/template/orders/orders/order-totals-form.php:62
+msgid "PST Rate"
+msgstr "PST-Rate"
+
+#: admin/template/orders/orders/order-totals-form.php:72
+msgid "Duty Total"
+msgstr "Zoll insgesamt"
+
+#: admin/template/orders/orders/order-totals-form.php:79
+msgid "Tax Total"
+msgstr "Steuern gesamt"
+
+#: admin/template/orders/orders/order-totals-form.php:83
+msgid "Shipping Total"
+msgstr "Versandkosten gesamt"
+
+#: admin/template/orders/orders/order-totals-form.php:87
+msgid "Discount Total"
+msgstr "Rabatt gesamt"
+
+#: admin/template/orders/orders/order-totals-form.php:91
+msgid "Grand Total"
+msgstr "Gesamtsumme"
+
+#: admin/template/orders/orders/order-totals-form.php:96
+msgid "Refund Total"
+msgstr "Rückerstattung Gesamtsumme"
+
+#: admin/template/orders/orders/refund-form.php:2
+msgid "Refund Amount"
+msgstr "Erstattungsbetrag"
+
+#: admin/template/orders/orders/refund-form.php:4
+msgid "Process Refund"
+msgstr "Prozessrückerstattung"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:15
+msgid "EDIT SUBSCRIPTIONS"
+msgstr "Abonnements bearbeiten"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:22
+msgid "Select a Subscription Product"
+msgstr "Wählen Sie ein Abonnementprodukt"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:32
+#: admin/template/orders/subscriptions/subscriptions-details.php:174
+msgid "Back"
+msgstr "Zurück"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:38
+msgid ""
+"There was an error switching your subscription product. Check your Stripe "
+"logs for more info."
+msgstr ""
+"Beim Umschalten Ihres Abonnementprodukts ist ein Fehler aufgetreten. "
+"Überprüfen Sie Ihre Stripe-Protokolle auf weitere Informationen."
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:40
+msgid "Subscription Setup"
+msgstr "Abonnement-Setup"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:42
+msgid "Cancel Subscription"
+msgstr "Abonnement kündigen"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:51
+msgid "Amount Charged"
+msgstr "Verrechneter Betrag"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:52
+msgid "Stripe Charge ID"
+msgstr "Stripe-Charge-ID"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:53
+msgid "Date Charged"
+msgstr "Aufgeladenes Datum"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:64
+msgid "View Order"
+msgstr "Bestellung anzeigen"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:79
+msgid "Subscription Information"
+msgstr "Abo Information"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:90
+msgid "Subscription Terms & Dates"
+msgstr "Abonnementbedingungen und -daten"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:105
+msgid "Product Information"
+msgstr "Produktinfos"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:116
+msgid "Customer Information"
+msgstr "Kundeninfo"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:133
+msgid "Stripe Information"
+msgstr "Streifeninformationen"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:150
+msgid "PayPal Information"
+msgstr "PayPal-Informationen"
+
+#: admin/template/orders/subscriptions/subscriptions-details.php:154
+msgid ""
+"Below is PayPal payment processor specific information regarding this "
+"recurring subscription."
+msgstr ""
+"Nachfolgend finden Sie spezifische Informationen zum PayPal-"
+"Zahlungsprozessor zu diesem wiederkehrenden Abonnement."
+
+#: admin/template/orders/subscriptions/subscriptions-list.php:13
+msgid "Subscription Title"
+msgstr "Abonnement Titel"
+
+#: admin/template/orders/subscriptions/subscriptions-list.php:33
+msgid "Price"
+msgstr "Preis"
+
+#: admin/template/orders/subscriptions/subscriptions-list.php:66
+msgid "Subscription"
+msgstr "Abonnement"
+
+#: admin/template/orders/subscriptions/subscriptions-list.php:66
+msgid "Subscriptions"
+msgstr "Abonnements"
+
+#: admin/template/products/subscriptions/subscription-plans-details.php:24
+msgid "Subscription Plan Setup"
+msgstr "Abonnementplan einrichten"
+
+#: admin/template/products/subscriptions/subscription-plans-details.php:25
+msgid ""
+"When you create a subscription, you can bundle several subscriptions into a "
+"single plan.  This allows users to possibly upgrade/downgrade with other "
+"subscriptions in the same plan."
+msgstr ""
+"Wenn Sie ein Abonnement erstellen, können Sie mehrere Abonnements in einem "
+"einzigen Plan bündeln. Auf diese Weise können Benutzer möglicherweise ein "
+"Upgrade / Downgrade mit anderen Abonnements im selben Plan durchführen."
+
+#: admin/template/products/subscriptions/subscription-plans-list.php:11
+msgid "Plan Title"
+msgstr "Grundriss Titel"
+
+#: admin/template/products/subscriptions/subscription-plans-list.php:16
+msgid "Can Upgrade/Downgrade"
+msgstr "Up-/Downgrade"
+
+#: admin/template/products/subscriptions/subscription-plans-list.php:50
+msgid "Subscription Plan"
+msgstr "Mitgliedschaft"
+
+#: admin/template/products/subscriptions/subscription-plans-list.php:50
+msgid "Subscription Plans"
+msgstr "Mitgliedschaften"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:3
+msgid "Setup 2Checkout"
+msgstr "Setup 2Checkout"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:6
+msgid "Account Number"
+msgstr "Kontonummer"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:10
+msgid "Secret Word"
+msgstr "Geheimes Wort"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:14
+#: admin/template/settings/payments/authorize.php:12
+#: admin/template/settings/payments/cardpointe.php:24
+#: admin/template/settings/payments/intuit.php:97
+#: admin/template/settings/payments/nets.php:12
+#: admin/template/settings/payments/payline.php:12
+#: admin/template/settings/payments/skrill.php:38
+msgid "Currency Code"
+msgstr "Währungscode"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:16
+#: admin/template/settings/payments/firstdata.php:30
+msgid "U.S. Dollar"
+msgstr "U.S. Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:17
+msgid "Afghani"
+msgstr "Afghanistan"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:18
+msgid "Lek"
+msgstr "Lek"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:19
+#: admin/template/settings/payments/firstdata.php:38
+msgid "Algerian Dinar"
+msgstr "Algerischer Dinar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:20
+#: admin/template/settings/payments/firstdata.php:42
+msgid "Argentine Peso"
+msgstr "Argentinischer Peso"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:21
+#: admin/template/settings/payments/cashfree.php:19
+#: admin/template/settings/payments/firstdata.php:44
+msgid "Australian Dollar"
+msgstr "Australischer Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:22
+msgid "Azerbaijan Manat"
+msgstr "Aserbaidschan Manat"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:23
+msgid "Bahamian Dollar"
+msgstr "Bahamian Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:24
+msgid "Taka"
+msgstr "Taka"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:25
+#: admin/template/settings/payments/firstdata.php:49
+msgid "Barbados Dollar"
+msgstr "Barbados-Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:26
+#: admin/template/settings/payments/firstdata.php:51
+msgid "Belize Dollar"
+msgstr "Belize Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:27
+#: admin/template/settings/payments/firstdata.php:52
+msgid "Bermudian Dollar"
+msgstr "Bermuda-Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:28
+msgid "Boliviano"
+msgstr "Boliviano"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:29
+msgid "Pula"
+msgstr "Pula"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:30
+#: admin/template/settings/payments/firstdata.php:56
+msgid "Brazilian Real"
+msgstr "Brasilianischer Real"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:31
+#: admin/template/settings/payments/cashfree.php:17
+msgid "Pound Sterling"
+msgstr "Pfund Sterling"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:32
+#: admin/template/settings/payments/firstdata.php:57
+msgid "Brunei Dollar"
+msgstr "Brunei-Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:33
+#: admin/template/settings/payments/firstdata.php:58
+msgid "Bulgarian Lev"
+msgstr "Bulgarischer Lev"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:34
+#: admin/template/settings/payments/cashfree.php:22
+#: admin/template/settings/payments/firstdata.php:31
+msgid "Canadian Dollar"
+msgstr "Kanadischer Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:35
+#: admin/template/settings/payments/firstdata.php:65
+msgid "Chilean Peso"
+msgstr "Chilenischer Peso"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:36
+msgid "Renminbi (Yuan)"
+msgstr "Renminbi (Yuan)"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:37
+#: admin/template/settings/payments/firstdata.php:67
+msgid "Colombian Peso"
+msgstr "Kolumbianischer Peso"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:38
+msgid "Costa Rican Colón"
+msgstr "Costa Rica Colón"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:39
+#: admin/template/settings/payments/firstdata.php:70
+msgid "Croatian Kuna"
+msgstr "Kroatische Kuna"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:40
+#: admin/template/settings/payments/firstdata.php:72
+msgid "Czech Koruna"
+msgstr "Tschechische Krone"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:41
+#: admin/template/settings/payments/cashfree.php:24
+#: admin/template/settings/payments/firstdata.php:73
+msgid "Danish Krone"
+msgstr "Dänische Krone"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:42
+#: admin/template/settings/payments/firstdata.php:75
+msgid "Dominican Peso"
+msgstr "Dominikanischer Peso"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:43
+msgid "East Caribbean Dollar"
+msgstr "Ostkaribischer Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:44
+#: admin/template/settings/payments/cashfree.php:25
+#: admin/template/settings/payments/firstdata.php:79
+msgid "Egyptian Pound"
+msgstr "Ägyptisches Pfund"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:45
+#: admin/template/settings/payments/cashfree.php:26
+#: admin/template/settings/payments/firstdata.php:83
+msgid "Euro"
+msgstr "Euro"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:46
+#: admin/template/settings/payments/firstdata.php:85
+msgid "Fiji Dollar"
+msgstr "Fidschianischer Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:47
+msgid "Quetzal"
+msgstr "Quetzal"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:48
+#: admin/template/settings/payments/cashfree.php:27
+#: admin/template/settings/payments/firstdata.php:98
+msgid "Hong Kong Dollar"
+msgstr "Hong Kong Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:49
+msgid "Lempira"
+msgstr "Lempira"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:50
+#: admin/template/settings/payments/firstdata.php:99
+msgid "Hungarian Forint"
+msgstr "Ungarischer Forint"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:51
+#: admin/template/settings/payments/cashfree.php:14
+#: admin/template/settings/payments/cashfree.php:29
+#: admin/template/settings/payments/firstdata.php:101
+msgid "Indian Rupee"
+msgstr "Indische Rupie"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:52
+msgid "Rupiah"
+msgstr "Rupiah"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:53
+msgid "Israeli New Sheqel"
+msgstr "Israel Neuer Schekel"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:54
+#: admin/template/settings/payments/firstdata.php:106
+msgid "Jamaican Dollar"
+msgstr "Jamaikanische Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:55
+#: admin/template/settings/payments/cashfree.php:31
+#: admin/template/settings/payments/firstdata.php:35
+msgid "Japanese Yen"
+msgstr "Japanischer Yen"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:56
+msgid "Tenge"
+msgstr "Tenge"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:57
+#: admin/template/settings/payments/firstdata.php:109
+msgid "Kenyan Shilling"
+msgstr "Kenianischer Schilling"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:58
+msgid "Kip"
+msgstr "Kip"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:59
+msgid "Kyat"
+msgstr "Kyat"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:60
+msgid "Lebanese Pound"
+msgstr "Libanesisches Pfund"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:61
+#: admin/template/settings/payments/firstdata.php:114
+msgid "Liberian Dollar"
+msgstr "Liberianische Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:62
+msgid "Macanese Pataca"
+msgstr "Macao Pataca"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:63
+#: admin/template/settings/payments/cashfree.php:34
+#: admin/template/settings/payments/firstdata.php:120
+msgid "Malaysian Ringgit"
+msgstr "Malaysischer Ringgit"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:64
+msgid "Rufiyaa"
+msgstr "MVR"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:65
+msgid "Ouguiya"
+msgstr "Ouguiya"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:66
+#: admin/template/settings/payments/firstdata.php:124
+msgid "Mauritius Rupee"
+msgstr "Mauritius-Rupie"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:67
+#: admin/template/settings/payments/firstdata.php:125
+msgid "Mexican Peso"
+msgstr "Mexikanischer Peso"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:68
+#: admin/template/settings/payments/firstdata.php:127
+msgid "Moroccan Dirham"
+msgstr "Vereinigte Arabische Emirate Dirham"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:69
+#: admin/template/settings/payments/firstdata.php:132
+msgid "Nepalese Rupee"
+msgstr "Mauritianische Rupee"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:70
+msgid "New Taiwan Dollar"
+msgstr "Neuer Taiwan-Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:71
+#: admin/template/settings/payments/cashfree.php:36
+#: admin/template/settings/payments/firstdata.php:133
+msgid "New Zealand Dollar"
+msgstr "Neuseeland-Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:72
+msgid "Cordoba Oro"
+msgstr "Cordoba Oro"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:73
+#: admin/template/settings/payments/cashfree.php:35
+msgid "Norwegian Krone"
+msgstr "Norwegische Krone"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:74
+#: admin/template/settings/payments/firstdata.php:138
+msgid "Pakistan Rupee"
+msgstr "Pakistanische Rupie"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:75
+msgid "Kina"
+msgstr "Kina"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:76
+msgid "Nuevo Sol"
+msgstr "Neuer Sol"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:77
+#: admin/template/settings/payments/firstdata.php:144
+msgid "Philippine Peso"
+msgstr "Philippinischer Peso"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:78
+#: admin/template/settings/payments/firstdata.php:146
+msgid "Polish Zloty"
+msgstr "Polnischer Zloty"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:79
+#: admin/template/settings/payments/cashfree.php:38
+#: admin/template/settings/payments/firstdata.php:148
+msgid "Qatari Rial"
+msgstr "Katarischer Rial"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:80
+msgid "RON"
+msgstr "RON"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:81
+#: admin/template/settings/payments/cashfree.php:39
+msgid "Russian Ruble"
+msgstr "Russischer Rubel"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:82
+msgid "Tala"
+msgstr "Tala"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:83
+#: admin/template/settings/payments/cashfree.php:40
+#: admin/template/settings/payments/firstdata.php:153
+msgid "Saudi Riyal"
+msgstr "Saudischer Riyal"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:84
+#: admin/template/settings/payments/firstdata.php:154
+msgid "Seychelles Rupee"
+msgstr "Seychellen-Rupie"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:85
+#: admin/template/settings/payments/cashfree.php:42
+#: admin/template/settings/payments/firstdata.php:157
+msgid "Singapore Dollar"
+msgstr "Singapur Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:86
+#: admin/template/settings/payments/firstdata.php:160
+msgid "Solomon Islands Dollar"
+msgstr "Dollar der Solomon Inseln"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:87
+msgid "Rand"
+msgstr "Rand"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:88
+msgid "Won"
+msgstr "Gewonnen"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:89
+#: admin/template/settings/payments/firstdata.php:164
+msgid "Sri Lanka Rupee"
+msgstr "Sri-Lanka-Rupie"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:90
+#: admin/template/settings/payments/cashfree.php:41
+#: admin/template/settings/payments/firstdata.php:168
+msgid "Swedish Krona"
+msgstr "Schwedische Krone"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:91
+#: admin/template/settings/payments/cashfree.php:23
+#: admin/template/settings/payments/firstdata.php:33
+msgid "Swiss Franc"
+msgstr "Schweizer Franken"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:92
+msgid "Syrian Pound"
+msgstr "Syrische Pfund"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:93
+#: admin/template/settings/payments/cashfree.php:43
+#: admin/template/settings/payments/firstdata.php:171
+msgid "Thai Baht"
+msgstr "Thai Baht"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:94
+msgid "Paʻanga"
+msgstr "Paʻanga"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:95
+msgid "Trinidad and Tobago Dollar"
+msgstr "Trinidad und Tobago Dollar"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:96
+#: admin/template/settings/payments/firstdata.php:175
+msgid "Turkish Lira"
+msgstr "Türkische Lira"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:97
+msgid "Hryvnia"
+msgstr "Hryvnia"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:98
+#: admin/template/settings/payments/cashfree.php:18
+msgid "UAE Dirham"
+msgstr "UAE Dirham"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:99
+msgid "Vatu"
+msgstr "Vatu"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:100
+#: admin/template/settings/payments/firstdata.php:182
+msgid "Vietnamese Dong"
+msgstr "Vietnamesischer Dong"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:101
+#: admin/template/settings/payments/firstdata.php:60
+msgid "CFA Franc BCEAO"
+msgstr "CFA-Franc BCEAO"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:102
+msgid "Yemeni Rial"
+msgstr "Katarischer Rial"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:106
+#: admin/template/settings/payments/firstdata.php:20
+#: admin/template/settings/payments/payfort.php:28
+#: admin/template/settings/payments/skrill.php:16
+msgid "Language"
+msgstr "Sprache"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:108
+msgid "Chinese"
+msgstr "Chinesisch"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:109
+msgid "Danish"
+msgstr "Dänisch"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:110
+msgid "Dutch"
+msgstr "Niederländisch"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:111
+msgid "Englsh"
+msgstr "Englsh"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:112
+msgid "French"
+msgstr "Französisch"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:113
+msgid "German"
+msgstr "Deutsch"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:114
+msgid "Greek"
+msgstr "Griechisch"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:115
+msgid "Italian"
+msgstr "Italienisch"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:116
+msgid "Japanese"
+msgstr "Japanisch"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:117
+msgid "Norwegian"
+msgstr "Norweger"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:118
+msgid "Portugese"
+msgstr "Portugiesisch"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:119
+msgid "Slovenian"
+msgstr "Slowenisch"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:120
+msgid "Spanish"
+msgstr "Spanisch"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:124
+msgid "Checkout Purchase Step"
+msgstr "Kaufschritt an der Kasse"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:126
+msgid "Review Cart"
+msgstr "Einkaufswagen prüfen"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:127
+msgid "Shipping Information"
+msgstr "Versandinformationen"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:128
+msgid "Billing Information"
+msgstr "Rechnungsinformation"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:129
+#: admin/template/settings/payments/eway.php:5
+msgid "Payment Method"
+msgstr "Zahlungsart"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:133
+msgid "Sandbox Account"
+msgstr "Sandbox-Konto"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:135
+#: admin/template/settings/payments/2checkout_thirdparty.php:142
+#: admin/template/settings/payments/dwolla_thirdparty.php:18
+#: admin/template/settings/payments/eway.php:30
+#: admin/template/settings/payments/eway.php:37
+#: admin/template/settings/payments/firstdata.php:190
+#: admin/template/settings/payments/intuit.php:296
+#: admin/template/settings/payments/nets.php:212
+#: admin/template/settings/payments/paymentexpress.php:41
+#: admin/template/settings/payments/paypal.php:186
+#: admin/template/settings/payments/sagepay.php:32
+#: admin/template/settings/payments/sagepay.php:39
+#: admin/template/settings/payments/securenet.php:15
+#: admin/template/settings/payments/securepay.php:29
+#: admin/template/settings/payments/virtualmerchant.php:18
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:136
+#: admin/template/settings/payments/2checkout_thirdparty.php:143
+#: admin/template/settings/payments/dwolla_thirdparty.php:19
+#: admin/template/settings/payments/eway.php:31
+#: admin/template/settings/payments/eway.php:38
+#: admin/template/settings/payments/firstdata.php:191
+#: admin/template/settings/payments/intuit.php:297
+#: admin/template/settings/payments/nets.php:213
+#: admin/template/settings/payments/paymentexpress.php:42
+#: admin/template/settings/payments/paypal.php:187
+#: admin/template/settings/payments/paypal.php:207
+#: admin/template/settings/payments/realex.php:35
+#: admin/template/settings/payments/sagepay.php:33
+#: admin/template/settings/payments/sagepay.php:40
+#: admin/template/settings/payments/securenet.php:14
+#: admin/template/settings/payments/securepay.php:30
+#: admin/template/settings/payments/virtualmerchant.php:19
+msgid "No"
+msgstr "Nein"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:140
+msgid "Demo Mode"
+msgstr "Demo-Modus"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:147
+msgid "To complete setup you must complete the following steps:"
+msgstr ""
+"Um die Einrichtung abzuschließen, müssen Sie die folgenden Schritte "
+"ausführen:"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:149
+msgid ""
+"Go to your Account Settings -> Site Management and setup the Direct Return "
+"option shown in the image below."
+msgstr ""
+"Gehen Sie zu Ihren Kontoeinstellungen -> Site-Verwaltung und richten Sie die "
+"in der folgenden Abbildung gezeigte Option für die direkte Rückgabe ein."
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:150
+msgid ""
+"Go to your Account Settings -> Site Management and enter the Approved URL "
+"with"
+msgstr ""
+"Gehen Sie zu Ihren Kontoeinstellungen -> Site-Verwaltung und geben Sie die "
+"genehmigte URL mit ein"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:151
+msgid ""
+"Click the Notifications icon in the top right corner of your account, just "
+"left of the help and account icons. Then enter your site URL in all of the "
+"URL boxes and check the enable box for all of the notification options. The "
+"URL to enter is"
+msgstr ""
+"Klicken Sie auf das Benachrichtigungssymbol in der oberen rechten Ecke Ihres "
+"Kontos, links neben den Hilfe- und Kontosymbolen. Geben Sie dann Ihre Site-"
+"URL in alle URL-Felder ein und aktivieren Sie das Kontrollkästchen für alle "
+"Benachrichtigungsoptionen. Die einzugebende URL lautet"
+
+#: admin/template/settings/payments/2checkout_thirdparty.php:156
+#: admin/template/settings/payments/authorize.php:35
+#: admin/template/settings/payments/beanstream.php:12
+#: admin/template/settings/payments/braintree.php:28
+#: admin/template/settings/payments/cardpointe.php:31
+#: admin/template/settings/payments/cashfree.php:55
+#: admin/template/settings/payments/chronopay.php:16
+#: admin/template/settings/payments/dwolla_thirdparty.php:28
+#: admin/template/settings/payments/eway.php:43
+#: admin/template/settings/payments/firstdata.php:195
+#: admin/template/settings/payments/goemerchant.php:16
+#: admin/template/settings/payments/intuit.php:301
+#: admin/template/settings/payments/migs.php:16
+#: admin/template/settings/payments/moneris_ca.php:19
+#: admin/template/settings/payments/moneris_us.php:19
+#: admin/template/settings/payments/nets.php:217
+#: admin/template/settings/payments/nmi.php:72
+#: admin/template/settings/payments/payfast_thirdparty.php:23
+#: admin/template/settings/payments/payfort.php:46
+#: admin/template/settings/payments/payline.php:16
+#: admin/template/settings/payments/paymentexpress.php:46
+#: admin/template/settings/payments/paymentexpress_thirdparty.php:39
+#: admin/template/settings/payments/paypal.php:212
+#: admin/template/settings/payments/paypal_payments_pro.php:44
+#: admin/template/settings/payments/paypal_pro.php:56
+#: admin/template/settings/payments/paypoint.php:19
+#: admin/template/settings/payments/realex.php:46
+#: admin/template/settings/payments/realex_thirdparty.php:40
+#: admin/template/settings/payments/redsys.php:33
+#: admin/template/settings/payments/sagepay.php:44
+#: admin/template/settings/payments/sagepay_paynow_za.php:9
+#: admin/template/settings/payments/sagepayus.php:16
+#: admin/template/settings/payments/securenet.php:19
+#: admin/template/settings/payments/securepay.php:34
+#: admin/template/settings/payments/skrill.php:84
+#: admin/template/settings/payments/stripe.php:266
+#: admin/template/settings/payments/third-party.php:23
+#: admin/template/settings/payments/virtualmerchant.php:23
+msgid "Save Options"
+msgstr "Einstellungen speichern"
+
+#: admin/template/settings/payments/authorize.php:2
+msgid "Setup Authorize.net"
+msgstr "Richten Sie Authorize.net ein"
+
+#: admin/template/settings/payments/authorize.php:4
+msgid "Login ID"
+msgstr "Login ID"
+
+#: admin/template/settings/payments/authorize.php:8
+msgid "Transaction Key"
+msgstr "Transaktionsschlüssel"
+
+#: admin/template/settings/payments/authorize.php:14
+#: admin/template/settings/payments/cardpointe.php:26
+msgid "USD"
+msgstr "USD"
+
+#: admin/template/settings/payments/authorize.php:15
+#: admin/template/settings/payments/cardpointe.php:27
+msgid "CAD"
+msgstr "CAD"
+
+#: admin/template/settings/payments/authorize.php:16
+msgid "EUR"
+msgstr "EUR"
+
+#: admin/template/settings/payments/authorize.php:17
+msgid "GBP"
+msgstr "GBP"
+
+#: admin/template/settings/payments/authorize.php:21
+#: admin/template/settings/payments/dwolla_thirdparty.php:16
+#: admin/template/settings/payments/firstdata.php:188
+#: admin/template/settings/payments/moneris_ca.php:12
+#: admin/template/settings/payments/moneris_us.php:12
+#: admin/template/settings/payments/nets.php:210
+#: admin/template/settings/payments/payfort.php:39
+#: admin/template/settings/payments/payfort.php:41
+#: admin/template/settings/payments/paypal_payments_pro.php:37
+#: admin/template/settings/payments/paypal_pro.php:49
+#: admin/template/settings/payments/paypoint.php:12
+#: admin/template/settings/payments/realex.php:39
+#: admin/template/settings/payments/realex.php:42
+#: admin/template/settings/payments/redsys.php:25
+#: admin/template/settings/payments/redsys.php:27
+#: admin/template/settings/payments/sagepay.php:37
+#: admin/template/settings/payments/securepay.php:27
+msgid "Test Mode"
+msgstr "Testmodus"
+
+#: admin/template/settings/payments/authorize.php:23
+#: admin/template/settings/payments/moneris_ca.php:14
+#: admin/template/settings/payments/moneris_us.php:14
+msgid "Yes, Put into Test Mode"
+msgstr "Ja, in den Testmodus versetzen"
+
+#: admin/template/settings/payments/authorize.php:24
+#: admin/template/settings/payments/moneris_ca.php:15
+#: admin/template/settings/payments/moneris_us.php:15
+#: admin/template/settings/payments/paypal_payments_pro.php:40
+#: admin/template/settings/payments/paypal_pro.php:52
+#: admin/template/settings/payments/paypoint.php:15
+msgid "No, Process Live Transactions"
+msgstr "Nein, Live-Transaktionen verarbeiten"
+
+#: admin/template/settings/payments/authorize.php:28
+#: admin/template/settings/payments/paymentexpress.php:39
+msgid "Developer Account"
+msgstr "Developer Account"
+
+#: admin/template/settings/payments/authorize.php:30
+msgid "Yes, This is a Developer Account"
+msgstr "Ja, dies ist ein Entwicklerkonto"
+
+#: admin/template/settings/payments/authorize.php:31
+msgid "No, This is a Live Account"
+msgstr "Nein, dies ist ein Live-Konto"
+
+#: admin/template/settings/payments/beanstream.php:2
+msgid "Setup Bambora"
+msgstr "Richten Sie Bambora ein"
+
+#: admin/template/settings/payments/beanstream.php:4
+#: admin/template/settings/payments/braintree.php:4
+#: admin/template/settings/payments/cardpointe.php:8
+#: admin/template/settings/payments/migs.php:12
+#: admin/template/settings/payments/nets.php:4
+#: admin/template/settings/payments/payfast_thirdparty.php:4
+#: admin/template/settings/payments/paypoint.php:4
+#: admin/template/settings/payments/realex.php:4
+#: admin/template/settings/payments/realex_thirdparty.php:4
+#: admin/template/settings/payments/securepay.php:4
+#: admin/template/settings/payments/virtualmerchant.php:4
+msgid "Merchant ID"
+msgstr "Händler-ID"
+
+#: admin/template/settings/payments/beanstream.php:8
+msgid "API Passcode"
+msgstr "Passwort"
+
+#: admin/template/settings/payments/braintree.php:2
+msgid "Setup Braintree S2S"
+msgstr "Braintree S2S einrichten"
+
+#: admin/template/settings/payments/braintree.php:8
+msgid "Merchant Account ID"
+msgstr "Verkäufer Account ID"
+
+#: admin/template/settings/payments/braintree.php:12
+msgid "Public Key"
+msgstr "Öffentlicher Schlüssel"
+
+#: admin/template/settings/payments/braintree.php:16
+msgid "Private Key"
+msgstr "Privater Schlüssel"
+
+#: admin/template/settings/payments/braintree.php:20
+msgid "Environment"
+msgstr "Umgebung"
+
+#: admin/template/settings/payments/braintree.php:22
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: admin/template/settings/payments/braintree.php:23
+msgid "Production"
+msgstr "Produktion"
+
+#: admin/template/settings/payments/cardpointe.php:2
+msgid "Card Pointe"
+msgstr "Spitzentanz"
+
+#: admin/template/settings/payments/cardpointe.php:4
+msgid "Site"
+msgstr "Seite"
+
+#: admin/template/settings/payments/cardpointe.php:12
+msgid "API Username"
+msgstr "API Benutzername"
+
+#: admin/template/settings/payments/cardpointe.php:16
+#: admin/template/settings/payments/eway.php:20
+msgid "API Password"
+msgstr "API Passwort"
+
+#: admin/template/settings/payments/cardpointe.php:20
+msgid "Ship From Zip"
+msgstr "Versand ab PLZ"
+
+#: admin/template/settings/payments/cashfree.php:2
+msgid "Setup Cashfree"
+msgstr "Bargeldfrei einrichten"
+
+#: admin/template/settings/payments/cashfree.php:4
+msgid "App ID"
+msgstr "App ID"
+
+#: admin/template/settings/payments/cashfree.php:8
+#: admin/template/settings/payments/redsys.php:21
+msgid "Secret Key"
+msgstr "Geheimer Schlüssel"
+
+#: admin/template/settings/payments/cashfree.php:12
+#: admin/template/settings/payments/chronopay.php:4
+#: admin/template/settings/payments/firstdata.php:28
+#: admin/template/settings/payments/paymentexpress.php:12
+#: admin/template/settings/payments/paymentexpress_thirdparty.php:12
+#: admin/template/settings/payments/paypal_payments_pro.php:16
+#: admin/template/settings/payments/paypal_pro.php:20
+#: admin/template/settings/payments/realex.php:12
+#: admin/template/settings/payments/realex_thirdparty.php:16
+#: admin/template/settings/payments/redsys.php:12
+#: admin/template/settings/payments/sagepay.php:9
+#: admin/template/settings/payments/securepay.php:12
+#: admin/template/settings/payments/stripe.php:12
+#: admin/template/settings/payments/stripe_connect.php:19
+msgid "Currency"
+msgstr "Währung"
+
+#: admin/template/settings/payments/cashfree.php:15
+msgid "US Dollar"
+msgstr "US-Dollar"
+
+#: admin/template/settings/payments/cashfree.php:16
+#: admin/template/settings/payments/firstdata.php:66
+msgid "Chinese Yuan Renminbi"
+msgstr "Chinesischer Renminbi Yuan"
+
+#: admin/template/settings/payments/cashfree.php:20
+msgid "Azerbaijanian Manat"
+msgstr "Aserbaidschanischer Manat"
+
+#: admin/template/settings/payments/cashfree.php:21
+#: admin/template/settings/payments/firstdata.php:47
+msgid "Bahraini Dinar"
+msgstr "Bahraini Dinar"
+
+#: admin/template/settings/payments/cashfree.php:28
+msgid "New Israeli Sheqel"
+msgstr "Neuer Schekel"
+
+#: admin/template/settings/payments/cashfree.php:30
+#: admin/template/settings/payments/firstdata.php:107
+msgid "Jordanian Dinar"
+msgstr "Jordanischer Dinar"
+
+#: admin/template/settings/payments/cashfree.php:32
+msgid "Korean Won"
+msgstr "Nordkoreanischer Won"
+
+#: admin/template/settings/payments/cashfree.php:33
+#: admin/template/settings/payments/firstdata.php:110
+msgid "Kuwaiti Dinar"
+msgstr "Kuwaitischer Dinar"
+
+#: admin/template/settings/payments/cashfree.php:37
+msgid "Rial Omani"
+msgstr "Rial Omani"
+
+#: admin/template/settings/payments/cashfree.php:44
+#: admin/template/settings/payments/firstdata.php:161
+msgid "South African Rand"
+msgstr "Südafrikanischer Rand"
+
+#: admin/template/settings/payments/cashfree.php:48
+msgid "Test or Live Mode"
+msgstr "Test- oder Live-Modus"
+
+#: admin/template/settings/payments/cashfree.php:50
+msgid "Test/Sandbox Mode"
+msgstr "Test/Sandbox-Modus"
+
+#: admin/template/settings/payments/cashfree.php:51
+#: admin/template/settings/payments/realex.php:41
+msgid "Live Mode"
+msgstr "Live-Modus"
+
+#: admin/template/settings/payments/chronopay.php:2
+msgid "Setup Chronopay"
+msgstr "Chronopay einrichten"
+
+#: admin/template/settings/payments/chronopay.php:12
+msgid "Shared Secret"
+msgstr "Shared Secret"
+
+#: admin/template/settings/payments/dwolla_thirdparty.php:2
+msgid "Setup Dwolla"
+msgstr "Richten Sie Dwolla ein"
+
+#: admin/template/settings/payments/dwolla_thirdparty.php:4
+msgid "Account ID"
+msgstr "Konto ID"
+
+#: admin/template/settings/payments/dwolla_thirdparty.php:8
+#: admin/template/settings/payments/paymentexpress_thirdparty.php:8
+msgid "Key"
+msgstr "Schlüssel"
+
+#: admin/template/settings/payments/dwolla_thirdparty.php:12
+#: admin/template/settings/payments/realex.php:8
+#: admin/template/settings/payments/realex_thirdparty.php:8
+msgid "Secret"
+msgstr "Geheim"
+
+#: admin/template/settings/payments/dwolla_thirdparty.php:23
+msgid ""
+"When registering your application to get the key and secret needed to "
+"process the checkout, you should enter an application name, add the call "
+"back URL listed below, and give the application the permission to request "
+"money."
+msgstr ""
+"Wenn Sie Ihre Bewerbung registrieren, um den Schlüssel und das Geheimnis zu "
+"erhalten, die für die Bearbeitung der Kaufabwicklung erforderlich sind, "
+"sollten Sie einen Bewerbungsnamen eingeben, die unten aufgeführte Rückruf-"
+"URL hinzufügen und der Bewerbung die Erlaubnis erteilen, Geld anzufordern."
+
+#: admin/template/settings/payments/dwolla_thirdparty.php:25
+msgid "Dwolla Payment Callback URL"
+msgstr "Dwolla Payment Callback URL"
+
+#: admin/template/settings/payments/eway.php:2
+msgid "Setup eWay"
+msgstr "Einrichtung"
+
+#: admin/template/settings/payments/eway.php:3
+msgid ""
+"eWay Rapid API Setup: Copy your API key and API password from your eWay "
+"account, My Account Tab and sub category API Key. Generate a password here "
+"and copy and paste it into the box provided."
+msgstr ""
+"eWay Rapid API Setup: Kopieren Sie Ihren API-Schlüssel und Ihr API-Passwort "
+"von Ihrem eWay-Konto, der Registerkarte Mein Konto und dem API-Schlüssel der "
+"Unterkategorie. Generieren Sie hier ein Passwort und kopieren Sie es und "
+"fügen Sie es in das dafür vorgesehene Feld ein."
+
+#: admin/template/settings/payments/eway.php:7
+msgid "Rapid Pay"
+msgstr "Schnell"
+
+#: admin/template/settings/payments/eway.php:8
+msgid "Direct Payment (outdated)"
+msgstr "Direktzahlung (veraltet)"
+
+#: admin/template/settings/payments/eway.php:16
+msgid "API Key"
+msgstr "API-Schlüssel"
+
+#: admin/template/settings/payments/eway.php:24
+msgid "Client Key"
+msgstr "Kunden Schlussel"
+
+#: admin/template/settings/payments/eway.php:28
+#: admin/template/settings/payments/intuit.php:294
+#: admin/template/settings/payments/payfast_thirdparty.php:16
+#: admin/template/settings/payments/securenet.php:12
+msgid "Sandbox Mode"
+msgstr "Sandbox-Modus"
+
+#: admin/template/settings/payments/eway.php:35
+msgid "Eway Test Mode Process Successful Transaction"
+msgstr "Eway Test Mode Prozess Erfolgreiche Transaktion"
+
+#: admin/template/settings/payments/firstdata.php:2
+msgid "Setup First Data PayEezy (E4)"
+msgstr "Erste Daten einrichten PayEezy (E4)"
+
+#: admin/template/settings/payments/firstdata.php:4
+#: admin/template/settings/payments/goemerchant.php:8
+msgid "Gateway ID"
+msgstr "ID der Zahlungsart"
+
+#: admin/template/settings/payments/firstdata.php:8
+msgid "Gateway Password"
+msgstr "Gateway-Passwort"
+
+#: admin/template/settings/payments/firstdata.php:12
+msgid "Key ID"
+msgstr "Schlüssel-ID"
+
+#: admin/template/settings/payments/firstdata.php:16
+msgid "Hmac Key"
+msgstr "HMAC-Schlüssel"
+
+#: admin/template/settings/payments/firstdata.php:32
+msgid "German Mark"
+msgstr "Deutsche Mark"
+
+#: admin/template/settings/payments/firstdata.php:34
+msgid "British Pound"
+msgstr "Britisches Pfund"
+
+#: admin/template/settings/payments/firstdata.php:36
+msgid "Afghanistan Afghani"
+msgstr "Afghanischer Afghani"
+
+#: admin/template/settings/payments/firstdata.php:37
+msgid "Albanian Lek"
+msgstr "Albanischer Lek"
+
+#: admin/template/settings/payments/firstdata.php:39
+msgid "Andorran Franc"
+msgstr "Andoranische FrancName"
+
+#: admin/template/settings/payments/firstdata.php:40
+msgid "Andorran Peseta"
+msgstr "Andorranische Peseta"
+
+#: admin/template/settings/payments/firstdata.php:41
+msgid "Angolan New Kwanza"
+msgstr "Angolanischer Kwanza"
+
+#: admin/template/settings/payments/firstdata.php:43
+msgid "Aruban Florin"
+msgstr "Aruba-Florin"
+
+#: admin/template/settings/payments/firstdata.php:45
+msgid "Austrian Schilling"
+msgstr "Österreichischer Schilling"
+
+#: admin/template/settings/payments/firstdata.php:46
+msgid "Bahamanian Dollar"
+msgstr "Bahamanian Dollar"
+
+#: admin/template/settings/payments/firstdata.php:48
+msgid "Bangladeshi Taka"
+msgstr "Bangladesch-Taka"
+
+#: admin/template/settings/payments/firstdata.php:50
+msgid "Belgian Franc"
+msgstr "Belgisches Franc"
+
+#: admin/template/settings/payments/firstdata.php:53
+msgid "Bhutan Ngultrum"
+msgstr "Bhutanischer Ngultrum"
+
+#: admin/template/settings/payments/firstdata.php:54
+msgid "Bolivian Boliviano"
+msgstr "Bolivianische Boliviano"
+
+#: admin/template/settings/payments/firstdata.php:55
+msgid "Botswana Pula"
+msgstr "Botswanischer Pula"
+
+#: admin/template/settings/payments/firstdata.php:59
+msgid "Burundi Franc"
+msgstr "Burundi-Franc"
+
+#: admin/template/settings/payments/firstdata.php:61
+msgid "CFA Franc BEAC"
+msgstr "CFA-Franc BEAC"
+
+#: admin/template/settings/payments/firstdata.php:62
+msgid "Cambodian Riel"
+msgstr "Kambodschanischer Riel"
+
+#: admin/template/settings/payments/firstdata.php:63
+msgid "Cape Verde Escudo"
+msgstr "Kap Verde Escudo"
+
+#: admin/template/settings/payments/firstdata.php:64
+msgid "Cayman Islands Dollar"
+msgstr "Kaimaninseln Dollar"
+
+#: admin/template/settings/payments/firstdata.php:68
+msgid "Comoros Franc"
+msgstr "Komoren-Franc"
+
+#: admin/template/settings/payments/firstdata.php:69
+msgid "Costa Rican Colon"
+msgstr "Costa-Rica-Colón"
+
+#: admin/template/settings/payments/firstdata.php:71
+msgid "Cyprus Pound"
+msgstr "Zyprisches Pfund"
+
+#: admin/template/settings/payments/firstdata.php:74
+msgid "Djibouti Franc"
+msgstr "Dschibuti-Franc"
+
+#: admin/template/settings/payments/firstdata.php:76
+msgid "Dutch Guilder"
+msgstr "Holländischer Gulden"
+
+#: admin/template/settings/payments/firstdata.php:77
+msgid "ECU"
+msgstr "ECU"
+
+#: admin/template/settings/payments/firstdata.php:78
+msgid "Ecuador Sucre"
+msgstr "Ecuador Sucre"
+
+#: admin/template/settings/payments/firstdata.php:80
+msgid "El Salvador Colon"
+msgstr "El Salvador Colon"
+
+#: admin/template/settings/payments/firstdata.php:81
+msgid "Estonian Kroon"
+msgstr "Estnische Krone"
+
+#: admin/template/settings/payments/firstdata.php:82
+msgid "Ethiopian Birr"
+msgstr "Äthiopischer Birr"
+
+#: admin/template/settings/payments/firstdata.php:84
+msgid "Falkland Islands Pound"
+msgstr "Falklandinseln Pfund"
+
+#: admin/template/settings/payments/firstdata.php:86
+msgid "Finnish Markka"
+msgstr "Finnische Mark"
+
+#: admin/template/settings/payments/firstdata.php:87
+msgid "French Franc"
+msgstr "Französischer Franc"
+
+#: admin/template/settings/payments/firstdata.php:88
+msgid "Gambian Dalasi"
+msgstr "Gambianischer Dalasi"
+
+#: admin/template/settings/payments/firstdata.php:89
+msgid "Ghanaian Cedi"
+msgstr "Ghana Cedi"
+
+#: admin/template/settings/payments/firstdata.php:90
+msgid "Gibraltar Pound"
+msgstr "Gibraltar-Pfund"
+
+#: admin/template/settings/payments/firstdata.php:91
+msgid "Gold (oz.)"
+msgstr "Gold (oz.)"
+
+#: admin/template/settings/payments/firstdata.php:92
+msgid "Greek Drachma"
+msgstr "Griechische Drachme"
+
+#: admin/template/settings/payments/firstdata.php:93
+msgid "Guatemalan Quetzal"
+msgstr "Guatemaltekischer Quetzal"
+
+#: admin/template/settings/payments/firstdata.php:94
+msgid "Guinea Franc"
+msgstr "Guinea-Franc"
+
+#: admin/template/settings/payments/firstdata.php:95
+msgid "Guyanan Dollar"
+msgstr "Guyana-Dollar"
+
+#: admin/template/settings/payments/firstdata.php:96
+msgid "Haitian Gourde"
+msgstr "Haitianischer Gourde"
+
+#: admin/template/settings/payments/firstdata.php:97
+msgid "Honduran Lempira"
+msgstr "Honduranische Lempira"
+
+#: admin/template/settings/payments/firstdata.php:100
+msgid "Iceland Krona"
+msgstr "Isländische Krone"
+
+#: admin/template/settings/payments/firstdata.php:102
+msgid "Indonesian Rupiah"
+msgstr "Indonesischer Rupiah"
+
+#: admin/template/settings/payments/firstdata.php:103
+msgid "Irish Punt"
+msgstr "Irisches Pfund"
+
+#: admin/template/settings/payments/firstdata.php:104
+msgid "Israeli New Shekel"
+msgstr "Neuer Israel Schekel"
+
+#: admin/template/settings/payments/firstdata.php:105
+msgid "Italian Lira"
+msgstr "Italienische Lira"
+
+#: admin/template/settings/payments/firstdata.php:108
+msgid "Kazakhstan Tenge"
+msgstr "Kasachstan Tenge"
+
+#: admin/template/settings/payments/firstdata.php:111
+msgid "Lao Kip"
+msgstr "Laotischer Kip"
+
+#: admin/template/settings/payments/firstdata.php:112
+msgid "Latvian Lats"
+msgstr "Lettischer Lats"
+
+#: admin/template/settings/payments/firstdata.php:113
+msgid "Lesotho Loti"
+msgstr "Lesotho Loti"
+
+#: admin/template/settings/payments/firstdata.php:115
+msgid "Lithuanian Litas"
+msgstr "Litauischer Litas"
+
+#: admin/template/settings/payments/firstdata.php:116
+msgid "Luxembourg Franc"
+msgstr "Luxemburgischer Franc"
+
+#: admin/template/settings/payments/firstdata.php:117
+msgid "Macau Pataca"
+msgstr "Macauische Pataca"
+
+#: admin/template/settings/payments/firstdata.php:118
+msgid "Malagasy Franc"
+msgstr "Madagaskar-Franc"
+
+#: admin/template/settings/payments/firstdata.php:119
+msgid "Malawi Kwacha"
+msgstr "Malawi-Kwacha"
+
+#: admin/template/settings/payments/firstdata.php:121
+msgid "Maldive Rufiyaa"
+msgstr "Maledivische Rufiyaa"
+
+#: admin/template/settings/payments/firstdata.php:122
+msgid "Maltese Lira"
+msgstr "Maltesische Lira"
+
+#: admin/template/settings/payments/firstdata.php:123
+msgid "Mauritanian Ouguiya"
+msgstr "Mauretanische Ouguiya"
+
+#: admin/template/settings/payments/firstdata.php:126
+msgid "Mongolian Tugrik"
+msgstr "Mongolischer Tugrik"
+
+#: admin/template/settings/payments/firstdata.php:128
+msgid "Mozambique Metical"
+msgstr "Mosambikanischer Metical"
+
+#: admin/template/settings/payments/firstdata.php:129
+msgid "Myanmar Kyat"
+msgstr "Myanmar"
+
+#: admin/template/settings/payments/firstdata.php:130
+msgid "NL Antillian Guilder"
+msgstr "NL Antillian Guilder"
+
+#: admin/template/settings/payments/firstdata.php:131
+msgid "Namibia Dollar"
+msgstr "Namibischer Dollar"
+
+#: admin/template/settings/payments/firstdata.php:134
+msgid "Nicaraguan Cordoba Oro"
+msgstr "Córdoba OroName"
+
+#: admin/template/settings/payments/firstdata.php:135
+msgid "Nigerian Naira"
+msgstr "Nigerianische Naira"
+
+#: admin/template/settings/payments/firstdata.php:136
+msgid "Norwegian Kroner"
+msgstr "Norwegische Kronen"
+
+#: admin/template/settings/payments/firstdata.php:137
+msgid "Omani Rial"
+msgstr "Omanischer Rial"
+
+#: admin/template/settings/payments/firstdata.php:139
+msgid "Palladium (oz.)"
+msgstr "Palladium (oz.)"
+
+#: admin/template/settings/payments/firstdata.php:140
+msgid "Panamanian Balboa"
+msgstr "Panamaischer Balboa"
+
+#: admin/template/settings/payments/firstdata.php:141
+msgid "Papua New Guinea Kina"
+msgstr "Papua-Neuguineaischer Kina"
+
+#: admin/template/settings/payments/firstdata.php:142
+msgid "Paraguay Guarani"
+msgstr "Paraguayischer Guarani"
+
+#: admin/template/settings/payments/firstdata.php:143
+msgid "Peruvian Nuevo Sol"
+msgstr "Peruanischer Nuevo Sol"
+
+#: admin/template/settings/payments/firstdata.php:145
+msgid "Platinum (oz.)"
+msgstr "Platin (oz.)"
+
+#: admin/template/settings/payments/firstdata.php:147
+msgid "Portuguese Escudo"
+msgstr "Portugiesischer Escudo"
+
+#: admin/template/settings/payments/firstdata.php:149
+msgid "Romanian Leu"
+msgstr "Rumänische Leu"
+
+#: admin/template/settings/payments/firstdata.php:150
+msgid "Russian Rouble"
+msgstr "Russischer Rubel"
+
+#: admin/template/settings/payments/firstdata.php:151
+msgid "Samoan Tala"
+msgstr "Samoanischer Tala"
+
+#: admin/template/settings/payments/firstdata.php:152
+msgid "Sao Tome/Principe Dobra"
+msgstr "Sao-Tome/Principe-Dobra"
+
+#: admin/template/settings/payments/firstdata.php:155
+msgid "Sierra Leone Leone"
+msgstr "Sierra Leone Leone"
+
+#: admin/template/settings/payments/firstdata.php:156
+msgid "Silver (oz.)"
+msgstr "Silber (oz.)"
+
+#: admin/template/settings/payments/firstdata.php:158
+msgid "Slovak Koruna"
+msgstr "Slowakische Krone"
+
+#: admin/template/settings/payments/firstdata.php:159
+msgid "Slovenian Tolar"
+msgstr "Slowenischer Tolar"
+
+#: admin/template/settings/payments/firstdata.php:162
+msgid "South-Korean Won"
+msgstr "Südkoreanischer Won"
+
+#: admin/template/settings/payments/firstdata.php:163
+msgid "Spanish Peseta"
+msgstr "Spanische Peseta"
+
+#: admin/template/settings/payments/firstdata.php:165
+msgid "St. Helena Pound"
+msgstr "St. Helena Pfund"
+
+#: admin/template/settings/payments/firstdata.php:166
+msgid "Suriname Guilder"
+msgstr "Suriname-Gulden"
+
+#: admin/template/settings/payments/firstdata.php:167
+msgid "Swaziland Lilangeni"
+msgstr "Swasiländischer Lilangeni"
+
+#: admin/template/settings/payments/firstdata.php:169
+msgid "Taiwan Dollar"
+msgstr "Neuer Taiwanischer Dollar"
+
+#: admin/template/settings/payments/firstdata.php:170
+msgid "Tanzanian Shilling"
+msgstr "Tansania Shillings"
+
+#: admin/template/settings/payments/firstdata.php:172
+msgid "Tonga Pa'anga"
+msgstr "TOP - Pa’anga"
+
+#: admin/template/settings/payments/firstdata.php:173
+msgid "Trinidad/Tobago Dollar"
+msgstr "Trinidad und Tobago Dollar"
+
+#: admin/template/settings/payments/firstdata.php:174
+msgid "Tunisian Dinar"
+msgstr "Tunesischer Dinar"
+
+#: admin/template/settings/payments/firstdata.php:176
+msgid "Uganda Shilling"
+msgstr "Uganda Shilling"
+
+#: admin/template/settings/payments/firstdata.php:177
+msgid "Ukraine Hryvnia"
+msgstr "Ukrainische Hryvnia"
+
+#: admin/template/settings/payments/firstdata.php:178
+msgid "Uruguayan Peso"
+msgstr "Uruguayische Peso"
+
+#: admin/template/settings/payments/firstdata.php:179
+msgid "Utd. Arab Emir. Dirham"
+msgstr "Utd. Arabischer Emir. Dirham"
+
+#: admin/template/settings/payments/firstdata.php:180
+msgid "Vanuatu Vatu"
+msgstr "Vanuatu Vatu"
+
+#: admin/template/settings/payments/firstdata.php:181
+msgid "Venezuelan Bolivar"
+msgstr "Venezuelanischer Bolivar"
+
+#: admin/template/settings/payments/firstdata.php:183
+msgid "Yugoslav Dinar"
+msgstr "Jugoslawischer Dinar"
+
+#: admin/template/settings/payments/firstdata.php:184
+msgid "Zambian Kwacha"
+msgstr "Sambischer Kwacha"
+
+#: admin/template/settings/payments/goemerchant.php:2
+msgid "Setup GoeMerchant"
+msgstr "Richten Sie GoeMerchant ein"
+
+#: admin/template/settings/payments/goemerchant.php:4
+msgid "Center ID"
+msgstr "Kostenstelle ID"
+
+#: admin/template/settings/payments/goemerchant.php:12
+msgid "Processor ID"
+msgstr "Prozessor-ID"
+
+#: admin/template/settings/payments/intuit.php:17
+msgid "Setup Intuit"
+msgstr "Intuit einrichten"
+
+#: admin/template/settings/payments/intuit.php:21
+#: admin/template/settings/payments/intuit.php:30
+msgid "Intuit Status: You've been authorized"
+msgstr "Intuit Status: Sie wurden autorisiert"
+
+#: admin/template/settings/payments/intuit.php:23
+#: admin/template/settings/payments/intuit.php:32
+msgid "Renew Authorization"
+msgstr "Autorisierung erneuern"
+
+#: admin/template/settings/payments/intuit.php:25
+#: admin/template/settings/payments/intuit.php:34
+#: admin/template/settings/payments/square.php:9
+msgid "Disconnect"
+msgstr "Trennen"
+
+#: admin/template/settings/payments/intuit.php:38
+#: admin/template/settings/payments/intuit.php:42
+#: admin/template/settings/payments/intuit.php:49
+msgid "Connect to Intuit"
+msgstr "Stellen Sie eine Verbindung zu Intuit her"
+
+#: admin/template/settings/payments/intuit.php:43
+#: admin/template/settings/payments/intuit.php:50
+msgid "Click to Connect"
+msgstr "Klicken Sie, um eine Verbindung herzustellen"
+
+#: admin/template/settings/payments/intuit.php:54
+msgid "Please enter credentials to begin setup"
+msgstr ""
+"Bitte geben Sie Ihre Anmeldeinformationen ein, um mit der Einrichtung zu "
+"beginnen"
+
+#: admin/template/settings/payments/intuit.php:59
+msgid "Failed to connect to your Intuit account."
+msgstr "Verbindung zu Ihrem Intuit-Konto fehlgeschlagen."
+
+#: admin/template/settings/payments/intuit.php:64
+msgid "You are now connected"
+msgstr "Sie sind jetzt verbunden"
+
+#: admin/template/settings/payments/intuit.php:68
+msgid "You must refresh this page to continue setup"
+msgstr "Sie müssen diese Seite aktualisieren, um die Einrichtung fortzusetzen"
+
+#: admin/template/settings/payments/intuit.php:69
+msgid "Connection Method"
+msgstr "Verbindungsmethode"
+
+#: admin/template/settings/payments/intuit.php:71
+msgid "WP EasyCart App"
+msgstr "WP EasyCart App"
+
+#: admin/template/settings/payments/intuit.php:72
+msgid "oAuth 1.0 (old method)"
+msgstr "oAuth 1.0 (alte Methode)"
+
+#: admin/template/settings/payments/intuit.php:73
+msgid "oAuth 2.0 (new method)"
+msgstr "oAuth 2.0 (neue Methode)"
+
+#: admin/template/settings/payments/intuit.php:77
+msgid "App Token"
+msgstr "App-Token"
+
+#: admin/template/settings/payments/intuit.php:81
+msgid "OAuth Consumer Key"
+msgstr "OAuth Consumer Key"
+
+#: admin/template/settings/payments/intuit.php:85
+msgid "OAuth Consumer Secret"
+msgstr "OAuth Consumer Secret"
+
+#: admin/template/settings/payments/intuit.php:89
+msgid "Client ID"
+msgstr "Client ID"
+
+#: admin/template/settings/payments/intuit.php:93
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: admin/template/settings/payments/intuit.php:305
+msgid "Redirect URI (add to Intuit keys page)"
+msgstr "URI umleiten (zur Seite mit den Intuit-Schlüsseln hinzufügen)"
+
+#: admin/template/settings/payments/live-gateway.php:9
+#: admin/template/settings/payments/third-party.php:7
+msgid "Other"
+msgstr "Andere"
+
+#: admin/template/settings/payments/live-gateway.php:12
+msgid ""
+"There are 25 other options to choose from to accept credit cards on your "
+"site. Use this box to select another gateway, keep in mind you can only use "
+"this in place of Stripe or Square and can choose PayPal or another third "
+"party gateway with this feature."
+msgstr ""
+"Es stehen 25 weitere Optionen zur Auswahl, um Kreditkarten auf Ihrer Website "
+"zu akzeptieren. Verwenden Sie dieses Feld, um ein anderes Gateway "
+"auszuwählen. Beachten Sie, dass Sie dieses nur anstelle von Stripe oder "
+"Square verwenden können und PayPal oder ein anderes Gateway eines "
+"Drittanbieters mit dieser Funktion auswählen können."
+
+#: admin/template/settings/payments/live-gateway.php:16
+msgid "No Live Payment Processor"
+msgstr "Kein Live-Zahlungsprozessor"
+
+#: admin/template/settings/payments/migs.php:2
+msgid "Setup MasterCard Internet Gateway Service (MIGS)"
+msgstr "Richten Sie den MasterCard Internet Gateway Service (MIGS) ein."
+
+#: admin/template/settings/payments/migs.php:4
+msgid "Secure Secret(Signature)"
+msgstr "Sicheres Geheimnis (Unterschrift)"
+
+#: admin/template/settings/payments/migs.php:8
+#: admin/template/settings/payments/payfort.php:8
+msgid "Access Code"
+msgstr "Zugriffscode"
+
+#: admin/template/settings/payments/moneris_ca.php:2
+msgid "Setup Moneris Canada"
+msgstr "Richten Sie Moneris Canada ein"
+
+#: admin/template/settings/payments/moneris_ca.php:4
+#: admin/template/settings/payments/moneris_us.php:4
+msgid "Store ID"
+msgstr "Geschäfts-ID"
+
+#: admin/template/settings/payments/moneris_ca.php:8
+#: admin/template/settings/payments/moneris_us.php:8
+msgid "API Token"
+msgstr "API-Token"
+
+#: admin/template/settings/payments/moneris_us.php:2
+msgid "Setup Moneris USA"
+msgstr "Richten Sie Moneris USA ein"
+
+#: admin/template/settings/payments/nets.php:2
+msgid "Setup Nets Netaxept"
+msgstr "Netze einrichten Netaxept"
+
+#: admin/template/settings/payments/nets.php:8
+msgid "Shared Secret(Token)"
+msgstr "Geteiltes Geheimnis (Token)"
+
+#: admin/template/settings/payments/nmi.php:2
+msgid "Network Merchants (NMI)"
+msgstr "Netzwerkhändler (NMI)"
+
+#: admin/template/settings/payments/nmi.php:4
+msgid "Processing Method"
+msgstr "Verarbeitungsmethode"
+
+#: admin/template/settings/payments/nmi.php:6
+msgid "Use Standard Direct Post"
+msgstr "Verwenden Sie Standard Direct Post"
+
+#: admin/template/settings/payments/nmi.php:7
+msgid "Use Cardinal Centinel with NMI"
+msgstr "Verwenden Sie Cardinal Centinel mit NMI"
+
+#: admin/template/settings/payments/nmi.php:11
+msgid "NMI API Key"
+msgstr "API-Schlüssel"
+
+#: admin/template/settings/payments/nmi.php:15
+msgid "NMI Username"
+msgstr "Benutzername"
+
+#: admin/template/settings/payments/nmi.php:19
+msgid "NMI Password"
+msgstr "Passwort"
+
+#: admin/template/settings/payments/nmi.php:23
+msgid "Your Shipping Postal"
+msgstr "Ihre Versandpost"
+
+#: admin/template/settings/payments/nmi.php:27
+msgid "NMI Currency"
+msgstr "Währung"
+
+#: admin/template/settings/payments/nmi.php:36
+msgid "NMI Processor ID (Optional)"
+msgstr "NMI-Prozessor-ID (optional)"
+
+#: admin/template/settings/payments/nmi.php:40
+msgid "Summary Commodity Code"
+msgstr "Zusammenfassung Commodity Code"
+
+#: admin/template/settings/payments/nmi.php:44
+msgid "Cardinal Processor ID"
+msgstr "Kardinalprozessor-ID"
+
+#: admin/template/settings/payments/nmi.php:48
+msgid "Cardinal Merchant ID"
+msgstr "Kardinal Händler ID"
+
+#: admin/template/settings/payments/nmi.php:52
+msgid "Cardinal Password"
+msgstr "Kardinal Passwort"
+
+#: admin/template/settings/payments/nmi.php:56
+msgid "Cardinal Currency"
+msgstr "Kardinalwährung"
+
+#: admin/template/settings/payments/nmi.php:65
+msgid "Cardinal Test Mode"
+msgstr "Kardinal-Testmodus"
+
+#: admin/template/settings/payments/nmi.php:67
+msgid "No, Live Mode"
+msgstr "Live-Modus"
+
+#: admin/template/settings/payments/nmi.php:68
+msgid "Yes, Test Mode"
+msgstr "Ja, Testmodus"
+
+#: admin/template/settings/payments/payfast_thirdparty.php:2
+msgid "Setup PayFast"
+msgstr "Richten Sie PayFast ein"
+
+#: admin/template/settings/payments/payfast_thirdparty.php:8
+msgid "Merchant Key"
+msgstr "Händlerschlüssel"
+
+#: admin/template/settings/payments/payfast_thirdparty.php:12
+msgid "Passphrase (optional)"
+msgstr "Passphrase (optional)"
+
+#: admin/template/settings/payments/payfast_thirdparty.php:18
+msgid "Yes (Sandbox Mode)"
+msgstr "Ja (Sandbox-Modus)"
+
+#: admin/template/settings/payments/payfast_thirdparty.php:19
+msgid "No (Live Mode)"
+msgstr "Live-Modus"
+
+#: admin/template/settings/payments/payfort.php:2
+msgid "Setup Payfort"
+msgstr "Payfort einrichten"
+
+#: admin/template/settings/payments/payfort.php:4
+msgid "Merchant Identifier"
+msgstr "Händler-ID"
+
+#: admin/template/settings/payments/payfort.php:12
+msgid "Encryption Type"
+msgstr "Verschlüsselung"
+
+#: admin/template/settings/payments/payfort.php:20
+msgid "SHA Request Phrase"
+msgstr "SHA-Anforderungsphrase"
+
+#: admin/template/settings/payments/payfort.php:24
+msgid "SHA Response Phrase"
+msgstr "SHA-Antwortsatz"
+
+#: admin/template/settings/payments/payfort.php:30
+msgid "English"
+msgstr "Englisch"
+
+#: admin/template/settings/payments/payfort.php:31
+msgid "Arabic"
+msgstr "Arabisch"
+
+#: admin/template/settings/payments/payfort.php:35
+msgid "Currency Code(e.g. USD)"
+msgstr "Währungscode (zB USD)"
+
+#: admin/template/settings/payments/payfort.php:42
+#: admin/template/settings/payments/redsys.php:28
+msgid "Production Mode"
+msgstr "Produktivmodus"
+
+#: admin/template/settings/payments/payline.php:2
+msgid "Payline"
+msgstr "Gewinnlinie"
+
+#: admin/template/settings/payments/payline.php:4
+msgid "Username"
+msgstr "Benutzername"
+
+#: admin/template/settings/payments/payline.php:8
+#: admin/template/settings/payments/paymentexpress.php:8
+#: admin/template/settings/payments/paypal_payments_pro.php:8
+#: admin/template/settings/payments/paypal_pro.php:16
+#: admin/template/settings/payments/securepay.php:8
+msgid "Password"
+msgstr "Neues Passwort"
+
+#: admin/template/settings/payments/paymentexpress.php:2
+msgid "Setup Payment Express PxPost"
+msgstr "Richten Sie Payment Express PxPost ein"
+
+#: admin/template/settings/payments/paymentexpress.php:4
+#: admin/template/settings/payments/paymentexpress_thirdparty.php:4
+#: admin/template/settings/payments/paypal_pro.php:8
+msgid "User Name"
+msgstr "Benutzername"
+
+#: admin/template/settings/payments/paymentexpress_thirdparty.php:2
+msgid "Setup Payment Express PxPay 2.0"
+msgstr "Einrichten von Payment Express PxPay 2.0"
+
+#: admin/template/settings/payments/paypal.php:4
+msgid "PayPal"
+msgstr "PayPal"
+
+#: admin/template/settings/payments/paypal.php:6
+msgid ""
+"PayPal gives your customers a payment method that most are comfortable using "
+"and does not require an SSL Certificate."
+msgstr ""
+"PayPal bietet Ihren Kunden eine Zahlungsmethode, die am bequemsten zu "
+"bedienen ist und für die kein SSL-Zertifikat erforderlich ist."
+
+#: admin/template/settings/payments/paypal.php:8
+#: admin/template/settings/payments/paypal.php:10
+msgid "Switch Accounts"
+msgstr "Konten wechseln"
+
+#: admin/template/settings/payments/paypal.php:12
+#: admin/template/settings/payments/square.php:11
+msgid "Advanced Options"
+msgstr "Erweiterte Optionen"
+
+#: admin/template/settings/payments/paypal.php:19
+#: admin/template/settings/payments/square.php:17
+#: admin/template/settings/payments/stripe_connect.php:266
+msgid "Enable Live"
+msgstr "Live Chat aktivieren"
+
+#: admin/template/settings/payments/paypal.php:33
+#: admin/template/settings/payments/square.php:34
+#: admin/template/settings/payments/stripe_connect.php:280
+msgid "Enable Sandbox"
+msgstr "Aktivierung der Sandbox"
+
+#: admin/template/settings/payments/paypal.php:50
+msgid "Default Currency"
+msgstr "Standardwährung"
+
+#: admin/template/settings/payments/paypal.php:78
+msgid "Use Selection from Currency Widget on Checkout"
+msgstr "Verwenden Sie die Auswahl aus dem Währungs-Widget an der Kasse"
+
+#: admin/template/settings/payments/paypal.php:84
+msgid "Language Code"
+msgstr "Sprache Code"
+
+#: admin/template/settings/payments/paypal.php:118
+msgid "Character Set (UTF-8 for Most)"
+msgstr "Zeichensatz (UTF-8 für die meisten)"
+
+#: admin/template/settings/payments/paypal.php:177
+msgid "Weight Unit"
+msgstr "Gewichtseinheit"
+
+#: admin/template/settings/payments/paypal.php:184
+msgid "Advertise PayPal Credit"
+msgstr "Werben Sie für Paypal-Guthaben"
+
+#: admin/template/settings/payments/paypal.php:190
+msgid "Button Color"
+msgstr "Button Farbe"
+
+#: admin/template/settings/payments/paypal.php:192
+msgid "Gold (Recommended)"
+msgstr "Gold (empfohlen)"
+
+#: admin/template/settings/payments/paypal.php:193
+msgid "Blue"
+msgstr "Blau"
+
+#: admin/template/settings/payments/paypal.php:194
+msgid "Silver"
+msgstr "Silber"
+
+#: admin/template/settings/payments/paypal.php:195
+msgid "Black"
+msgstr "Schwarz"
+
+#: admin/template/settings/payments/paypal.php:198
+msgid "Button Shape"
+msgstr "Button Form"
+
+#: admin/template/settings/payments/paypal.php:200
+msgid "Pill (Recommended)"
+msgstr "Pille (empfohlen)"
+
+#: admin/template/settings/payments/paypal.php:201
+msgid "Rectangular"
+msgstr "Rechteckig"
+
+#: admin/template/settings/payments/paypal.php:204
+msgid "Allow Cart Page 1 Checkout"
+msgstr "Warenkorb zulassen Page 1 Kasse"
+
+#: admin/template/settings/payments/paypal.php:206
+msgid "Yes (Recommended)"
+msgstr "Ja (Empfohlen)"
+
+#: admin/template/settings/payments/paypal_payments_pro.php:2
+msgid "Setup Paypal Payments Pro"
+msgstr "Einrichten von Paypal Payments Pro"
+
+#: admin/template/settings/payments/paypal_payments_pro.php:4
+msgid "User"
+msgstr "Benutzer"
+
+#: admin/template/settings/payments/paypal_payments_pro.php:12
+msgid "Signature"
+msgstr "Unterschrift"
+
+#: admin/template/settings/payments/paypal_payments_pro.php:39
+#: admin/template/settings/payments/paypal_pro.php:51
+msgid "Yes, Use Sandbox Mode"
+msgstr "Ja, verwenden Sie den Sandbox-Modus"
+
+#: admin/template/settings/payments/paypal_pro.php:2
+msgid "Setup PayPal Payflow Pro"
+msgstr "Richten Sie PayPal Payflow Pro ein"
+
+#: admin/template/settings/payments/paypal_pro.php:4
+msgid "Partner"
+msgstr "Partner"
+
+#: admin/template/settings/payments/paypal_pro.php:12
+#: admin/template/settings/payments/sagepay.php:5
+msgid "Vendor"
+msgstr "Verkäufer"
+
+#: admin/template/settings/payments/paypoint.php:2
+msgid "Setup Paypoint"
+msgstr "Paypoint einrichten"
+
+#: admin/template/settings/payments/paypoint.php:8
+msgid "VPN Password"
+msgstr "Passwort"
+
+#: admin/template/settings/payments/paypoint.php:14
+msgid "Yes, Use Test Mode"
+msgstr "Ja, Testmodus verwenden"
+
+#: admin/template/settings/payments/realex.php:2
+msgid "Setup RealEx"
+msgstr "Richten Sie RealEx ein"
+
+#: admin/template/settings/payments/realex.php:31
+msgid "3D Secure"
+msgstr "3D Secure"
+
+#: admin/template/settings/payments/realex.php:33
+msgid "Yes, All 3D Secure"
+msgstr "Ja, alles 3D sicher"
+
+#: admin/template/settings/payments/realex.php:34
+msgid "Yes, But Only When Liability Shifts to Merchant"
+msgstr "Ja, aber nur, wenn die Haftung auf den Händler übergeht"
+
+#: admin/template/settings/payments/realex_thirdparty.php:2
+#: admin/template/settings/payments/redsys.php:2
+msgid "Setup Realex"
+msgstr "Realex einrichten"
+
+#: admin/template/settings/payments/realex_thirdparty.php:12
+msgid "Account"
+msgstr "Konto"
+
+#: admin/template/settings/payments/realex_thirdparty.php:35
+#: admin/template/settings/payments/stripe.php:258
+#: admin/template/settings/payments/stripe_connect.php:298
+msgid "To Do"
+msgstr "Zu erledigen"
+
+#: admin/template/settings/payments/realex_thirdparty.php:35
+msgid ""
+"You must submit the following URLs to Realex before the redirect method can "
+"work completely. You should also add information to your account for your "
+"customers to see on the payment page, successful payment page, and the "
+"failed payment page."
+msgstr ""
+"Sie müssen die folgenden URLs an Realex senden, bevor die Umleitungsmethode "
+"vollständig funktionieren kann. Sie sollten Ihrem Konto auch Informationen "
+"hinzufügen, die Ihre Kunden auf der Zahlungsseite, der Seite für "
+"erfolgreiche Zahlungen und der Seite für fehlgeschlagene Zahlungen anzeigen "
+"können."
+
+#: admin/template/settings/payments/realex_thirdparty.php:37
+msgid "Realex Referring URL"
+msgstr "Realex Verweisende URL"
+
+#: admin/template/settings/payments/redsys.php:4
+msgid "Merchant Code"
+msgstr "Händlercode"
+
+#: admin/template/settings/payments/redsys.php:8
+msgid "Terminal"
+msgstr "Terminal"
+
+#: admin/template/settings/payments/sagepay.php:2
+msgid "Setup SagePay"
+msgstr "Richten Sie SagePay ein"
+
+#: admin/template/settings/payments/sagepay.php:3
+msgid ""
+"3D Secure can be enabled in your Sagepay account. Once enabled, if the "
+"customer uses Visa or MasterCard AND their bank uses the Verified by Visa or "
+"MasterCard SecureCode systems, the customer will be redirected to their bank "
+"to complete the verification process. If this part fails, order will still "
+"be visible in their account and in your EasyCart Admin Console, but will say "
+"\"Card Denied\". If this happens you will need to follow up with your "
+"customer to process their payment again."
+msgstr ""
+"3D Secure kann in Ihrem Sagepay-Konto aktiviert werden. Wenn der Kunde nach "
+"der Aktivierung Visa oder MasterCard verwendet UND seine Bank die SecureCode-"
+"Systeme Verified by Visa oder MasterCard verwendet, wird der Kunde zu seiner "
+"Bank weitergeleitet, um den Überprüfungsprozess abzuschließen. Wenn dieser "
+"Teil fehlschlägt, wird die Bestellung weiterhin in ihrem Konto und in Ihrer "
+"EasyCart-Verwaltungskonsole angezeigt, es wird jedoch \"Karte verweigert\" "
+"angezeigt. In diesem Fall müssen Sie sich mit Ihrem Kunden in Verbindung "
+"setzen, um die Zahlung erneut zu verarbeiten."
+
+#: admin/template/settings/payments/sagepay.php:30
+msgid "Simulator Only"
+msgstr "Simulator"
+
+#: admin/template/settings/payments/sagepay_paynow_za.php:2
+msgid "Setup SagePay Pay Now South Africa"
+msgstr "Richten Sie SagePay Pay Now in Südafrika ein"
+
+#: admin/template/settings/payments/sagepay_paynow_za.php:4
+msgid "Service Key"
+msgstr "Service Key"
+
+#: admin/template/settings/payments/sagepayus.php:2
+msgid "Setup Paya (Previously Sagepay U.S.)"
+msgstr "Paya einrichten (früher Sagepay US)"
+
+#: admin/template/settings/payments/sagepayus.php:8
+msgid "User Key"
+msgstr "User Key"
+
+#: admin/template/settings/payments/sagepayus.php:12
+msgid "Application ID"
+msgstr "Application ID"
+
+#: admin/template/settings/payments/securenet.php:2
+msgid "Setup WorldPay"
+msgstr "Richten Sie WorldPay ein"
+
+#: admin/template/settings/payments/securenet.php:4
+msgid "SecureNet ID"
+msgstr "SecureNet ID"
+
+#: admin/template/settings/payments/securenet.php:8
+msgid "Secure Key"
+msgstr "Secure Key"
+
+#: admin/template/settings/payments/securepay.php:2
+msgid "Setup SecurePay"
+msgstr "Richten Sie SecurePay ein"
+
+#: admin/template/settings/payments/skrill.php:2
+msgid "Setup Skrill"
+msgstr "Richten Sie Skrill ein"
+
+#: admin/template/settings/payments/skrill.php:4
+msgid "Merchant ID(Customer ID)"
+msgstr "Händler-ID (Kunden-ID)"
+
+#: admin/template/settings/payments/square.php:4
+msgid "Square"
+msgstr "Quadrat"
+
+#: admin/template/settings/payments/square.php:6
+msgid ""
+"Square offers the ability to pay with a credit card directly on your "
+"website. Adding Square gives your shopping cart a more professional look and "
+"increases conversions."
+msgstr ""
+"Square bietet die Möglichkeit, mit einer Kreditkarte direkt auf Ihrer "
+"Website zu bezahlen. Das Hinzufügen von Square verleiht Ihrem Einkaufswagen "
+"ein professionelleres Aussehen und erhöht die Conversions."
+
+#: admin/template/settings/payments/square.php:8
+msgid "Import Products From SquareUp"
+msgstr "Importieren Sie Produkte von SquareUp"
+
+#: admin/template/settings/payments/square.php:10
+msgid "Renew Access"
+msgstr "Zugriff erneuern"
+
+#: admin/template/settings/payments/square.php:57
+msgid "Store Location"
+msgstr "Shopstandort"
+
+#: admin/template/settings/payments/square.php:59
+msgid "Use Default Location (or select one here)"
+msgstr "Standardspeicherort verwenden (oder hier auswählen)"
+
+#: admin/template/settings/payments/square.php:65
+msgid "Could not get your Square Locations"
+msgstr "Konnte Ihre Square Locations nicht bekommen"
+
+#: admin/template/settings/payments/square.php:69
+msgid "Digital Wallets"
+msgstr "Digitale Geldbörsen"
+
+#: admin/template/settings/payments/square.php:71
+#: admin/template/settings/shipping/australia-post-options.php:29
+#: admin/template/settings/shipping/canada-post-options.php:37
+#: admin/template/settings/shipping/dhl-options.php:64
+#: admin/template/settings/shipping/fedex-options.php:64
+#: admin/template/settings/shipping/ups-options.php:68
+#: admin/template/settings/shipping/usps-options.php:29
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: admin/template/settings/payments/square.php:72
+msgid "Enable Apple / Google / Microsoft Pay"
+msgstr "Aktivieren Sie Apple / Google / Microsoft Pay"
+
+#: admin/template/settings/payments/square.php:75
+msgid "Merchant Name (Shown in Digital Wallet Payments)"
+msgstr "Händlername (angezeigt in Digital Wallet Payments)"
+
+#: admin/template/settings/payments/square.php:76
+msgid "Your Company Name"
+msgstr "Ihr Firmenname"
+
+#: admin/template/settings/payments/stripe.php:2
+msgid "Setup Stripe"
+msgstr "Setup-Streifen"
+
+#: admin/template/settings/payments/stripe.php:4
+msgid "Publishable API Key"
+msgstr "Publizierbarer API Schlüssel"
+
+#: admin/template/settings/payments/stripe.php:8
+msgid "Secret API Key"
+msgstr "Geheimer API Schlüssel"
+
+#: admin/template/settings/payments/stripe.php:209
+#: admin/template/settings/payments/stripe_connect.php:216
+msgid "Business Country"
+msgstr "Land"
+
+#: admin/template/settings/payments/stripe.php:240
+#: admin/template/settings/payments/stripe_connect.php:247
+msgid "Enable Apple/Google/Microsoft Pay"
+msgstr "Aktivieren Sie Apple / Google / Microsoft Pay"
+
+#: admin/template/settings/payments/stripe.php:242
+msgid "Yes Enable"
+msgstr "Aktivieren"
+
+#: admin/template/settings/payments/stripe.php:243
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: admin/template/settings/payments/stripe.php:247
+#: admin/template/settings/payments/stripe_connect.php:254
+msgid "Enable iDEAL (the most popular payment method in the Netherlands)"
+msgstr ""
+"Aktivieren Sie iDEAL (die beliebteste Zahlungsmethode in den Niederlanden)."
+
+#: admin/template/settings/payments/stripe.php:249
+#: admin/template/settings/payments/stripe_connect.php:256
+msgid "Enable iDEAL"
+msgstr "iDEAL aktivieren"
+
+#: admin/template/settings/payments/stripe.php:250
+#: admin/template/settings/payments/stripe_connect.php:257
+msgid "Disable iDEAL"
+msgstr "Deaktivieren Sie iDEAL"
+
+#: admin/template/settings/payments/stripe.php:254
+msgid "Create Customer on Order"
+msgstr "Create Customer on Order"
+
+#: admin/template/settings/payments/stripe.php:259
+#: admin/template/settings/payments/stripe_connect.php:298
+msgid "You must add the Webhook URL to your Stripe account for best results."
+msgstr ""
+"Sie müssen die Webhook-URL zu Ihrem Stripe-Konto hinzufügen, um die besten "
+"Ergebnisse zu erzielen."
+
+#: admin/template/settings/payments/stripe.php:260
+#: admin/template/settings/payments/stripe_connect.php:298
+msgid "Click Here to Learn More"
+msgstr "Hier klicken, um mehr zu erfahren"
+
+#: admin/template/settings/payments/stripe.php:262
+msgid "Stripe Webhook URL"
+msgstr "Stripe Webhook URL"
+
+#: admin/template/settings/payments/stripe_connect.php:4
+msgid "Stripe"
+msgstr "Stripe"
+
+#: admin/template/settings/payments/stripe_connect.php:7
+msgid ""
+"Stripe offers the ability to pay with a credit card directly on your "
+"website. Adding Stripe gives your shopping cart a more professional look and "
+"increases conversions."
+msgstr ""
+"Stripe bietet die Möglichkeit, direkt auf Ihrer Website mit einer "
+"Kreditkarte zu bezahlen. Das Hinzufügen von Stripe verleiht Ihrem Warenkorb "
+"ein professionelleres Aussehen und erhöht die Conversions."
+
+#: admin/template/settings/payments/stripe_connect.php:10
+msgid "Switch Production Account"
+msgstr "Produktionskonto wechseln"
+
+#: admin/template/settings/payments/stripe_connect.php:14
+msgid "Switch Sandbox Account"
+msgstr "Sandbox-Konto wechseln"
+
+#: admin/template/settings/payments/stripe_connect.php:296
+msgid "Copy Webhook to Clipboard"
+msgstr "Kopieren Sie den Webhook in die Zwischenablage"
+
+#: admin/template/settings/payments/stripe_connect.php:297
+msgid "Webhook URL has been copied to your clipboard!"
+msgstr "Die Webhook-URL wurde in Ihre Zwischenablage kopiert!"
+
+#: admin/template/settings/payments/third-party.php:11
+msgid ""
+"There are 10 other third party gateways to accept credit cards on an "
+"external site. These types of payments jump your customers out to the "
+"payment provider to complete their payment and can be used in place of "
+"PayPal."
+msgstr ""
+"Es gibt 10 andere Gateways von Drittanbietern, um Kreditkarten auf einer "
+"externen Site zu akzeptieren. Diese Zahlungsarten leiten Ihre Kunden zum "
+"Zahlungsanbieter, um ihre Zahlung abzuschließen, und können anstelle von "
+"PayPal verwendet werden."
+
+#: admin/template/settings/payments/third-party.php:15
+msgid "No Third Party Processor"
+msgstr "Dritt-Abwickler"
+
+#: admin/template/settings/payments/virtualmerchant.php:2
+msgid "Setup Virtual Merchant"
+msgstr "Virtuellen Händler einrichten"
+
+#: admin/template/settings/payments/virtualmerchant.php:12
+msgid "PIN"
+msgstr "PIN"
+
+#: admin/template/settings/payments/virtualmerchant.php:16
+msgid "Demo Account"
+msgstr "Demo-Konto"
+
+#: admin/template/settings/shipping/australia-post-options.php:5
+msgid "Australia Post Setup"
+msgstr "Australia Post Setup"
+
+#: admin/template/settings/shipping/australia-post-options.php:22
+#: admin/template/settings/shipping/canada-post-options.php:30
+#: admin/template/settings/shipping/dhl-options.php:57
+#: admin/template/settings/shipping/fedex-options.php:57
+#: admin/template/settings/shipping/ups-options.php:61
+#: admin/template/settings/shipping/usps-options.php:22
+#: admin/template/settings/taxes/tax-cloud-setup.php:39
+msgid ""
+"Pro feature missing. Please update your WP EasyCart Plugin to fix this issue."
+msgstr ""
+"Pro-Funktion fehlt. Bitte aktualisieren Sie Ihr WP EasyCart Plugin, um "
+"dieses Problem zu beheben."
+
+#: admin/template/settings/shipping/australia-post-options.php:27
+#: admin/template/settings/shipping/canada-post-options.php:35
+#: admin/template/settings/shipping/dhl-options.php:62
+#: admin/template/settings/shipping/fedex-options.php:62
+#: admin/template/settings/shipping/ups-options.php:66
+#: admin/template/settings/shipping/usps-options.php:27
+msgid "Connected"
+msgstr "Verbunden"
+
+#: admin/template/settings/shipping/australia-post-options.php:28
+#: admin/template/settings/shipping/canada-post-options.php:36
+#: admin/template/settings/shipping/dhl-options.php:63
+#: admin/template/settings/shipping/fedex-options.php:63
+#: admin/template/settings/shipping/ups-options.php:67
+#: admin/template/settings/shipping/usps-options.php:28
+msgid "Error"
+msgstr "Fehler"
+
+#: admin/template/settings/shipping/canada-post-options.php:5
+msgid "Canada Post Setup"
+msgstr "Canada Post Setup"
+
+#: admin/template/settings/shipping/dhl-options.php:6
+#: admin/template/settings/shipping/dhl-options.php:14
+#: admin/template/settings/shipping/fedex-options.php:6
+#: admin/template/settings/shipping/ups-options.php:6
+#: admin/template/settings/shipping/ups-options.php:14
+msgid "Select One"
+msgstr "Eine auswählen"
+
+#: admin/template/settings/shipping/dhl-options.php:30
+msgid "DHL Setup"
+msgstr "Einrichtung"
+
+#: admin/template/settings/shipping/fedex-options.php:26
+msgid "FedEx Setup"
+msgstr "FedEx-Setup"
+
+#: admin/template/settings/shipping/live-rates.php:15
+msgid "UPS CONNECTED"
+msgstr "Connected"
+
+#: admin/template/settings/shipping/live-rates.php:17
+msgid "UPS NOT SETUP"
+msgstr "USV NICHT EINRICHTEN"
+
+#: admin/template/settings/shipping/live-rates.php:24
+msgid "USPS CONNECTED"
+msgstr "USPS VERBUNDEN"
+
+#: admin/template/settings/shipping/live-rates.php:26
+msgid "USPS NOT SETUP"
+msgstr "USPS NICHT SETUP"
+
+#: admin/template/settings/shipping/live-rates.php:33
+msgid "FEDEX CONNECTED"
+msgstr "FEDEX VERBUNDEN"
+
+#: admin/template/settings/shipping/live-rates.php:35
+msgid "FEDEX NOT SETUP"
+msgstr "FEDEX NICHT SETUP"
+
+#: admin/template/settings/shipping/live-rates.php:42
+msgid "DHL CONNECTED"
+msgstr "DHL VERBUNDEN"
+
+#: admin/template/settings/shipping/live-rates.php:44
+msgid "DHL NOT SETUP"
+msgstr "DHL NICHT SETUP"
+
+#: admin/template/settings/shipping/live-rates.php:51
+msgid "AUS POST CONNECTED"
+msgstr "AUS POST VERBUNDEN"
+
+#: admin/template/settings/shipping/live-rates.php:53
+msgid "AUS POST NOT SETUP"
+msgstr "AUS POST NICHT SETUP"
+
+#: admin/template/settings/shipping/live-rates.php:60
+msgid "CA POST CONNECTED"
+msgstr "CA POST VERBUNDEN"
+
+#: admin/template/settings/shipping/live-rates.php:62
+msgid "CA POST NOT SETUP"
+msgstr "CA POST NICHT EINRICHTEN"
+
+#: admin/template/settings/shipping/live-rates.php:67
+msgid "Add Live Shipping Rate"
+msgstr "Versandart hinzufügen"
+
+#: admin/template/settings/shipping/live-rates.php:70
+msgid "Shipping Type"
+msgstr "Versandart"
+
+#: admin/template/settings/shipping/live-rates.php:72
+#: admin/template/settings/shipping/live-rates.php:141
+msgid "Select a Shipping Type"
+msgstr "Wähle Versandart"
+
+#: admin/template/settings/shipping/live-rates.php:83
+#: admin/template/settings/shipping/live-rates.php:150
+msgid "Select a Shipping Method"
+msgstr "Lieferart auswählen"
+
+#: admin/template/settings/shipping/live-rates.php:92
+msgid "Shipping Label"
+msgstr "Versand Etikett"
+
+#: admin/template/settings/shipping/live-rates.php:96
+#: admin/template/settings/shipping/live-rates.php:159
+msgid "Override Price"
+msgstr "Preis überschreiben"
+
+#: admin/template/settings/shipping/live-rates.php:100
+#: admin/template/settings/shipping/live-rates.php:163
+msgid "Free Shipping Threshold"
+msgstr "Schwellenwert für kostenlosen Versand"
+
+#: admin/template/settings/shipping/live-rates.php:104
+msgid "Shipping Zone"
+msgstr "Versandzonen"
+
+#: admin/template/settings/shipping/live-rates.php:106
+#: admin/template/settings/shipping/live-rates.php:168
+msgid "No Zone"
+msgstr "Keine Zone"
+
+#: admin/template/settings/shipping/live-rates.php:123
+msgid "Your Live Rates"
+msgstr "Live-Tarife"
+
+#: admin/template/settings/shipping/live-rates.php:136
+msgid "Shipping Method Label"
+msgstr "Versandart Etikett"
+
+#: admin/template/settings/shipping/live-rates.php:179
+msgid "No Live Rates Entered"
+msgstr "Keine Live-Preise eingegeben"
+
+#: admin/template/settings/shipping/live-rates.php:184
+msgid "Save Triggers"
+msgstr "Auslöser"
+
+#: admin/template/settings/shipping/ups-options.php:30
+msgid "UPS Setup"
+msgstr "Einrichtung"
+
+#: admin/template/settings/shipping/usps-options.php:5
+msgid "USPS Setup"
+msgstr "USPS-Setup"
+
+#: admin/template/settings/taxes/tax-cloud-setup.php:14
+msgid "Tax Cloud for USA"
+msgstr "Tax Cloud für USA"
+
+#: admin/template/settings/third-party/facebook.php:5
+msgid "Facebook Pixel Setup"
+msgstr "Facebook Pixel Setup"
+
+#: admin/template/settings/third-party/facebook.php:13
+msgid "Facebook Pixel ID"
+msgstr "Facebook-Pixel ID"
+
+#: admin/template/settings/third-party/facebook.php:17
+msgid "Save Setup"
+msgstr "Speichere Setup"
+
+#: wp-easycart-admin-pro.php:142
+msgid "YOUR WP EASYCART TRIAL IS OVER!"
+msgstr "IHR WP EASYCART-TEST IST ÜBER!"
+
+#: wp-easycart-admin-pro.php:145
+msgid "CLICK TO UPGRADE"
+msgstr "Klicken zum Upgrade"
+
+#: wp-easycart-admin-pro.php:158
+#, php-format
+msgid ""
+"YOUR WP EASYCART LICENSE IS EXPIRED! Please renew today to continue using "
+"your %s license."
+msgstr ""
+"Ihre WP EASYCART-LIZENZ ist abgelaufen! Bitte verlängern Sie noch heute, um "
+"Ihre %s -Lizenz weiter zu verwenden."
+
+#: wp-easycart-admin-pro.php:165
+msgid "CLICK TO RENEW NOW"
+msgstr "Zum Erneuern klicken"
+
+#: wp-easycart-admin-pro.php:198
+#, php-format
+msgid ""
+"Updates are disabled because your license no longer supports updates. Please "
+"%sclick here%s to go to your account and upgrade your license."
+msgstr ""
+"Updates sind deaktiviert, da Ihre Lizenz keine Updates mehr unterstützt. "
+"Bitte %s klicken Sie hier %s, um zu Ihrem Konto zu gelangen und Ihre Lizenz "
+"zu aktualisieren."
+
+#: wp-easycart-admin-pro.php:200
+#, php-format
+msgid ""
+"No license was found. If you have already purchased a license register it by "
+"%s clicking here %s. If you are in need of a license, %s purchase one here "
+"%s."
+msgstr ""
+"Es wurde keine Lizenz gefunden. Wenn Sie bereits eine Lizenz gekauft haben, "
+"registrieren Sie diese, indem Sie %s hier %s klicken. Wenn Sie eine Lizenz "
+"benötigen, %s kaufen Sie hier eine %s."
+
+#: wp-easycart-admin-pro.php:204
+#, php-format
+msgid ""
+"Updates are disabled because your license has expired. Please %sclick here "
+"to renew your license%s and continue receiving updates."
+msgstr ""
+"Updates sind deaktiviert, da Ihre Lizenz abgelaufen ist. Bitte %s klicken "
+"Sie hier, um Ihre Lizenz %s zu erneuern und weiterhin Updates zu erhalten."
+
+#: wp-easycart-admin-pro.php:206
+#, php-format
+msgid ""
+"Updates are disabled because your license has expired. Please %sclick here%s "
+"to go to your account and renew your license."
+msgstr ""
+"Updates sind deaktiviert, da Ihre Lizenz abgelaufen ist. Bitte %s klicken "
+"Sie hier %s, um zu Ihrem Konto zu gelangen und Ihre Lizenz zu erneuern."
+
+#: wp-easycart-admin-pro.php:260
+#, php-format
+msgid "Update Your %s Setup"
+msgstr "Aktualisieren Sie Ihr %s Setup"
+
+#: wp-easycart-admin-pro.php:266
+msgid ""
+"The WP EasyCart Registration system is currently down. We have temporarily "
+"disabled registration checks and you will see this V3 message in the "
+"meantime. Please disregard at this time."
+msgstr ""
+"Das WP EasyCart-Registrierungssystem ist derzeit nicht verfügbar. Wir haben "
+"die Registrierungsprüfungen vorübergehend deaktiviert und Sie werden diese "
+"V3-Nachricht in der Zwischenzeit sehen. Bitte ignorieren Sie dies zu diesem "
+"Zeitpunkt."
+
+#: wp-easycart-admin-pro.php:269
+msgid "Your PRO Trial Has EXPIRED."
+msgstr "Ihre PRO-Testversion ist abgelaufen."
+
+#: wp-easycart-admin-pro.php:274 wp-easycart-admin-pro.php:280
+msgid "Upgrade Now"
+msgstr "Jetzt upgraden"
+
+#: wp-easycart-admin-pro.php:280
+#, php-format
+msgid "Your PRO Trial is Active. Trial Expires on %s"
+msgstr "Ihre PRO-Testversion ist aktiv. Testversion läuft am %s ab"
+
+#: wp-easycart-admin-pro.php:287 wp-easycart-admin-pro.php:292
+msgid "Cheatin&#8217; huh?"
+msgstr "Sie schummeln&#8217; oder?"
+
+#: wp-easycart-admin-pro.php:326
+#, php-format
+msgid ""
+"WP EasyCart PRO requires WP EasyCart Version 4.0.0 or greater. Please "
+"%sclick here to install WP EasyCart%s"
+msgstr ""
+"Für WP EasyCart PRO ist WP EasyCart Version 4.0.0 oder höher erforderlich. "
+"Bitte %s hier klicken, um WP EasyCart %s zu installieren"
+
+#: wp-easycart-admin-pro.php:331
+#, php-format
+msgid ""
+"WP EasyCart PRO requires WP EasyCart Version 4.0.0 or greater. Please "
+"%sclick here to update your WP EasyCart plugin%s"
+msgstr ""
+"Für WP EasyCart PRO ist WP EasyCart Version 4.0.0 oder höher erforderlich. "
+"Bitte %s hier klicken, um dein WP EasyCart Plugin %s zu aktualisieren"
+
+#: wp-easycart-admin-pro.php:343
+#, php-format
+msgid ""
+"Your WP EasyCart trial expired on %s. Please upgrade today to continue using "
+"the WP EasyCart."
+msgstr ""
+"Ihre WP EasyCart-Testversion ist am %s abgelaufen. Bitte aktualisieren Sie "
+"noch heute, um den WP EasyCart weiterhin zu verwenden."
+
+#: wp-easycart-admin-pro.php:345
+msgid "UPGRADE NOW"
+msgstr "JETZT UPGRADEN"
+
+#: wp-easycart-admin-pro.php:347
+#, php-format
+msgid ""
+"Your WP EasyCart license expired on %s. You have been reverted to the FREE "
+"edition and 2%% fees may apply. Please renew today to continue using your %s "
+"license."
+msgstr ""
+"Ihre WP EasyCart-Lizenz ist am %s abgelaufen. Sie wurden auf die KOSTENLOSE "
+"Ausgabe zurückgesetzt und es können 2 %% Gebühren anfallen. Bitte verlängern "
+"Sie noch heute, um Ihre %s -Lizenz weiter zu verwenden."
+
+#: wp-easycart-admin-pro.php:354
+msgid "RENEW NOW"
+msgstr "JETZT ERNEUERN"
+
+#. Plugin Name of the plugin/theme
+msgid "WP EasyCart PRO"
+msgstr "WP EasyCart PRO"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.wpeasycart.com"
+msgstr "http://www.wpeasycart.com"
+
+#. Description of the plugin/theme
+msgid ""
+"This extension to the EasyCart adds all of the PRO features to your WP "
+"EasyCart shopping cart system."
+msgstr ""
+"Diese Erweiterung des EasyCart erweitert Ihr WP EasyCart-Warenkorbsystem um "
+"alle PRO-Funktionen."
+
+#. Author of the plugin/theme
+msgid "WP EasyCart"
+msgstr "WP EasyCart"

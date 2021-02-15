@@ -1,0 +1,71 @@
+# BEGIN LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+<IfModule LiteSpeed>
+RewriteEngine on
+CacheLookup on
+RewriteRule .* - [E=Cache-Control:no-autoflush]
+RewriteRule \.object-cache\.ini - [F,L]
+
+### marker CACHE RESOURCE start ###
+RewriteRule wp-content/.*/[^/]*(responsive|css|js|dynamic|loader|fonts)\.php - [E=cache-control:max-age=3600]
+### marker CACHE RESOURCE end ###
+
+### marker FAVICON start ###
+RewriteRule favicon\.ico$ - [E=cache-control:max-age=86400]
+### marker FAVICON end ###
+
+### marker DROPQS start ###
+CacheKeyModify -qs:fbclid
+CacheKeyModify -qs:gclid
+CacheKeyModify -qs:utm*
+CacheKeyModify -qs:_ga
+### marker DROPQS end ###
+
+</IfModule>
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END LSCACHE
+# BEGIN NON_LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END NON_LSCACHE
+
+# BEGIN s2Member GZIP exclusions
+<IfModule rewrite_module>
+	RewriteEngine On
+	RewriteBase /demo/
+	RewriteCond %{QUERY_STRING} (^|\?|&)s2member_file_download\=.+ [OR]
+	RewriteCond %{QUERY_STRING} (^|\?|&)no-gzip\=1
+	RewriteRule .* - [E=no-gzip:1]
+</IfModule>
+# END s2Member GZIP exclusions
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /demo/
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^pinkone/?$ /demo/wp-login.php [QSA,L]
+RewriteRule ^pinkone/register/?$ /demo/wp-login.php?action=register [QSA,L]
+RewriteRule ^pinkone/lostpassword/?$ /demo/wp-login.php?action=lostpassword [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /demo/index.php [L]
+</IfModule>
+
+# END WordPress
+# Content Protector Pack START
+  
+# Content Protector Pack STOP
+
+# BEGIN LiteSpeed
+# The directives (lines) between "BEGIN LiteSpeed" and "END LiteSpeed" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule Litespeed>
+SetEnv noabort 1
+</IfModule>
+# END LiteSpeed

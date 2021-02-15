@@ -1,0 +1,1763 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Advanced Text Widget PRO v.2.3.0 - Plugin User Manual</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Max Chirkov">
+	<meta name="copyright" content="Max Chirkov">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2019-06-04T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#EEEEEE;color:#383838;}
+		::-moz-selection{background:#333636;color:#00DFFC;}
+		::selection{background:#333636;color:#00DFFC;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.png);}
+		a{color:#008C9E;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #, #);
+			  background-image: -ms-linear-gradient(top, #, #);
+			  background-image: -webkit-gradient(linear, 0 0, 0 %, from(#343838), to(#));
+			  background-image: -webkit-linear-gradient(top, #, #);
+			  background-image: -o-linear-gradient(top, #, #);
+			  background-image: linear-gradient(top, #, #);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#', endColorstr='#', GradientType=0);
+			  border-color: # # #bfbfbf;
+			  color:#;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: # # #bfbfbf;
+		  background-color: #;
+		}
+		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#343838;color:#FFFFFF;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #494F4F;-moz-text-shadow:1px 1px 0px #494F4F;text-shadow:1px 1px 0px #494F4F;}
+		#documenter_sidebar ul{border-top:1px solid #212424;}
+		#documenter_sidebar ul a{border-top:1px solid #494F4F;border-bottom:1px solid #212424;color:#FFFFFF;}
+		#documenter_sidebar ul a:hover{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_sidebar ul a.current{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-advanced-text-widget-pro-v230">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#quick_start_video_guide" title="Quick Start Video Guide">Quick Start Video Guide</a></li>
+			<li><a href="#installation" title="Installation">Installation</a></li>
+			<li><a href="#plugin_options" title="Plugin Options">Plugin Options</a></li>
+			<li><a href="#using_the_widget" title="Using the Widget">Using the Widget</a></li>
+			<li><a href="#widget_visibility_conditions" title="Widget Visibility Conditions">Widget Visibility Conditions</a></li>
+			<li><a href="#changelog" title="Changelog">Changelog</a></li>
+			<li><a href="#source_credits" title="Source & Credits">Source & Credits</a></li>
+			<li><a href="#license" title="License">License</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Max Chirkov 2019<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Advanced Text Widget PRO v.2.3.1</h1>
+	<h2>Plugin User Manual</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 01/01/2012</li>
+	<li>latest update: 06/04/2019</li>
+	<li>by: Max Chirkov</li>
+	<li><a href="http://simplerealtytheme.com/">simplerealtytheme.com/</a></li>
+	<li>email: <a href="mailto:&#101;&#100;&#105;&#116;&#111;&#114;&#64;&#105;&#98;&#115;&#116;&#101;&#97;&#109;&#46;&#110;&#101;&#116;">&#101;&#100;&#105;&#116;&#111;&#114;&#64;&#105;&#98;&#115;&#116;&#101;&#97;&#109;&#46;&#110;&#101;&#116;</a></li>
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="quick_start_video_guide">
+	<div class="page-header"><h3>Quick Start Video Guide</h3><hr class="notop"></div>
+<p>
+	<iframe frameborder="0" height="396" src="http://www.screenr.com/embed/kO3s" width="650"></iframe></p>
+</section>
+<section id="installation">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+<p>
+	After you downloaded the plugin to your hard drive, login into your WordPress Dashboard and navigate to <strong>Plugins =&gt; Add New</strong>.</p>
+<p>
+	Click <strong>Upload</strong> at the very top. Choose the Zip package file and click <strong>Install Now</strong>.</p>
+<p>
+	After you receive confirmation &quot;<strong>Plugin installed successfully&quot;</strong>, click <strong>Activate Pluign</strong> right below it.</p>
+<p>
+	You can also Activate/Deactivate this plugin by navigating to <strong>Plugins =&gt; Installed Plugins</strong>.&nbsp;</p>
+</section>
+<section id="plugin_options">
+	<div class="page-header"><h3>Plugin Options</h3><hr class="notop"></div>
+<p>
+	Navigate to <strong>Settings =&gt; ATW PRO Plugin</strong>.</p>
+<p>
+	There are 2 main sections: Widget Visibility Conditions and Misc. Settings.</p>
+<h4 id="plugin_options_widget_visibility_conditions">Widget Visibility Conditions</h4>
+<p>
+	In this section you can edit, delete or add your own conditions.</p>
+<p>
+	To edit an existing condition, simply edit the desired entry and click Save Options button at the top or the bottom of the page.</p>
+<p>
+	To delete a condition, clear the desired condition Name and Code fields (make the blank) and then click Save Options&nbsp;button at the top or the bottom of the page.</p>
+<p>
+	To add a new condition, simply click Add New Condition button at the end of the section. Two new blank fields will appear - Name and Code (at the end of the conditions list). Enter the condition Name (the condition name will be used in the drop down selection list of visibility conditions in the widgets section), and the PHP code string. Please don&#39;t use PHP opening and closing tags, nor semicolon at the end of the string.</p>
+<h4 id="plugin_options_writing_custom_visibility_conditions">Writing Custom Visibility Conditions</h4>
+<p>
+	All code is executed inside this condition:&nbsp;<code style="font-family: Consolas, Monaco, monospace; padding-top: 1px; padding-right: 3px; padding-bottom: 1px; padding-left: 3px; margin-top: 0px; margin-right: 1px; margin-bottom: 0px; margin-left: 1px; font-size: 11px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(234, 234, 234); background-position: initial initial; background-repeat: initial initial; ">IF( YOUR CODE ){ return TRUE; }else{ return FALSE; }</code>. So make sure your code doesn&#39;t break the&nbsp;<code style="font-family: Consolas, Monaco, monospace; padding-top: 1px; padding-right: 3px; padding-bottom: 1px; padding-left: 3px; margin-top: 0px; margin-right: 1px; margin-bottom: 0px; margin-left: 1px; font-size: 11px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(234, 234, 234); background-position: initial initial; background-repeat: initial initial; ">IF</code>&nbsp;section.</p>
+<p>
+	If your condition supports arguments (page id, slug, title), then use variable&nbsp;<code style="font-family: Consolas, Monaco, monospace; padding-top: 1px; padding-right: 3px; padding-bottom: 1px; padding-left: 3px; margin-top: 0px; margin-right: 1px; margin-bottom: 0px; margin-left: 1px; font-size: 11px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(234, 234, 234); background-position: initial initial; background-repeat: initial initial; ">$arg</code>&nbsp;for a single function, and $argN for multiple functions, where N is a number.<br>
+	Example 1:&nbsp;<code style="font-family: Consolas, Monaco, monospace; padding-top: 1px; padding-right: 3px; padding-bottom: 1px; padding-left: 3px; margin-top: 0px; margin-right: 1px; margin-bottom: 0px; margin-left: 1px; font-size: 11px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(234, 234, 234); background-position: initial initial; background-repeat: initial initial; ">is_single($arg)</code>. Example 2:&nbsp;<code style="font-family: Consolas, Monaco, monospace; padding-top: 1px; padding-right: 3px; padding-bottom: 1px; padding-left: 3px; margin-top: 0px; margin-right: 1px; margin-bottom: 0px; margin-left: 1px; font-size: 11px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(234, 234, 234); background-position: initial initial; background-repeat: initial initial; ">is_single($arg1) &amp;&amp; !in_category($arg2)</code>. When using multiple arguments that are assigned to different functions, you can divide their values with pipe symbol &quot;|&quot; when entering into the Slug/Title/ID filed on the widgets page. Multiple arguments that belong to the same function should be delimited by comma.</p>
+<p>
+	Please note that each&nbsp;<code style="font-family: Consolas, Monaco, monospace; padding-top: 1px; padding-right: 3px; padding-bottom: 1px; padding-left: 3px; margin-top: 0px; margin-right: 1px; margin-bottom: 0px; margin-left: 1px; font-size: 11px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(234, 234, 234); background-position: initial initial; background-repeat: initial initial; ">$arg</code>&nbsp;is exploded and executed as an array.&nbsp;<br>
+	For example:&nbsp;<code style="font-family: Consolas, Monaco, monospace; padding-top: 1px; padding-right: 3px; padding-bottom: 1px; padding-left: 3px; margin-top: 0px; margin-right: 1px; margin-bottom: 0px; margin-left: 1px; font-size: 11px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(234, 234, 234); background-position: initial initial; background-repeat: initial initial; ">is_single($arg)</code>&nbsp;is executed as&nbsp;<code style="font-family: Consolas, Monaco, monospace; padding-top: 1px; padding-right: 3px; padding-bottom: 1px; padding-left: 3px; margin-top: 0px; margin-right: 1px; margin-bottom: 0px; margin-left: 1px; font-size: 11px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(234, 234, 234); background-position: initial initial; background-repeat: initial initial; ">is_single(explode(&quot;,&quot;, $arg))</code>.</p>
+<p>
+	For more details on functions that you can use read&nbsp;<a href="http://codex.wordpress.org/Conditional_Tags" style="outline-width: 0px; outline-style: initial; outline-color: initial; color: rgb(33, 117, 155); " target="_blank">WP Codex on Conditional Tags</a></p>
+<p>
+	The above <strong>Help</strong> option for creating custom conditions is available in the upper right corner of the page.</p>
+<h4 id="plugin_options_misc_settings">Misc. Settings</h4>
+<p>
+	<strong>Apply visibility conditions to &quot;Advanced Text&quot; widget only</strong> - if selected, only Advanced Text widget will have visibility conditions option available to it in the Widgets dashboard.</p>
+<p>
+	<strong>Custom CSS ID/Class</strong> - Custom CSS ID and Class fields will be added to every widget. WordPress uses numeric widget IDs (i.e. advanced_text-27), which dynamically change depending on the order of widgets. Custom ID/Class option allows you stay consistent in your design.</p>
+<p>
+	<strong>Export Settings</strong> - exports the plugin settings into a text file.</p>
+<p>
+	<strong>Import Settings</strong> - &nbsp;imports the plugin settings from the exported file. This option is handy if you have custom visibility conditions and would like to re-use them on multiple websites.</p>
+</section>
+<section id="using_the_widget">
+	<div class="page-header"><h3>Using the Widget</h3><hr class="notop"></div>
+<p>
+	Beside working as a regular Text Widget, Advanced Text Widget has 3 features:</p>
+<ol>
+	<li>
+		It supports raw PHP code wrapped into &lt;?php ?&gt; tags.</li>
+	<li>
+		It support regular shortcodes as well as propagate its support to the core Text Widget.</li>
+	<li>
+		You can set widget visibility conditions to appear only on desired pages or sections of your site.</li>
+</ol>
+<p>
+	Navigate to <strong>Appearance =&gt; Widgets</strong>. Locate the Advanced Text within the Available Widgets section and drag it into the desired sidebar on the right (make sure that the sidebar you wish to place your widget into is opened).</p>
+<h4 id="using_the_widget_advanced_text_widget_fields">Advanced Text Widget Fields</h4>
+<p>
+	<strong>Title</strong> - is a title of the widget, which is being displayed above the widget content.</p>
+<p>
+	Large text area below the title field is the Main Content Area of the widget - here you enter the content that will appear in your sidebar. It can be regular text, HTML, CSS, JavaScript, PHP code or any shortcodes supplied by your theme or plugins that are in use. If you&#39;re using any of the above mentioned languages, make sure you use their respective embedding syntax as you would in a normal HTML environment:</p>
+<p style="margin-left: 40px; ">
+	<strong>JavaScript</strong></p>
+<pre class="js" style="margin-left: 40px; ">
+<span class="webkit-html-tag" style="font-family: monospace; white-space: pre-wrap; font-size: medium; ">&lt;script <span class="webkit-html-attribute-name">type</span>=&quot;<span class="webkit-html-attribute-value">text/javascript</span>&quot;&gt;</span><span style="color: rgb(0, 0, 0); font-family: monospace; white-space: pre-wrap; font-size: medium; "> </span><span style="color: rgb(0, 0, 0); font-family: monospace; font-size: medium; white-space: pre-wrap; ">&lt;/script&gt;</span></pre>
+<p style="margin-left: 40px; ">
+	<strong>CSS</strong></p>
+<pre class="html" style="margin-left: 40px; ">
+<span style="color: rgb(136, 18, 128); font-family: monospace; white-space: pre-wrap; font-size: medium; ">&lt;style </span><span class="webkit-html-attribute-name" style="font-family: monospace; white-space: pre-wrap; font-size: medium; ">type</span><span style="color: rgb(136, 18, 128); font-family: monospace; white-space: pre-wrap; font-size: medium; ">=&quot;</span><span class="webkit-html-attribute-value" style="font-family: monospace; white-space: pre-wrap; font-size: medium; ">text/css</span><span style="color: rgb(136, 18, 128); font-family: monospace; white-space: pre-wrap; font-size: medium; ">&quot;</span><span style="color: rgb(136, 18, 128); font-family: monospace; white-space: pre-wrap; font-size: medium; ">&gt;</span><span style="color: rgb(0, 0, 0); font-family: monospace; white-space: pre-wrap; font-size: medium; "> </span><span style="color: rgb(0, 0, 0); font-family: monospace; font-size: medium; white-space: pre-wrap; ">&lt;/style&gt;</span></pre>
+<p style="margin-left: 40px; ">
+	<strong>PHP</strong></p>
+<pre class="php" style="margin-left: 40px; ">
+&lt;?php ?&gt;</pre>
+<h4 id="using_the_widget_widget_visibility_section_contains_multiple_options">Widget Visibility section contains multiple options:</h4>
+<p>
+	<strong>Show/Do NOT Show on</strong> - this option determines if your widget will be displayed or not when the condition is TRUE.</p>
+<p>
+	Next drop-down selection list is a list of <a href="#visibility-conditions">visibility conditions</a>.&nbsp;</p>
+<p>
+	<strong>Suppress Title Output</strong> - this option will hide the title from the sidebar. Sometimes you don&#39;t want to display the title for one to your users, but you still need to be able to recongnise the names of your widgets in the back-end. This option is very handy in those cases.</p>
+</section>
+<section id="widget_visibility_conditions">
+	<div class="page-header"><h3>Widget Visibility Conditions</h3><hr class="notop"></div>
+<p>
+	<a name="visibility-conditions"></a>There are&nbsp;<strong>10 default widget visibility conditions</strong>:</p>
+<ol>
+	<li>
+		<strong>All</strong> - true for all pages.</li>
+	<li>
+		<strong>Home Page</strong> - true for the blog&#39;s index page that usually displays a number of most recent posts. In WordPress terminology, the Home Page does not necessarily has to be the front page.</li>
+	<li>
+		<strong>Front Page</strong> - a static page that is specifically selected to be the &quot;front page&quot; in the Settings =&gt; Reading.</li>
+	<li>
+		<strong>Page</strong> - true on pages. This condition supports arguments that can be set as a page slug, page title or page ID. You can include multiple page IDs separating them with commas.</li>
+	<li>
+		<strong>Single Post</strong> - true on single blog post pages.&nbsp;This condition supports&nbsp;arguments that can be set as a&nbsp;post slug, post title or post ID. You can include multiple post IDs separating them with commas.</li>
+	<li>
+		<strong>Post in Category</strong> - true on posts that belong to specific categories. This condition supports 1 argument - category ID. You can include multiple categories by entering their IDs separated by comma.</li>
+	<li>
+		<strong>Category</strong> - true on category pages. This condition supports 1 argument that could be set as category slug, ID or title. To include multiple categories, separate their argument values by comma.</li>
+	<li>
+		<strong>Blog</strong> - true on blog index page, single posts, categories and archive pages.</li>
+	<li>
+		<strong>Search Results Page</strong> - true on search results pages.</li>
+	<li>
+		<strong>Child of Page ID</strong> - true on child pages with a specified parent page ID. This conditions supports 1 argument - the ID of the parent page. You can use multiple IDs separated by comma. For example, we have a page Products with multiple child pages for each product. Instead of specifying each Page ID in condition #4 Page, we can use Child of Page ID condition for the page Products. All sub-pages of Products will display your widget.</li>
+</ol>
+<p>
+	To edit or add your own conditions, please navigate to plugin&#39;s settings at <strong>Settings =&gt; ATW PRO Plugin</strong>.</p>
+</section>
+<section id="changelog">
+	<div class="page-header"><h3>Changelog</h3><hr class="notop"></div>
+<p>
+	<strong>2.3.1</strong></p>
+<ul>
+	<li>
+		Adds support for Envato Market plugin.</li>
+</ul>
+<p>
+	<strong>2.2.4</strong></p>
+<ul>
+	<li>
+		Fixes use of a deprecated function in PHP 7.2.</li>
+</ul>
+<p>
+	<strong>2.2.3</strong></p>
+<ul>
+	<li>
+		<div>
+			Fixes minor PHP Error.</div>
+	</li>
+	<li>
+		<div>
+			WP 4.9.4 compatibility update.</div>
+	</li>
+</ul>
+<p>
+	<strong>2.2.2</strong></p>
+<ul>
+	<li>
+		WP 4.8.2 compatibility update.</li>
+</ul>
+<p>
+	<strong>2.2.1</strong></p>
+<ul>
+	<li>
+		<div>
+			PHP7 compatibility update.</div>
+	</li>
+	<li>
+		<div>
+			WP 4.7 compatibility update.</div>
+	</li>
+</ul>
+<p>
+	<strong>2.2.0</strong></p>
+<ul>
+	<li>
+		<div>
+			Improvement: loads minified JS script in the admin settings.</div>
+	</li>
+	<li>
+		<div>
+			New Feature: interface for deleting existing conditions.</div>
+	</li>
+</ul>
+<p>
+	<strong>2.1.11</strong></p>
+<ul>
+	<li>
+		WP 4.5.3 compatibility update.</li>
+</ul>
+<p>
+	<strong>2.1.10</strong></p>
+<ul>
+	<li>
+		WP 4.3 compatibility update.</li>
+</ul>
+<p>
+	<strong>2.1.9</strong></p>
+<ul>
+	<li>
+		WP 4.1 compatible</li>
+	<li>
+		Fixed: import settings function wasn&#39;t importing data.</li>
+</ul>
+<div>
+	<strong>2.1.8</strong></div>
+<ul>
+	<li>
+		Added settings reset button.</li>
+</ul>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>2.1.7</strong></div>
+<ul>
+	<li>
+		Fixed: default settings weren&#39;t getting imported on initial plugin activation.</li>
+</ul>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>2.1.6</strong></div>
+<ul>
+	<li>
+		Added support for [embed] shortcodes.</li>
+	<li>
+		Updated deprecated functions usage and removed php notices.</li>
+</ul>
+<p>
+	<strong>2.1.5</strong></p>
+<ul>
+	<li>
+		WP 3.9 Compatibility update.</li>
+</ul>
+<p>
+	<strong>2.1.4</strong></p>
+<ul>
+	<li>
+		<div>
+			Added filter to widget title.</div>
+	</li>
+	<li>
+		<div>
+			Cleaned up minor PHP warnings.</div>
+	</li>
+</ul>
+<p>
+	<strong>2.1.3</strong></p>
+<ul>
+	<li>
+		Bug Fix: Default conditions weren&#39;t getting imported by initial plugin activation.</li>
+	<li>
+		Bug Fix: Import/Export functionality was missing, while form items were present. Duh!</li>
+	<li>
+		More code clean up.</li>
+</ul>
+<p>
+	<strong>2.1.2</strong></p>
+<ul>
+	<li>
+		Compatibility update for WordPress 3.4</li>
+	<li>
+		Code clean up to remove PHP notices.</li>
+</ul>
+<p>
+	<strong>2.1.1</strong></p>
+<ul>
+	<li>
+		Bug Fix: custom CSS ID was being appended rather than replacing the existing one.</li>
+	<li>
+		Bug Fix: after plugin activation existing widgets had to be re-saved, otherwise they were displayed with default settings. No data loss there - just the output issue.</li>
+</ul>
+<div>
+	<strong>2.1.0&nbsp;</strong></div>
+<ul>
+	<li>
+		New Feature: custom CSS ID and class options for every widget.</li>
+	<li>
+		Bug Fix: atw shortcode filter wasn&#39;t using the right handle.</li>
+</ul>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>2.0.3</strong></div>
+<ul>
+	<li>
+		Changed widget&#39;s content filter to atw_widget_content instead of the default widget_text.</li>
+	<li>
+		Bug fix: foreach error on line 99 /pro/functions.php - wasn&#39;t checking if sidebars had no widgets</li>
+</ul>
+<div>
+	<strong>2.0.2</strong></div>
+<ul>
+	<li>
+		Updated all get method operations with esc_attr() to improve security.</li>
+</ul>
+<div>
+	<strong>2.0.1</strong></div>
+<ul>
+	<li>
+		Fix for possible security vulnerability.</li>
+</ul>
+</section>
+<section id="source_credits">
+	<div class="page-header"><h3>Source & Credits</h3><hr class="notop"></div>
+<p>	Special Thanks to WordPress community, WordPress.org and <a href="http://codex.wordpress.org/">WordPress Codex</a>.</p>
+</section>
+<section id="license">
+	<div class="page-header"><h3>License</h3><hr class="notop"></div>
+<p>	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GNU GENERAL PUBLIC LICENSE</p>
+<div>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Version 3, 29 June 2007</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;Copyright (C) 2007 Free Software Foundation, Inc. &lt;http://fsf.org/&gt;</div>
+<div>
+	&nbsp;Everyone is permitted to copy and distribute verbatim copies</div>
+<div>
+	&nbsp;of this license document, but changing it is not allowed.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Preamble</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; The GNU General Public License is a free, copyleft license for</div>
+<div>
+	software and other kinds of works.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; The licenses for most software and other practical works are designed</div>
+<div>
+	to take away your freedom to share and change the works. &nbsp;By contrast,</div>
+<div>
+	the GNU General Public License is intended to guarantee your freedom to</div>
+<div>
+	share and change all versions of a program--to make sure it remains free</div>
+<div>
+	software for all its users. &nbsp;We, the Free Software Foundation, use the</div>
+<div>
+	GNU General Public License for most of our software; it applies also to</div>
+<div>
+	any other work released this way by its authors. &nbsp;You can apply it to</div>
+<div>
+	your programs, too.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; When we speak of free software, we are referring to freedom, not</div>
+<div>
+	price. &nbsp;Our General Public Licenses are designed to make sure that you</div>
+<div>
+	have the freedom to distribute copies of free software (and charge for</div>
+<div>
+	them if you wish), that you receive source code or can get it if you</div>
+<div>
+	want it, that you can change the software or use pieces of it in new</div>
+<div>
+	free programs, and that you know you can do these things.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; To protect your rights, we need to prevent others from denying you</div>
+<div>
+	these rights or asking you to surrender the rights. &nbsp;Therefore, you have</div>
+<div>
+	certain responsibilities if you distribute copies of the software, or if</div>
+<div>
+	you modify it: responsibilities to respect the freedom of others.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; For example, if you distribute copies of such a program, whether</div>
+<div>
+	gratis or for a fee, you must pass on to the recipients the same</div>
+<div>
+	freedoms that you received. &nbsp;You must make sure that they, too, receive</div>
+<div>
+	or can get the source code. &nbsp;And you must show them these terms so they</div>
+<div>
+	know their rights.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Developers that use the GNU GPL protect your rights with two steps:</div>
+<div>
+	(1) assert copyright on the software, and (2) offer you this License</div>
+<div>
+	giving you legal permission to copy, distribute and/or modify it.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; For the developers&#39; and authors&#39; protection, the GPL clearly explains</div>
+<div>
+	that there is no warranty for this free software. &nbsp;For both users&#39; and</div>
+<div>
+	authors&#39; sake, the GPL requires that modified versions be marked as</div>
+<div>
+	changed, so that their problems will not be attributed erroneously to</div>
+<div>
+	authors of previous versions.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Some devices are designed to deny users access to install or run</div>
+<div>
+	modified versions of the software inside them, although the manufacturer</div>
+<div>
+	can do so. &nbsp;This is fundamentally incompatible with the aim of</div>
+<div>
+	protecting users&#39; freedom to change the software. &nbsp;The systematic</div>
+<div>
+	pattern of such abuse occurs in the area of products for individuals to</div>
+<div>
+	use, which is precisely where it is most unacceptable. &nbsp;Therefore, we</div>
+<div>
+	have designed this version of the GPL to prohibit the practice for those</div>
+<div>
+	products. &nbsp;If such problems arise substantially in other domains, we</div>
+<div>
+	stand ready to extend this provision to those domains in future versions</div>
+<div>
+	of the GPL, as needed to protect the freedom of users.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Finally, every program is threatened constantly by software patents.</div>
+<div>
+	States should not allow patents to restrict development and use of</div>
+<div>
+	software on general-purpose computers, but in those that do, we wish to</div>
+<div>
+	avoid the special danger that patents applied to a free program could</div>
+<div>
+	make it effectively proprietary. &nbsp;To prevent this, the GPL assures that</div>
+<div>
+	patents cannot be used to render the program non-free.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; The precise terms and conditions for copying, distribution and</div>
+<div>
+	modification follow.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;TERMS AND CONDITIONS</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 0. Definitions.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &quot;This License&quot; refers to version 3 of the GNU General Public License.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &quot;Copyright&quot; also means copyright-like laws that apply to other kinds of</div>
+<div>
+	works, such as semiconductor masks.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &quot;The Program&quot; refers to any copyrightable work licensed under this</div>
+<div>
+	License. &nbsp;Each licensee is addressed as &quot;you&quot;. &nbsp;&quot;Licensees&quot; and</div>
+<div>
+	&quot;recipients&quot; may be individuals or organizations.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; To &quot;modify&quot; a work means to copy from or adapt all or part of the work</div>
+<div>
+	in a fashion requiring copyright permission, other than the making of an</div>
+<div>
+	exact copy. &nbsp;The resulting work is called a &quot;modified version&quot; of the</div>
+<div>
+	earlier work or a work &quot;based on&quot; the earlier work.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; A &quot;covered work&quot; means either the unmodified Program or a work based</div>
+<div>
+	on the Program.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; To &quot;propagate&quot; a work means to do anything with it that, without</div>
+<div>
+	permission, would make you directly or secondarily liable for</div>
+<div>
+	infringement under applicable copyright law, except executing it on a</div>
+<div>
+	computer or modifying a private copy. &nbsp;Propagation includes copying,</div>
+<div>
+	distribution (with or without modification), making available to the</div>
+<div>
+	public, and in some countries other activities as well.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; To &quot;convey&quot; a work means any kind of propagation that enables other</div>
+<div>
+	parties to make or receive copies. &nbsp;Mere interaction with a user through</div>
+<div>
+	a computer network, with no transfer of a copy, is not conveying.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; An interactive user interface displays &quot;Appropriate Legal Notices&quot;</div>
+<div>
+	to the extent that it includes a convenient and prominently visible</div>
+<div>
+	feature that (1) displays an appropriate copyright notice, and (2)</div>
+<div>
+	tells the user that there is no warranty for the work (except to the</div>
+<div>
+	extent that warranties are provided), that licensees may convey the</div>
+<div>
+	work under this License, and how to view a copy of this License. &nbsp;If</div>
+<div>
+	the interface presents a list of user commands or options, such as a</div>
+<div>
+	menu, a prominent item in the list meets this criterion.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 1. Source Code.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; The &quot;source code&quot; for a work means the preferred form of the work</div>
+<div>
+	for making modifications to it. &nbsp;&quot;Object code&quot; means any non-source</div>
+<div>
+	form of a work.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; A &quot;Standard Interface&quot; means an interface that either is an official</div>
+<div>
+	standard defined by a recognized standards body, or, in the case of</div>
+<div>
+	interfaces specified for a particular programming language, one that</div>
+<div>
+	is widely used among developers working in that language.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; The &quot;System Libraries&quot; of an executable work include anything, other</div>
+<div>
+	than the work as a whole, that (a) is included in the normal form of</div>
+<div>
+	packaging a Major Component, but which is not part of that Major</div>
+<div>
+	Component, and (b) serves only to enable use of the work with that</div>
+<div>
+	Major Component, or to implement a Standard Interface for which an</div>
+<div>
+	implementation is available to the public in source code form. &nbsp;A</div>
+<div>
+	&quot;Major Component&quot;, in this context, means a major essential component</div>
+<div>
+	(kernel, window system, and so on) of the specific operating system</div>
+<div>
+	(if any) on which the executable work runs, or a compiler used to</div>
+<div>
+	produce the work, or an object code interpreter used to run it.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; The &quot;Corresponding Source&quot; for a work in object code form means all</div>
+<div>
+	the source code needed to generate, install, and (for an executable</div>
+<div>
+	work) run the object code and to modify the work, including scripts to</div>
+<div>
+	control those activities. &nbsp;However, it does not include the work&#39;s</div>
+<div>
+	System Libraries, or general-purpose tools or generally available free</div>
+<div>
+	programs which are used unmodified in performing those activities but</div>
+<div>
+	which are not part of the work. &nbsp;For example, Corresponding Source</div>
+<div>
+	includes interface definition files associated with source files for</div>
+<div>
+	the work, and the source code for shared libraries and dynamically</div>
+<div>
+	linked subprograms that the work is specifically designed to require,</div>
+<div>
+	such as by intimate data communication or control flow between those</div>
+<div>
+	subprograms and other parts of the work.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; The Corresponding Source need not include anything that users</div>
+<div>
+	can regenerate automatically from other parts of the Corresponding</div>
+<div>
+	Source.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; The Corresponding Source for a work in source code form is that</div>
+<div>
+	same work.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 2. Basic Permissions.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; All rights granted under this License are granted for the term of</div>
+<div>
+	copyright on the Program, and are irrevocable provided the stated</div>
+<div>
+	conditions are met. &nbsp;This License explicitly affirms your unlimited</div>
+<div>
+	permission to run the unmodified Program. &nbsp;The output from running a</div>
+<div>
+	covered work is covered by this License only if the output, given its</div>
+<div>
+	content, constitutes a covered work. &nbsp;This License acknowledges your</div>
+<div>
+	rights of fair use or other equivalent, as provided by copyright law.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; You may make, run and propagate covered works that you do not</div>
+<div>
+	convey, without conditions so long as your license otherwise remains</div>
+<div>
+	in force. &nbsp;You may convey covered works to others for the sole purpose</div>
+<div>
+	of having them make modifications exclusively for you, or provide you</div>
+<div>
+	with facilities for running those works, provided that you comply with</div>
+<div>
+	the terms of this License in conveying all material for which you do</div>
+<div>
+	not control copyright. &nbsp;Those thus making or running the covered works</div>
+<div>
+	for you must do so exclusively on your behalf, under your direction</div>
+<div>
+	and control, on terms that prohibit them from making any copies of</div>
+<div>
+	your copyrighted material outside their relationship with you.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Conveying under any other circumstances is permitted solely under</div>
+<div>
+	the conditions stated below. &nbsp;Sublicensing is not allowed; section 10</div>
+<div>
+	makes it unnecessary.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 3. Protecting Users&#39; Legal Rights From Anti-Circumvention Law.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; No covered work shall be deemed part of an effective technological</div>
+<div>
+	measure under any applicable law fulfilling obligations under article</div>
+<div>
+	11 of the WIPO copyright treaty adopted on 20 December 1996, or</div>
+<div>
+	similar laws prohibiting or restricting circumvention of such</div>
+<div>
+	measures.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; When you convey a covered work, you waive any legal power to forbid</div>
+<div>
+	circumvention of technological measures to the extent such circumvention</div>
+<div>
+	is effected by exercising rights under this License with respect to</div>
+<div>
+	the covered work, and you disclaim any intention to limit operation or</div>
+<div>
+	modification of the work as a means of enforcing, against the work&#39;s</div>
+<div>
+	users, your or third parties&#39; legal rights to forbid circumvention of</div>
+<div>
+	technological measures.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 4. Conveying Verbatim Copies.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; You may convey verbatim copies of the Program&#39;s source code as you</div>
+<div>
+	receive it, in any medium, provided that you conspicuously and</div>
+<div>
+	appropriately publish on each copy an appropriate copyright notice;</div>
+<div>
+	keep intact all notices stating that this License and any</div>
+<div>
+	non-permissive terms added in accord with section 7 apply to the code;</div>
+<div>
+	keep intact all notices of the absence of any warranty; and give all</div>
+<div>
+	recipients a copy of this License along with the Program.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; You may charge any price or no price for each copy that you convey,</div>
+<div>
+	and you may offer support or warranty protection for a fee.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 5. Conveying Modified Source Versions.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; You may convey a work based on the Program, or the modifications to</div>
+<div>
+	produce it from the Program, in the form of source code under the</div>
+<div>
+	terms of section 4, provided that you also meet all of these conditions:</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; a) The work must carry prominent notices stating that you modified</div>
+<div>
+	&nbsp; &nbsp; it, and giving a relevant date.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; b) The work must carry prominent notices stating that it is</div>
+<div>
+	&nbsp; &nbsp; released under this License and any conditions added under section</div>
+<div>
+	&nbsp; &nbsp; 7. &nbsp;This requirement modifies the requirement in section 4 to</div>
+<div>
+	&nbsp; &nbsp; &quot;keep intact all notices&quot;.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; c) You must license the entire work, as a whole, under this</div>
+<div>
+	&nbsp; &nbsp; License to anyone who comes into possession of a copy. &nbsp;This</div>
+<div>
+	&nbsp; &nbsp; License will therefore apply, along with any applicable section 7</div>
+<div>
+	&nbsp; &nbsp; additional terms, to the whole of the work, and all its parts,</div>
+<div>
+	&nbsp; &nbsp; regardless of how they are packaged. &nbsp;This License gives no</div>
+<div>
+	&nbsp; &nbsp; permission to license the work in any other way, but it does not</div>
+<div>
+	&nbsp; &nbsp; invalidate such permission if you have separately received it.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; d) If the work has interactive user interfaces, each must display</div>
+<div>
+	&nbsp; &nbsp; Appropriate Legal Notices; however, if the Program has interactive</div>
+<div>
+	&nbsp; &nbsp; interfaces that do not display Appropriate Legal Notices, your</div>
+<div>
+	&nbsp; &nbsp; work need not make them do so.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; A compilation of a covered work with other separate and independent</div>
+<div>
+	works, which are not by their nature extensions of the covered work,</div>
+<div>
+	and which are not combined with it such as to form a larger program,</div>
+<div>
+	in or on a volume of a storage or distribution medium, is called an</div>
+<div>
+	&quot;aggregate&quot; if the compilation and its resulting copyright are not</div>
+<div>
+	used to limit the access or legal rights of the compilation&#39;s users</div>
+<div>
+	beyond what the individual works permit. &nbsp;Inclusion of a covered work</div>
+<div>
+	in an aggregate does not cause this License to apply to the other</div>
+<div>
+	parts of the aggregate.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 6. Conveying Non-Source Forms.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; You may convey a covered work in object code form under the terms</div>
+<div>
+	of sections 4 and 5, provided that you also convey the</div>
+<div>
+	machine-readable Corresponding Source under the terms of this License,</div>
+<div>
+	in one of these ways:</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; a) Convey the object code in, or embodied in, a physical product</div>
+<div>
+	&nbsp; &nbsp; (including a physical distribution medium), accompanied by the</div>
+<div>
+	&nbsp; &nbsp; Corresponding Source fixed on a durable physical medium</div>
+<div>
+	&nbsp; &nbsp; customarily used for software interchange.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; b) Convey the object code in, or embodied in, a physical product</div>
+<div>
+	&nbsp; &nbsp; (including a physical distribution medium), accompanied by a</div>
+<div>
+	&nbsp; &nbsp; written offer, valid for at least three years and valid for as</div>
+<div>
+	&nbsp; &nbsp; long as you offer spare parts or customer support for that product</div>
+<div>
+	&nbsp; &nbsp; model, to give anyone who possesses the object code either (1) a</div>
+<div>
+	&nbsp; &nbsp; copy of the Corresponding Source for all the software in the</div>
+<div>
+	&nbsp; &nbsp; product that is covered by this License, on a durable physical</div>
+<div>
+	&nbsp; &nbsp; medium customarily used for software interchange, for a price no</div>
+<div>
+	&nbsp; &nbsp; more than your reasonable cost of physically performing this</div>
+<div>
+	&nbsp; &nbsp; conveying of source, or (2) access to copy the</div>
+<div>
+	&nbsp; &nbsp; Corresponding Source from a network server at no charge.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; c) Convey individual copies of the object code with a copy of the</div>
+<div>
+	&nbsp; &nbsp; written offer to provide the Corresponding Source. &nbsp;This</div>
+<div>
+	&nbsp; &nbsp; alternative is allowed only occasionally and noncommercially, and</div>
+<div>
+	&nbsp; &nbsp; only if you received the object code with such an offer, in accord</div>
+<div>
+	&nbsp; &nbsp; with subsection 6b.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; d) Convey the object code by offering access from a designated</div>
+<div>
+	&nbsp; &nbsp; place (gratis or for a charge), and offer equivalent access to the</div>
+<div>
+	&nbsp; &nbsp; Corresponding Source in the same way through the same place at no</div>
+<div>
+	&nbsp; &nbsp; further charge. &nbsp;You need not require recipients to copy the</div>
+<div>
+	&nbsp; &nbsp; Corresponding Source along with the object code. &nbsp;If the place to</div>
+<div>
+	&nbsp; &nbsp; copy the object code is a network server, the Corresponding Source</div>
+<div>
+	&nbsp; &nbsp; may be on a different server (operated by you or a third party)</div>
+<div>
+	&nbsp; &nbsp; that supports equivalent copying facilities, provided you maintain</div>
+<div>
+	&nbsp; &nbsp; clear directions next to the object code saying where to find the</div>
+<div>
+	&nbsp; &nbsp; Corresponding Source. &nbsp;Regardless of what server hosts the</div>
+<div>
+	&nbsp; &nbsp; Corresponding Source, you remain obligated to ensure that it is</div>
+<div>
+	&nbsp; &nbsp; available for as long as needed to satisfy these requirements.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; e) Convey the object code using peer-to-peer transmission, provided</div>
+<div>
+	&nbsp; &nbsp; you inform other peers where the object code and Corresponding</div>
+<div>
+	&nbsp; &nbsp; Source of the work are being offered to the general public at no</div>
+<div>
+	&nbsp; &nbsp; charge under subsection 6d.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; A separable portion of the object code, whose source code is excluded</div>
+<div>
+	from the Corresponding Source as a System Library, need not be</div>
+<div>
+	included in conveying the object code work.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; A &quot;User Product&quot; is either (1) a &quot;consumer product&quot;, which means any</div>
+<div>
+	tangible personal property which is normally used for personal, family,</div>
+<div>
+	or household purposes, or (2) anything designed or sold for incorporation</div>
+<div>
+	into a dwelling. &nbsp;In determining whether a product is a consumer product,</div>
+<div>
+	doubtful cases shall be resolved in favor of coverage. &nbsp;For a particular</div>
+<div>
+	product received by a particular user, &quot;normally used&quot; refers to a</div>
+<div>
+	typical or common use of that class of product, regardless of the status</div>
+<div>
+	of the particular user or of the way in which the particular user</div>
+<div>
+	actually uses, or expects or is expected to use, the product. &nbsp;A product</div>
+<div>
+	is a consumer product regardless of whether the product has substantial</div>
+<div>
+	commercial, industrial or non-consumer uses, unless such uses represent</div>
+<div>
+	the only significant mode of use of the product.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &quot;Installation Information&quot; for a User Product means any methods,</div>
+<div>
+	procedures, authorization keys, or other information required to install</div>
+<div>
+	and execute modified versions of a covered work in that User Product from</div>
+<div>
+	a modified version of its Corresponding Source. &nbsp;The information must</div>
+<div>
+	suffice to ensure that the continued functioning of the modified object</div>
+<div>
+	code is in no case prevented or interfered with solely because</div>
+<div>
+	modification has been made.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; If you convey an object code work under this section in, or with, or</div>
+<div>
+	specifically for use in, a User Product, and the conveying occurs as</div>
+<div>
+	part of a transaction in which the right of possession and use of the</div>
+<div>
+	User Product is transferred to the recipient in perpetuity or for a</div>
+<div>
+	fixed term (regardless of how the transaction is characterized), the</div>
+<div>
+	Corresponding Source conveyed under this section must be accompanied</div>
+<div>
+	by the Installation Information. &nbsp;But this requirement does not apply</div>
+<div>
+	if neither you nor any third party retains the ability to install</div>
+<div>
+	modified object code on the User Product (for example, the work has</div>
+<div>
+	been installed in ROM).</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; The requirement to provide Installation Information does not include a</div>
+<div>
+	requirement to continue to provide support service, warranty, or updates</div>
+<div>
+	for a work that has been modified or installed by the recipient, or for</div>
+<div>
+	the User Product in which it has been modified or installed. &nbsp;Access to a</div>
+<div>
+	network may be denied when the modification itself materially and</div>
+<div>
+	adversely affects the operation of the network or violates the rules and</div>
+<div>
+	protocols for communication across the network.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Corresponding Source conveyed, and Installation Information provided,</div>
+<div>
+	in accord with this section must be in a format that is publicly</div>
+<div>
+	documented (and with an implementation available to the public in</div>
+<div>
+	source code form), and must require no special password or key for</div>
+<div>
+	unpacking, reading or copying.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 7. Additional Terms.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &quot;Additional permissions&quot; are terms that supplement the terms of this</div>
+<div>
+	License by making exceptions from one or more of its conditions.</div>
+<div>
+	Additional permissions that are applicable to the entire Program shall</div>
+<div>
+	be treated as though they were included in this License, to the extent</div>
+<div>
+	that they are valid under applicable law. &nbsp;If additional permissions</div>
+<div>
+	apply only to part of the Program, that part may be used separately</div>
+<div>
+	under those permissions, but the entire Program remains governed by</div>
+<div>
+	this License without regard to the additional permissions.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; When you convey a copy of a covered work, you may at your option</div>
+<div>
+	remove any additional permissions from that copy, or from any part of</div>
+<div>
+	it. &nbsp;(Additional permissions may be written to require their own</div>
+<div>
+	removal in certain cases when you modify the work.) &nbsp;You may place</div>
+<div>
+	additional permissions on material, added by you to a covered work,</div>
+<div>
+	for which you have or can give appropriate copyright permission.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Notwithstanding any other provision of this License, for material you</div>
+<div>
+	add to a covered work, you may (if authorized by the copyright holders of</div>
+<div>
+	that material) supplement the terms of this License with terms:</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; a) Disclaiming warranty or limiting liability differently from the</div>
+<div>
+	&nbsp; &nbsp; terms of sections 15 and 16 of this License; or</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; b) Requiring preservation of specified reasonable legal notices or</div>
+<div>
+	&nbsp; &nbsp; author attributions in that material or in the Appropriate Legal</div>
+<div>
+	&nbsp; &nbsp; Notices displayed by works containing it; or</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; c) Prohibiting misrepresentation of the origin of that material, or</div>
+<div>
+	&nbsp; &nbsp; requiring that modified versions of such material be marked in</div>
+<div>
+	&nbsp; &nbsp; reasonable ways as different from the original version; or</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; d) Limiting the use for publicity purposes of names of licensors or</div>
+<div>
+	&nbsp; &nbsp; authors of the material; or</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; e) Declining to grant rights under trademark law for use of some</div>
+<div>
+	&nbsp; &nbsp; trade names, trademarks, or service marks; or</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; f) Requiring indemnification of licensors and authors of that</div>
+<div>
+	&nbsp; &nbsp; material by anyone who conveys the material (or modified versions of</div>
+<div>
+	&nbsp; &nbsp; it) with contractual assumptions of liability to the recipient, for</div>
+<div>
+	&nbsp; &nbsp; any liability that these contractual assumptions directly impose on</div>
+<div>
+	&nbsp; &nbsp; those licensors and authors.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; All other non-permissive additional terms are considered &quot;further</div>
+<div>
+	restrictions&quot; within the meaning of section 10. &nbsp;If the Program as you</div>
+<div>
+	received it, or any part of it, contains a notice stating that it is</div>
+<div>
+	governed by this License along with a term that is a further</div>
+<div>
+	restriction, you may remove that term. &nbsp;If a license document contains</div>
+<div>
+	a further restriction but permits relicensing or conveying under this</div>
+<div>
+	License, you may add to a covered work material governed by the terms</div>
+<div>
+	of that license document, provided that the further restriction does</div>
+<div>
+	not survive such relicensing or conveying.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; If you add terms to a covered work in accord with this section, you</div>
+<div>
+	must place, in the relevant source files, a statement of the</div>
+<div>
+	additional terms that apply to those files, or a notice indicating</div>
+<div>
+	where to find the applicable terms.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Additional terms, permissive or non-permissive, may be stated in the</div>
+<div>
+	form of a separately written license, or stated as exceptions;</div>
+<div>
+	the above requirements apply either way.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 8. Termination.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; You may not propagate or modify a covered work except as expressly</div>
+<div>
+	provided under this License. &nbsp;Any attempt otherwise to propagate or</div>
+<div>
+	modify it is void, and will automatically terminate your rights under</div>
+<div>
+	this License (including any patent licenses granted under the third</div>
+<div>
+	paragraph of section 11).</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; However, if you cease all violation of this License, then your</div>
+<div>
+	license from a particular copyright holder is reinstated (a)</div>
+<div>
+	provisionally, unless and until the copyright holder explicitly and</div>
+<div>
+	finally terminates your license, and (b) permanently, if the copyright</div>
+<div>
+	holder fails to notify you of the violation by some reasonable means</div>
+<div>
+	prior to 60 days after the cessation.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Moreover, your license from a particular copyright holder is</div>
+<div>
+	reinstated permanently if the copyright holder notifies you of the</div>
+<div>
+	violation by some reasonable means, this is the first time you have</div>
+<div>
+	received notice of violation of this License (for any work) from that</div>
+<div>
+	copyright holder, and you cure the violation prior to 30 days after</div>
+<div>
+	your receipt of the notice.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Termination of your rights under this section does not terminate the</div>
+<div>
+	licenses of parties who have received copies or rights from you under</div>
+<div>
+	this License. &nbsp;If your rights have been terminated and not permanently</div>
+<div>
+	reinstated, you do not qualify to receive new licenses for the same</div>
+<div>
+	material under section 10.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 9. Acceptance Not Required for Having Copies.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; You are not required to accept this License in order to receive or</div>
+<div>
+	run a copy of the Program. &nbsp;Ancillary propagation of a covered work</div>
+<div>
+	occurring solely as a consequence of using peer-to-peer transmission</div>
+<div>
+	to receive a copy likewise does not require acceptance. &nbsp;However,</div>
+<div>
+	nothing other than this License grants you permission to propagate or</div>
+<div>
+	modify any covered work. &nbsp;These actions infringe copyright if you do</div>
+<div>
+	not accept this License. &nbsp;Therefore, by modifying or propagating a</div>
+<div>
+	covered work, you indicate your acceptance of this License to do so.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 10. Automatic Licensing of Downstream Recipients.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Each time you convey a covered work, the recipient automatically</div>
+<div>
+	receives a license from the original licensors, to run, modify and</div>
+<div>
+	propagate that work, subject to this License. &nbsp;You are not responsible</div>
+<div>
+	for enforcing compliance by third parties with this License.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; An &quot;entity transaction&quot; is a transaction transferring control of an</div>
+<div>
+	organization, or substantially all assets of one, or subdividing an</div>
+<div>
+	organization, or merging organizations. &nbsp;If propagation of a covered</div>
+<div>
+	work results from an entity transaction, each party to that</div>
+<div>
+	transaction who receives a copy of the work also receives whatever</div>
+<div>
+	licenses to the work the party&#39;s predecessor in interest had or could</div>
+<div>
+	give under the previous paragraph, plus a right to possession of the</div>
+<div>
+	Corresponding Source of the work from the predecessor in interest, if</div>
+<div>
+	the predecessor has it or can get it with reasonable efforts.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; You may not impose any further restrictions on the exercise of the</div>
+<div>
+	rights granted or affirmed under this License. &nbsp;For example, you may</div>
+<div>
+	not impose a license fee, royalty, or other charge for exercise of</div>
+<div>
+	rights granted under this License, and you may not initiate litigation</div>
+<div>
+	(including a cross-claim or counterclaim in a lawsuit) alleging that</div>
+<div>
+	any patent claim is infringed by making, using, selling, offering for</div>
+<div>
+	sale, or importing the Program or any portion of it.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 11. Patents.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; A &quot;contributor&quot; is a copyright holder who authorizes use under this</div>
+<div>
+	License of the Program or a work on which the Program is based. &nbsp;The</div>
+<div>
+	work thus licensed is called the contributor&#39;s &quot;contributor version&quot;.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; A contributor&#39;s &quot;essential patent claims&quot; are all patent claims</div>
+<div>
+	owned or controlled by the contributor, whether already acquired or</div>
+<div>
+	hereafter acquired, that would be infringed by some manner, permitted</div>
+<div>
+	by this License, of making, using, or selling its contributor version,</div>
+<div>
+	but do not include claims that would be infringed only as a</div>
+<div>
+	consequence of further modification of the contributor version. &nbsp;For</div>
+<div>
+	purposes of this definition, &quot;control&quot; includes the right to grant</div>
+<div>
+	patent sublicenses in a manner consistent with the requirements of</div>
+<div>
+	this License.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Each contributor grants you a non-exclusive, worldwide, royalty-free</div>
+<div>
+	patent license under the contributor&#39;s essential patent claims, to</div>
+<div>
+	make, use, sell, offer for sale, import and otherwise run, modify and</div>
+<div>
+	propagate the contents of its contributor version.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; In the following three paragraphs, a &quot;patent license&quot; is any express</div>
+<div>
+	agreement or commitment, however denominated, not to enforce a patent</div>
+<div>
+	(such as an express permission to practice a patent or covenant not to</div>
+<div>
+	sue for patent infringement). &nbsp;To &quot;grant&quot; such a patent license to a</div>
+<div>
+	party means to make such an agreement or commitment not to enforce a</div>
+<div>
+	patent against the party.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; If you convey a covered work, knowingly relying on a patent license,</div>
+<div>
+	and the Corresponding Source of the work is not available for anyone</div>
+<div>
+	to copy, free of charge and under the terms of this License, through a</div>
+<div>
+	publicly available network server or other readily accessible means,</div>
+<div>
+	then you must either (1) cause the Corresponding Source to be so</div>
+<div>
+	available, or (2) arrange to deprive yourself of the benefit of the</div>
+<div>
+	patent license for this particular work, or (3) arrange, in a manner</div>
+<div>
+	consistent with the requirements of this License, to extend the patent</div>
+<div>
+	license to downstream recipients. &nbsp;&quot;Knowingly relying&quot; means you have</div>
+<div>
+	actual knowledge that, but for the patent license, your conveying the</div>
+<div>
+	covered work in a country, or your recipient&#39;s use of the covered work</div>
+<div>
+	in a country, would infringe one or more identifiable patents in that</div>
+<div>
+	country that you have reason to believe are valid.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; If, pursuant to or in connection with a single transaction or</div>
+<div>
+	arrangement, you convey, or propagate by procuring conveyance of, a</div>
+<div>
+	covered work, and grant a patent license to some of the parties</div>
+<div>
+	receiving the covered work authorizing them to use, propagate, modify</div>
+<div>
+	or convey a specific copy of the covered work, then the patent license</div>
+<div>
+	you grant is automatically extended to all recipients of the covered</div>
+<div>
+	work and works based on it.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; A patent license is &quot;discriminatory&quot; if it does not include within</div>
+<div>
+	the scope of its coverage, prohibits the exercise of, or is</div>
+<div>
+	conditioned on the non-exercise of one or more of the rights that are</div>
+<div>
+	specifically granted under this License. &nbsp;You may not convey a covered</div>
+<div>
+	work if you are a party to an arrangement with a third party that is</div>
+<div>
+	in the business of distributing software, under which you make payment</div>
+<div>
+	to the third party based on the extent of your activity of conveying</div>
+<div>
+	the work, and under which the third party grants, to any of the</div>
+<div>
+	parties who would receive the covered work from you, a discriminatory</div>
+<div>
+	patent license (a) in connection with copies of the covered work</div>
+<div>
+	conveyed by you (or copies made from those copies), or (b) primarily</div>
+<div>
+	for and in connection with specific products or compilations that</div>
+<div>
+	contain the covered work, unless you entered into that arrangement,</div>
+<div>
+	or that patent license was granted, prior to 28 March 2007.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Nothing in this License shall be construed as excluding or limiting</div>
+<div>
+	any implied license or other defenses to infringement that may</div>
+<div>
+	otherwise be available to you under applicable patent law.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 12. No Surrender of Others&#39; Freedom.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; If conditions are imposed on you (whether by court order, agreement or</div>
+<div>
+	otherwise) that contradict the conditions of this License, they do not</div>
+<div>
+	excuse you from the conditions of this License. &nbsp;If you cannot convey a</div>
+<div>
+	covered work so as to satisfy simultaneously your obligations under this</div>
+<div>
+	License and any other pertinent obligations, then as a consequence you may</div>
+<div>
+	not convey it at all. &nbsp;For example, if you agree to terms that obligate you</div>
+<div>
+	to collect a royalty for further conveying from those to whom you convey</div>
+<div>
+	the Program, the only way you could satisfy both those terms and this</div>
+<div>
+	License would be to refrain entirely from conveying the Program.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 13. Use with the GNU Affero General Public License.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Notwithstanding any other provision of this License, you have</div>
+<div>
+	permission to link or combine any covered work with a work licensed</div>
+<div>
+	under version 3 of the GNU Affero General Public License into a single</div>
+<div>
+	combined work, and to convey the resulting work. &nbsp;The terms of this</div>
+<div>
+	License will continue to apply to the part which is the covered work,</div>
+<div>
+	but the special requirements of the GNU Affero General Public License,</div>
+<div>
+	section 13, concerning interaction through a network will apply to the</div>
+<div>
+	combination as such.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 14. Revised Versions of this License.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; The Free Software Foundation may publish revised and/or new versions of</div>
+<div>
+	the GNU General Public License from time to time. &nbsp;Such new versions will</div>
+<div>
+	be similar in spirit to the present version, but may differ in detail to</div>
+<div>
+	address new problems or concerns.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Each version is given a distinguishing version number. &nbsp;If the</div>
+<div>
+	Program specifies that a certain numbered version of the GNU General</div>
+<div>
+	Public License &quot;or any later version&quot; applies to it, you have the</div>
+<div>
+	option of following the terms and conditions either of that numbered</div>
+<div>
+	version or of any later version published by the Free Software</div>
+<div>
+	Foundation. &nbsp;If the Program does not specify a version number of the</div>
+<div>
+	GNU General Public License, you may choose any version ever published</div>
+<div>
+	by the Free Software Foundation.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; If the Program specifies that a proxy can decide which future</div>
+<div>
+	versions of the GNU General Public License can be used, that proxy&#39;s</div>
+<div>
+	public statement of acceptance of a version permanently authorizes you</div>
+<div>
+	to choose that version for the Program.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; Later license versions may give you additional or different</div>
+<div>
+	permissions. &nbsp;However, no additional obligations are imposed on any</div>
+<div>
+	author or copyright holder as a result of your choosing to follow a</div>
+<div>
+	later version.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 15. Disclaimer of Warranty.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY</div>
+<div>
+	APPLICABLE LAW. &nbsp;EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT</div>
+<div>
+	HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM &quot;AS IS&quot; WITHOUT WARRANTY</div>
+<div>
+	OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,</div>
+<div>
+	THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR</div>
+<div>
+	PURPOSE. &nbsp;THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM</div>
+<div>
+	IS WITH YOU. &nbsp;SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF</div>
+<div>
+	ALL NECESSARY SERVICING, REPAIR OR CORRECTION.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 16. Limitation of Liability.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING</div>
+<div>
+	WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS</div>
+<div>
+	THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY</div>
+<div>
+	GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE</div>
+<div>
+	USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF</div>
+<div>
+	DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD</div>
+<div>
+	PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),</div>
+<div>
+	EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF</div>
+<div>
+	SUCH DAMAGES.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; 17. Interpretation of Sections 15 and 16.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; If the disclaimer of warranty and limitation of liability provided</div>
+<div>
+	above cannot be given local legal effect according to their terms,</div>
+<div>
+	reviewing courts shall apply local law that most closely approximates</div>
+<div>
+	an absolute waiver of all civil liability in connection with the</div>
+<div>
+	Program, unless a warranty or assumption of liability accompanies a</div>
+<div>
+	copy of the Program in return for a fee.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;END OF TERMS AND CONDITIONS</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; How to Apply These Terms to Your New Programs</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; If you develop a new program, and you want it to be of the greatest</div>
+<div>
+	possible use to the public, the best way to achieve this is to make it</div>
+<div>
+	free software which everyone can redistribute and change under these terms.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; To do so, attach the following notices to the program. &nbsp;It is safest</div>
+<div>
+	to attach them to the start of each source file to most effectively</div>
+<div>
+	state the exclusion of warranty; and each file should have at least</div>
+<div>
+	the &quot;copyright&quot; line and a pointer to where the full notice is found.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; &lt;one line to give the program&#39;s name and a brief idea of what it does.&gt;</div>
+<div>
+	&nbsp; &nbsp; Copyright (C) &lt;year&gt; &nbsp;&lt;name of author&gt;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; This program is free software: you can redistribute it and/or modify</div>
+<div>
+	&nbsp; &nbsp; it under the terms of the GNU General Public License as published by</div>
+<div>
+	&nbsp; &nbsp; the Free Software Foundation, either version 3 of the License, or</div>
+<div>
+	&nbsp; &nbsp; (at your option) any later version.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; This program is distributed in the hope that it will be useful,</div>
+<div>
+	&nbsp; &nbsp; but WITHOUT ANY WARRANTY; without even the implied warranty of</div>
+<div>
+	&nbsp; &nbsp; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. &nbsp;See the</div>
+<div>
+	&nbsp; &nbsp; GNU General Public License for more details.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; You should have received a copy of the GNU General Public License</div>
+<div>
+	&nbsp; &nbsp; along with this program. &nbsp;If not, see &lt;http://www.gnu.org/licenses/&gt;.</div>
+<div>
+	&nbsp;</div>
+<div>
+	Also add information on how to contact you by electronic and paper mail.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; If the program does terminal interaction, make it output a short</div>
+<div>
+	notice like this when it starts in an interactive mode:</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; &nbsp; &lt;program&gt; &nbsp;Copyright (C) &lt;year&gt; &nbsp;&lt;name of author&gt;</div>
+<div>
+	&nbsp; &nbsp; This program comes with ABSOLUTELY NO WARRANTY; for details type `show w&#39;.</div>
+<div>
+	&nbsp; &nbsp; This is free software, and you are welcome to redistribute it</div>
+<div>
+	&nbsp; &nbsp; under certain conditions; type `show c&#39; for details.</div>
+<div>
+	&nbsp;</div>
+<div>
+	The hypothetical commands `show w&#39; and `show c&#39; should show the appropriate</div>
+<div>
+	parts of the General Public License. &nbsp;Of course, your program&#39;s commands</div>
+<div>
+	might be different; for a GUI interface, you would use an &quot;about box&quot;.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; You should also get your employer (if you work as a programmer) or school,</div>
+<div>
+	if any, to sign a &quot;copyright disclaimer&quot; for the program, if necessary.</div>
+<div>
+	For more information on this, and how to apply and follow the GNU GPL, see</div>
+<div>
+	&lt;http://www.gnu.org/licenses/&gt;.</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp; The GNU General Public License does not permit incorporating your program</div>
+<div>
+	into proprietary programs. &nbsp;If your program is a subroutine library, you</div>
+<div>
+	may consider it more useful to permit linking proprietary applications with</div>
+<div>
+	the library. &nbsp;If this is what you want to do, use the GNU Lesser General</div>
+<div>
+	Public License instead of this License. &nbsp;But first, please read</div>
+<div>
+	&lt;http://www.gnu.org/philosophy/why-not-lgpl.html&gt;.</div>
+<div>
+	&nbsp;</div>
+</section>
+
+	</div>
+</body>
+</html>
