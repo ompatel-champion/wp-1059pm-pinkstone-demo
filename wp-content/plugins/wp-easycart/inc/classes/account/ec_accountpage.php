@@ -1111,10 +1111,14 @@ class ec_accountpage{
 	/* START FORM ACTION FUNCTIONS */
 	public function process_form_action( $action ){
 		wpeasycart_session( )->handle_session( );
-		if( $action == "login" )
-			$this->process_login( );
-		else if( $action == "register" )
-			$this->process_register( );
+        if( $action == "login" )
+            $this->process_login( );
+        if( $action == "sync_login" )
+            $this->process_sync_login( );
+        else if( $action == "register" )
+            $this->process_register( );
+        else if( $action == "sync_register" )
+            $this->process_sync_register( );
 		else if( $action == "retrieve_password" )
 			$this->process_retrieve_password( );
 		else if( $action == "update_personal_information" )
@@ -1281,6 +1285,130 @@ class ec_accountpage{
 		} // close recaptcha check
 		
 	}
+
+    private function process_sync_login( ){
+        if( isset( $_POST['ec_account_login_email_widget'] ) ){
+            $email = $_POST['ec_account_login_email_widget'];
+        }else{
+            $email = $_POST['ec_account_login_email'];
+        }
+
+        if( isset( $_POST['ec_account_login_password_widget'] ) )
+            $password = $_POST['ec_account_login_password_widget'];
+        else
+            $password = $_POST['ec_account_login_password'];
+
+        $password_hash = md5( $password );
+        $password_hash = apply_filters( 'wpeasycart_password_hash', $password_hash, $password );
+
+        do_action( 'wpeasycart_pre_login_attempt', $email );
+        $user = $this->mysqli->get_user_login( $email, $password, $password_hash );
+
+        if( $user && $user->user_level == "pending" ){
+
+            header( "location: " . $this->account_page . $this->permalink_divider . "ec_page=login&account_error=not_activated" );
+
+        }else if( $user ){
+
+            $GLOBALS['ec_cart_data']->cart_data->billing_first_name = $user->billing_first_name;
+            $GLOBALS['ec_cart_data']->cart_data->billing_last_name = $user->billing_last_name;
+            $GLOBALS['ec_cart_data']->cart_data->billing_address_line_1 = $user->billing_address_line_1;
+            $GLOBALS['ec_cart_data']->cart_data->billing_address_line_2 = $user->billing_address_line_2;
+            $GLOBALS['ec_cart_data']->cart_data->billing_city = $user->billing_city;
+            $GLOBALS['ec_cart_data']->cart_data->billing_state = $user->billing_state;
+            $GLOBALS['ec_cart_data']->cart_data->billing_zip = $user->billing_zip;
+            $GLOBALS['ec_cart_data']->cart_data->billing_country = $user->billing_country;
+            $GLOBALS['ec_cart_data']->cart_data->billing_phone = $user->billing_phone;
+
+            $GLOBALS['ec_cart_data']->cart_data->shipping_selector = "";
+            if( $user->shipping_first_name != "" ){
+                $GLOBALS['ec_cart_data']->cart_data->shipping_first_name = $user->shipping_first_name;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_last_name = $user->shipping_last_name;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_address_line_1 = $user->shipping_address_line_1;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_address_line_2 = $user->shipping_address_line_2;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_city = $user->shipping_city;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_state = $user->shipping_state;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_zip = $user->shipping_zip;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_country = $user->shipping_country;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_phone = $user->shipping_phone;
+
+            }else{
+                $GLOBALS['ec_cart_data']->cart_data->shipping_first_name = $user->billing_first_name;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_last_name = $user->billing_last_name;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_address_line_1 = $user->billing_address_line_1;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_address_line_2 = $user->billing_address_line_2;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_city = $user->billing_city;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_state = $user->billing_state;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_zip = $user->billing_zip;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_country = $user->billing_country;
+                $GLOBALS['ec_cart_data']->cart_data->shipping_phone = $user->billing_phone;
+            }
+
+            $GLOBALS['ec_cart_data']->cart_data->is_guest = "";
+            $GLOBALS['ec_cart_data']->cart_data->guest_key = "";
+
+            $GLOBALS['ec_cart_data']->cart_data->user_id = $user->user_id;
+            $GLOBALS['ec_cart_data']->cart_data->email = $email;
+            $GLOBALS['ec_cart_data']->cart_data->username = $user->first_name . " " . $user->last_name;
+            $GLOBALS['ec_cart_data']->cart_data->first_name = $user->first_name;
+            $GLOBALS['ec_cart_data']->cart_data->last_name = $user->last_name;
+
+            $GLOBALS['ec_cart_data']->save_session_to_db( );
+
+            if( apply_filters( 'wp_easycart_sync_wordpress_users', false ) ){
+                $wp_user = wp_signon( array( 'user_login' => $email, 'user_password' => $_POST['ec_account_login_password'] ), false );
+            }
+
+            wp_cache_flush( );
+            do_action( 'wpeasycart_login_success', $email );
+
+            if( isset( $_POST['ec_goto_page'] ) && $_POST['ec_goto_page'] == "store" ){
+                header( "location: " . $this->store_page );
+
+            }else if( isset( $_POST['ec_custom_login_redirect'] ) ){
+
+                if( substr( $_POST['ec_custom_login_redirect'], 0, 7 ) == "http://" || substr( $_POST['ec_custom_login_redirect'], 0, 8 ) == "https://" )
+                    $redirect_url = htmlspecialchars( $_POST['ec_custom_login_redirect'], ENT_QUOTES );
+                else
+                    $redirect_url = get_page_link( $_POST['ec_custom_login_redirect'] );
+
+                header( "location: " . $redirect_url );
+
+
+            }else if( isset( $_POST['ec_goto_page'] ) && $_POST['ec_goto_page'] != "forgot_password" && $_POST['ec_goto_page'] != "register" && $_POST['ec_goto_page'] != "login" ){
+                $goto = $this->account_page . $this->permalink_divider . "ec_page=" . htmlspecialchars( $_POST['ec_goto_page'], ENT_QUOTES );
+                if( isset( $_POST['ec_order_id'] ) )
+                    $goto .= "&order_id=" . htmlspecialchars( $_POST['ec_order_id'], ENT_QUOTES );
+                if( isset( $_POST['ec_subscription_id'] ) )
+                    $goto .= "&subscription_id=" . htmlspecialchars( $_POST['ec_subscription_id'], ENT_QUOTES );
+                header( "location: " . $goto );
+
+            }else{
+                $page_id = (int) $_POST['ec_account_page_id'];
+                $page_content = get_post( $page_id );
+                if( preg_match( "/\[ec_account redirect\=[\'\\\"](.*)[\'\\\"]\]/", $page_content->post_content, $matches ) ){
+                    header( "location: " . $matches[1] );
+                }else{
+                    header( "location: " . $this->account_page . $this->permalink_divider . "ec_page=dashboard" );
+                }
+            }
+
+        }else{
+
+            do_action( 'wpeasycart_login_failed', $email );
+            if( isset( $_POST['ec_goto_page'] ) && $_POST['ec_goto_page'] == "store" ){
+                header( "location: " . $this->store_page . $this->permalink_divider . "ec_page=login&account_error=login_failed" );
+
+            }else{
+                $page_id = (int) $_POST['ec_account_page_id'];
+                do_action( 'wpeasycart_account_pre_login_failed_redirect', $email, $password );
+                header( "location: " . get_permalink( $page_id ) . $this->permalink_divider . "ec_page=login&account_error=login_failed" );
+
+            }
+
+        }
+
+    }
 	
 	private function process_register( ){
 		
@@ -1471,7 +1599,81 @@ class ec_accountpage{
 		}
 		
 	}
-	
+
+    private function process_sync_register( ){
+
+        if( isset( $_POST['user_email-93'] ) && isset( $_POST['user_password-93'] ) && $_POST['user_email-93'] != "" && $_POST['user_password-93'] != "" ){
+
+            $first_name = "";
+            if( isset( $_POST['first_name-93'] ) )
+                $first_name = $_POST['first_name-93'];
+
+            $last_name = "";
+            if( isset( $_POST['last_name-93'] ) )
+                $last_name = $_POST['last_name-93'];
+
+            $email = $_POST['user_email-93'];
+            $password = md5( $_POST['user_password-93'] );
+            $password = apply_filters( 'wpeasycart_password_hash', $password, $_POST['user_password-93'] );
+
+            // Check if account already exists
+            if( $this->mysqli->does_user_exist( $_POST['ec_account_register_email'] ) ){
+                header("location: " . $this->account_page . $this->permalink_divider . "ec_page=register&account_error=register_email_error");
+                die( );
+            }
+
+            $is_subscriber = false;
+
+            $billing_id = 0;
+            $vat_registration_number = "";
+
+            // Insert billing address if enabled
+            $user_notes = "";
+
+            // Insert the user
+            if( get_option( 'ec_option_require_email_validation' ) ){
+                // Send a validation email here.
+                $this->send_validation_email( $email );
+                $user_id = $this->mysqli->insert_user( $email, $password, $first_name, $last_name, $billing_id, 0, "pending", $is_subscriber, $user_notes, $vat_registration_number );
+            }else{
+                $user_id = $this->mysqli->insert_user( $email, $password, $first_name, $last_name, $billing_id, 0, "shopper", $is_subscriber, $user_notes, $vat_registration_number );
+            }
+
+            if( $user_id ){
+
+                if( get_option( 'ec_option_require_email_validation' ) ){
+
+                    header( "location: " . $this->account_page . $this->permalink_divider . "ec_page=login&account_success=validation_required" );
+
+                }else{
+
+                    $GLOBALS['ec_cart_data']->cart_data->user_id = $user_id;
+                    $GLOBALS['ec_cart_data']->cart_data->email = $email;
+                    $GLOBALS['ec_cart_data']->cart_data->username = $first_name . " " . $last_name;
+                    $GLOBALS['ec_cart_data']->cart_data->first_name = $first_name;
+                    $GLOBALS['ec_cart_data']->cart_data->last_name = $last_name;
+
+                    $GLOBALS['ec_cart_data']->cart_data->is_guest = "";
+                    $GLOBALS['ec_cart_data']->cart_data->guest_key = "";
+
+                    $GLOBALS['ec_cart_data']->save_session_to_db( );
+                    header( "location: " . $this->account_page . $this->permalink_divider . "ec_page=dashboard" );
+
+                }
+
+            }else{
+
+                header( "location: " . $this->account_page . $this->permalink_divider . "ec_page=register&account_error=register_email_error" );
+
+            }
+        }else{
+
+            header( "location: " . $this->account_page . $this->permalink_divider . "ec_page=register&account_error=register_invalid" );
+
+        }
+
+    }
+
 	private function process_retrieve_password( ){
 		$email = $_POST['ec_account_forgot_password_email'];
 		$new_password = $this->get_random_password( );
