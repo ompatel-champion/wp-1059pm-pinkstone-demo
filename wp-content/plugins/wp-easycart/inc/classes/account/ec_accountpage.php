@@ -1287,14 +1287,14 @@ class ec_accountpage{
 	}
 
     private function process_sync_login( ){
-        if( isset( $_POST['ec_account_login_email_widget'] ) ){
-            $email = $_POST['ec_account_login_email_widget'];
+        if( isset( $_POST['log'] ) ){
+            $email = $_POST['log'];
         }else{
             $email = $_POST['ec_account_login_email'];
         }
 
-        if( isset( $_POST['ec_account_login_password_widget'] ) )
-            $password = $_POST['ec_account_login_password_widget'];
+        if( isset( $_POST['pwd'] ) )
+            $password = $_POST['pwd'];
         else
             $password = $_POST['ec_account_login_password'];
 
