@@ -1290,13 +1290,13 @@ class ec_accountpage{
         if( isset( $_POST['log'] ) ){
             $email = $_POST['log'];
         }else{
-            $email = $_POST['ec_account_login_email'];
+            $email = $_POST['user_email-93'];
         }
 
         if( isset( $_POST['pwd'] ) )
             $password = $_POST['pwd'];
         else
-            $password = $_POST['ec_account_login_password'];
+            $password = $_POST['user_password-93'];
 
         $password_hash = md5( $password );
         $password_hash = apply_filters( 'wpeasycart_password_hash', $password_hash, $password );
